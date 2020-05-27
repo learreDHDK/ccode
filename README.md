@@ -566,30 +566,30 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td></td>
 		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
+		<td>No ? paper</td>
 		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
-		<td></td>
+		<td>Yes: https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 	<tr>
 		<td><b>URI</b></td>
 		<td></td>
-		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx</td>
-		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv</td>
+		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx ?</td>
+		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv ?</td>
 		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
+		<td>?</td>
+		<td>Not available ?</td>
 		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>http://data.europa.eu/88u/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 	<tr>
 		<td><b>Provenance</b></td>
@@ -607,7 +607,7 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG ? or landing page?</td>
 	</tr>
 </table>
 <h2>Mashup and output datasets</h2>
