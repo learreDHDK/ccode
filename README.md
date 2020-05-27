@@ -547,7 +547,7 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>XLS, CSV, PX, <b>SDMX (XML)</b></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -565,7 +565,7 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
 		<td></td>
 		<td></td>
 		<td></td>
