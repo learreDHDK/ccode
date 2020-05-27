@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+  <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+
+  <!-- Flag sprites service provided by Martijn Lafeber, https://github.com/lafeber/world-flags-sprite/blob/master/LICENSE -->
+  <link rel="stylesheet" type="text/css" href="//github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
+
+  <title>CCode</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">CCode</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile" src="img/damaged1.png" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Visualization</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Metadata</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Documentation</a>
+        </li>
+        <li>
+        	<div class="social-icons">
+        		<a href="https://github.com/learreDHDK/ccode">
+            		<i class="fab fa-github"></i>
+          		</a>
+        	</div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 style="color: #216140;" class="mb-0">CC
+          <span class="text-primary">ode</span>
+        </h1>
+        <div class="subheading mb-5">Climate Change Open Data Experiment
+        </div>
+        <p class="lead mb-5"></p>
+        <div id="container"></div> <!--mappa-->
+        <p>Click <a href="visualization.html">here</a> to see the visualizations</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Metadata</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Senior Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2013 - Present</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Documentation</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <p>Click here to see the <a href="https://github.com/learreDHDK/ccode/blob/master/Documentation.md">documentation</a> on the GitHub page</p>
+          <!--<div class="resume-content">
+            <h3 class="mb-0">University of Colorado Boulder</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science - Web Development Track</div>
+            <p>GPA: 3.23</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2006 - May 2010</span>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <p id="demo"></p>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+  <script>
+    var myObj = JSON.parse('C:/Users/becca/OneDrive/Desktop/PycharmProjects/open-access/climate_change_project/actions_merge.json')
+
+    document.getElementById("demo").innerHTML += myObj.MashupDataset.Mashup.Country[0];
+  </script>
+
+  <script type="text/javascript">
+
+  Highcharts.getJSON('https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/world-population-density.json', function (data) {
+
+  // Prevent logarithmic errors in color calulcation
+  data.forEach(function (p) {
+    p.value = (p.value < 1 ? 1 : p.value);
+  });
+
+  // Initiate the chart
+  Highcharts.mapChart('container', {
+
+    chart: {
+      map: 'custom/world'
+    },
+
+    title: {
+      text: 'Fixed tooltip with HTML'
+    },
+
+    legend: {
+      title: {
+        text: 'Population density per km²',
+        style: {
+          color: ( // theme
+            Highcharts.defaultOptions &&
+            Highcharts.defaultOptions.legend &&
+            Highcharts.defaultOptions.legend.title &&
+            Highcharts.defaultOptions.legend.title.style &&
+            Highcharts.defaultOptions.legend.title.style.color
+          ) || 'black'
+        }
+      }
+    },
+
+    mapNavigation: {
+      enabled: true,
+      buttonOptions: {
+        verticalAlign: 'bottom'
+      }
+    },
+
+    tooltip: {
+      backgroundColor: 'none',
+      borderWidth: 0,
+      shadow: false,
+      useHTML: true,
+      padding: 0,
+      pointFormat: '<span class="f32"><span class="flag {point.properties.hc-key}">' +
+        '</span></span> {point.name}<br>' +
+        '<span style="font-size:30px">{point.value}/km²</span>',
+      positioner: function () {
+        return { x: 0, y: 250 };
+      }
+    },
+
+    colorAxis: {
+      min: 1,
+      max: 1000,
+      type: 'logarithmic'
+    },
+
+    series: [{
+      data: data,
+      joinBy: ['iso-a3', 'code3'],
+      name: 'Population density',
+      states: {
+        hover: {
+          color: '#a4edba'
+        }
+      }
+    }]
+  });
+});
+
+  </script>
+</body>
+
+</html>
