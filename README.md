@@ -540,7 +540,7 @@ The survey method and questions are described and documented and it is understan
 	<tr>
 		<td><b>Format</b></td>
 		<td></td>
-		<td></td>
+		<td><b>XLSX</b>, XML, MapInfo TAB, shapefiles</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -558,7 +558,7 @@ The survey method and questions are described and documented and it is understan
 	<tr>
 		<td><b>Metadata</b></td>
 		<td></td>
-		<td></td>
+		<td>No</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -576,7 +576,7 @@ The survey method and questions are described and documented and it is understan
 	<tr>
 		<td><b>URI</b></td>
 		<td></td>
-		<td></td>
+		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx</td>
 		<td></td>
 		<td></td>
 		<td></td>
