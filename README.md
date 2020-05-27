@@ -548,12 +548,12 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td></td>
 		<td>XLS, CSV, PX, <b>SDMX (XML)</b></td>
+		<td><b>CSV</b></td>
 		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
-		<td></td>
+		<td><b>XLS</b></td>
 	</tr>
 	<tr>
 		<td><b>Metadata</b></td>
@@ -601,8 +601,8 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
-		<td></td>
+		<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
+		<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
 		<td></td>
 		<td></td>
 		<td></td>
