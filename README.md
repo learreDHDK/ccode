@@ -541,7 +541,7 @@ The survey method and questions are described and documented and it is understan
 		<td><b>Format</b></td>
 		<td></td>
 		<td><b>XLSX</b>, XML, MapInfo TAB, shapefiles</td>
-		<td></td>
+		<td>netCDF, <b>CSV</b>, shapefiles</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -559,7 +559,7 @@ The survey method and questions are described and documented and it is understan
 		<td><b>Metadata</b></td>
 		<td></td>
 		<td>No</td>
-		<td></td>
+		<td>Yes, ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -577,7 +577,7 @@ The survey method and questions are described and documented and it is understan
 		<td><b>URI</b></td>
 		<td></td>
 		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx</td>
-		<td></td>
+		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -595,7 +595,7 @@ The survey method and questions are described and documented and it is understan
 		<td><b>Provenance</b></td>
 		<td></td>
 		<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
-		<td></td>
+		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/</td>
 		<td></td>
 		<td></td>
 		<td></td>
