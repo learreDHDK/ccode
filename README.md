@@ -594,7 +594,7 @@ The survey method and questions are described and documented and it is understan
 	<tr>
 		<td><b>Provenance</b></td>
 		<td></td>
-		<td></td>
+		<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
 		<td></td>
 		<td></td>
 		<td></td>
