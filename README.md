@@ -594,17 +594,17 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td><b>XLSX</b>, XML, MapInfo TAB, shapefiles</td>
 		<td>netCDF, <b>CSV</b>, shapefiles</td>
+		<td>CSV (Comma-separated values),  HDF (Hierarchical Data Format)</td>
+		<td>XMS (Microsoft eXtended Memory Specification),  CSV (Comma-separated values),  JSON (JavaScript Object Notation ), XML (Extensible Markup Language)</td>
+		<td>XLS, CSV, SDMX(XML)</td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>XLS</td>
 		<td>XLS, CSV, PX, <b>SDMX (XML)</b></td>
 		<td><b>CSV</b></td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>XLS</td>
 		<td><b>XLS</b></td>
 	</tr>
 	<tr>
@@ -612,17 +612,17 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td>No</td>
 		<td>Yes, ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
+		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
+		<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
+		<td>https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>EPA: https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation     NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
 		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
 		<td>No ? paper</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
 		<td>Yes: https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 	<tr>
@@ -630,17 +630,20 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx ?</td>
 		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv ?</td>
+		<td>http://www.globalfiredata.org/downloads/chart_5e8dc22f20efd.txt  / http://www.globalfiredata.org/downloads/chart_5e8dbb6d0359e.txt  /  http://www.globalfiredata.org/downloads/chart_5e8dbd0940b57.txt</td>
+		<td>https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/2/1880-2020/data.json   </td>
+		<td>https://stats.oecd.org/restsdmx/sdmx.ashx/GetData/WILD_LIFE/TOT_KNOWN+TOT_KNOWN_IND+CRITICAL+CRITICAL_IND+ENDANGERED+ENDANGERED_IND+VULNERABLE+VULNERABLE_IND+THREATENED+THREATENED_IND+THREAT_PERCENT+IND_PERCENT.MAMMAL+BIRD+REPTILE+AMPHIBIAN+FISH_TOT+MARINE_F+FRESHW_F+VASCULAR_PLANT+MOSS+LICHEN+INVERTEB.AUS+AUT+BEL+CAN+CHL+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+NMEC+BRA+COL+CRI+RUS/all?</td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>https://www.epa.gov/sites/production/files/2016-08/precipitation_fig-2.csv</td>
 		<td>?</td>
 		<td>Not available ?</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>"http://data.europa.eu/88u/dataset/S1084_80_2_409  
+
+DOWNLOAD
+https://ec.europa.eu/commfrontoffice/downloadODP/?6F0F875774E39C6DC9BFA1FFAB49AE81"</td>
 		<td>http://data.europa.eu/88u/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 	<tr>
@@ -648,17 +651,17 @@ The survey method and questions are described and documented and it is understan
 		<td></td>
 		<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
 		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/</td>
+		<td>http://www.globalfiredata.org/analysis.html</td>
+		<td>https://www.ncdc.noaa.gov/cag/global/time-series</td>
+		<td>https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 		<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
 		<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
 		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG ? or landing page?</td>
 	</tr>
 </table>
