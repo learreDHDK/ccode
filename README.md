@@ -516,6 +516,58 @@ The survey method and questions are described and documented and it is understan
 </p>
 <p><b>Conclusion</b>: </p>
 
+<h3>GFED4 burned area</h3>
+<p><b>Purpose</b>: the data has a clear user need which is to provide global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes which could be used for large-scale modeling studies. 
+</p>
+<p><b>Process</b>:  from a legal point of view the data is on point. The collection of the data used is done without any discrimination, cognitive bias or prejudice as inferred on the website (https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html) making use of the available data from other sources and theirs (Satellite information) to create a global view of the situation. The only note could be that they make no mention of licences for use of data from others.
+</p>
+<p><b>Output</b>: the data used serves exactly the need of the user they want to satisfy and is restricted to its purpose of creation. The dataset released at the end is available in an open format and free for reuse on an API platform. The dataset will in no way harm any individual person,community or country or public interest even with new events registered from the documentation. There is a clear description of the composition of the database again free from any discrimination,cognitive bias or prejudice.
+</p>
+<p><b>Conclusion</b>: we can in summary say that the dataset from an ethical point of view is clean to an extent.
+</p>
+
+<h3>Climate at a Glance: Global Time Series</h3>
+<p><b>Purpose</b>: they don’t state clearly what is the purpose of the dataset created or the user need to which they are responding to but it is inferred that they want to make known to all what is the situation of the temperature anomalies in the world over the years</p>
+<p><b>Process</b>:  for the creation of the final dataset, they combine data from two resources (Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS)) known for  carrying out quality controls on their data for good practice. Their choice of sources is understood which goes to rhyme with the purpose and helps answer strictly to the user's need identified. Therefore no discrimantion, prejudice or cognitive bias.
+</p>
+<p><b>Output</b>:  the dataset released from this combination is made available to all in an open format having all the information it had planned to deliver without any wrong ethical aspect. Good explanation of the basis of the results found in the dataset.
+</p>
+<p><b>Conclusion</b>: it can be therefore considered that the dataset is ethically correct.</p>
+
+
+<h3>Threatened species</h3>
+<p><b>Purpose</b>: the purpose of the dataset is clearly stated and it is to show the numbers of known species (or assessed) and threatened species with the aim of indicating the state of mammals, birds, freshwater fish, reptiles, amphibians, vascular plants, mosses, lichens and invertebrates. This purpose has no issue of discrimination, cognitive bias or prejudice because most especially it goes for world information and also consider information from the various national Delegates. 
+</p>
+<p><b>Process</b>:  the process of collection and analysis of the data to create the dataset is done by updating and revising certain information from the comments of national Delegates. The basis of this act is not well stated on the website. So, it could be inferred that  there may be some cognitive bias in the decision making.
+</p>
+<p><b>Output</b>: the released dataset is done through an API free to all but it is stated on the website that the interpretation should take in consideration the possibility of non exactness of the various values. Also they talk of the possibility of biased results due to overestimation of some of the incompletely evaluated groups of species likely to be threatened in certain countries.
+</p>
+<p><b>Conclusion</b>: the level of ethical correctness of this data set is not completely good because in the end we have a dataset of which some values may be wrong due to certain actions during its creation.
+</p>
+
+<h3>Climate Change Indicators: U.S. and Global Precipitation</h3>
+<p><b>Purpose</b>:  the purpose of creation of the dataset is clear and has no ethical distortion for the precise user need which was to point out all the precipitation anomalies over the given period selected.
+</p>
+<p><b>Process</b>: during the creation of the dataset they make use of all possible resources to create a well informed database on the subject matter. The good aspect is the fact that during the creation they make use of bias correction software ( automated bias correction software) which helps identify and eliminate biases. Also the personal intervention of the staff, scientists and data quality tests are done in the light of excluding any ethical compromise. 
+</p>
+<p><b>Output</b>: the datasets released are well documented and are available without charge through NCEI's anonymous FTP service. The information it contains is of good quality and satisfies the user's need and purpose of creation.
+</p>
+<p><b>Conclusion</b>: this dataset can be consequently considered ethically correct.
+</p>
+
+
+<h3>Special Eurobarometer 409: Climate change</h3>
+<p><b>Purpose</b>: the purpose of the dataset is to understand what European citizens think of the climate change situations and what are their expectations.
+</p>
+<p><b>Process</b>: to be able to accomplish their aim, they carry out surveys to collect opinions of the citizens and analyse the results. The survey method and questions are described and documented and it is understandable that there is no ethical distortion.
+</p>
+<p><b>Output</b>: the dataset released contains all the countries of the EU and all the questions and answers are reported without any change. The data collected was used strictly for the purpose of the dataset and there were possibilities of not answering certain questions. So, the possibility of prejudice is excluded and since everybody could take part in the survey we can say there is no discrimination. From the results there is no cognitive bias since there is no interpretation of the results of the dataset just a publication.
+
+</p>
+<p><b>Conclusion</b>: it can be said that, some questions included in the dataset went to individuate certain aspects of the life of the citizens (like their economic status) without really giving a reason for this. So, we will say that the dataset to an extent is not ethically correct because data analists can nevertheless infer much information from the personality of European citizens and their reactions to climate change.
+
+</p>
+
 
 <h2>Technical analysis</h2>
 <table>
