@@ -281,7 +281,7 @@
     function set_chart(clicked_id) {
       $.getJSON( "json_data.json", function(result){
         $.each(result, function(i, field){
-          $("#container").append(field + " ");
+          alert(field);
         });
       });
     }
