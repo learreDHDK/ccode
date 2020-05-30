@@ -58,9 +58,7 @@
 				<td>November 17, 2018</td>
 				<td>Never</td>
 				<td></td>
-		
 			</tr>
-			
 			<tr>
 				<td>Floods</td>
 				<td>Global Active Archive of Large Flood Events</td>
@@ -80,8 +78,6 @@
 				<td>Last entry 01/2020 (dataset) / October 11, 2019 (HDX)</td>
 				<td>Live</td>
 				<td></td>
-				
-		
 			</tr>
 			<tr>
 				<td>Hurricanes</td>
@@ -103,7 +99,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td
 				<td>Not stated</td>
 				<td>Twice weekly - Weekly (IBTrACS Project) / Daily (NOAA) </td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Wildfires</td>
@@ -124,7 +119,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td
 				<td>2017-09-29</td>
 				<td>Periodically</td>
 				<td>This dataset is data on the global estimates of annual fires of different types.</td>
-		
 			</tr>
 			<tr>
 				<td>Temperature</td>
@@ -145,7 +139,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td
 				<td>Not stated</td>
 				<td>Monthly (not stated)</td>
 				<td>This dataset is the result of Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century showing if conditions are warmer or cooler than the past.</td>
-		
 			</tr>
 			<tr>
 				<td>Threatened species</td>
@@ -166,7 +159,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td
 				<td>March 2019</td>
 				<td>Not stated?</td>
 				<td>This dataset is data on the state of threatened species build on country replies to the Annual Quality Assurance (AQA) of OECD environmental reference series.</td>
-		
 			</tr>
 			<tr>
 				<td>Sea ice</td>
@@ -187,7 +179,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td
 				<td>Not stated</td>
 				<td>Not stated</td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Precipitations</td>
@@ -209,7 +200,6 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>August 2016</td>
 				<td>Not stated</td>
 				<td>This dataset shows how the total annual amount of precipitation over land worldwide has changed since 1901.</td>
-		
 			</tr>
 			<tr>
 				<td>Ghg emissions by country</td>
@@ -230,7 +220,6 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>August 2019</td>
 				<td>Not stated</td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Footprint by country</td>
@@ -251,7 +240,6 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Not stated</td>
 				<td>Not stated</td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Adhesion to Paris agreement</td>
@@ -272,7 +260,6 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>February 19, 2016</td>
 				<td>Not stated</td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Investments for climate change</td>
@@ -293,7 +280,6 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>February 2019</td>
 				<td>Not stated</td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Opinions on climate change EU 2009</td>
@@ -314,7 +300,6 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td></td>
 				<td></td>
-		
 			</tr>
 			<tr>
 				<td>Opinions on climate change EU 2019</td>
@@ -335,9 +320,8 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td></td>
 				<td></td>
-		
 			</tr>
-				<tr>
+			<tr>
 				<td>Opinions on climate change EU 2013</td>
 				<td>Special Eurobarometer 409: Climate change</td>
 				<td>Directorate-General for Communication of the European Commission</td>
@@ -356,9 +340,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td></td>
 				<td>This dataset is data on the public opinon of European citizens on the issue of climate change.</td>
-		
 			</tr>
-	
 	</table>
 <h2>Quality analysis</h2>
 <table style="border: 1px solid black">
