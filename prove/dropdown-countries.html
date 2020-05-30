@@ -272,6 +272,14 @@
           alert(obj.clicked_id.droughts + ', ' + clicked_id); 
         }
     
+    function set_chart(clicked_id) { 
+  for (var key in obj) {
+    if (clicked_id == key) {
+      document.getElementById("demo").innerHTML = obj.key;
+      alert(obj.key.droughts + ', ' + clicked_id); 
+    }
+    }
+}
 
   </script>
 
