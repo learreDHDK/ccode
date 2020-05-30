@@ -1,4 +1,4 @@
-{
+var json_data = {
 	{
 	"droughts": "1",
 	"hurricanes": "2",
