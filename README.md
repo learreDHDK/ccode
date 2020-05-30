@@ -400,8 +400,6 @@ Another change was made in the cells of the columns containing the ""Summary"". 
 				<td></td>
 				<td></td>
 			</tr>
-			<tr>	
-			
 			<tr>
 				<td>Content quality</td>
 				<td></td>
@@ -420,7 +418,6 @@ Another change was made in the cells of the columns containing the ""Summary"". 
 				<td></td>
 				<td></td>
 			</tr>
-			
 			<tr>
 				<td>Is the dataset complete?</td>
 				<td></td>
@@ -439,8 +436,7 @@ Another change was made in the cells of the columns containing the ""Summary"". 
 				<td></td>
 				<td></td>
 			</tr>
-	
-	
+			<tr>
 				<td>"Contain a header row with a single description of what is shown. This means that once a
 dataset structure is in place, it should not change when sources are added. In the
 metadata, the header should be described"</td>
