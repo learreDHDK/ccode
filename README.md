@@ -836,96 +836,96 @@ Probably every year the same sheet is updated."</td>
 			<tr>
 				<td><b>"1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?
 https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32016R0679&from=IT"</b></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>"1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorize the PA to release them? Or any
 other legal basis? Identify the legal basis."</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>"1.3 Is the dataset free of any particular personal data (art. 9
 GDPR)?
 If so is there a law that authorize the PA to release them ?"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>1.4 Is the dataset free of any information that combined with common data available in the web, could identify the person? If so, is there a law that authorize the PA to release them?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>No, there is data related to the location and the date, so the news sources could be traced back, leading to name of the deads.</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>"1.6 Is a tool used for calculating the range of the risk of de-
@@ -935,7 +935,7 @@ Is the dataset anonymized? With which technique?
 Is it compliant with the three mandatory parameters: singling out,
 linking out, inference out?"</td>
 				<td></td>
-				<td></td>
+				<td>Not stated</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -951,97 +951,105 @@ linking out, inference out?"</td>
 			</tr>
 			<tr>
 				<td>1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t identify single individuals in some circumstances?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>Yes, identifiable</td>
+				<td>Yes, not identifiable</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>1.8 Does the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? https://www.varonis.com/blog/us-privacy-laws/</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>"HDX: terms for cookies and for mailing service: https://data.humdata.org/about/terms.
+
+UNEP: No"</td>
+				<td>No privacy policy on the original website. In HDX, there are terms for cookies and for mailing service: https://data.humdata.org/about/terms.</td>
+				<td>Yes: https://www.noaa.gov/protecting-your-privacy</td>
+				<td>No</td>
+				<td>Yes: https://www.noaa.gov/protecting-your-privacy</td>
+				<td>Yes http://www.oecd.org/privacy/</td>
+				<td>Yes (vedi https://nsidc.org/about/privacy)</td>
+				<td>Yes https://www.epa.gov/privacy/privacy-and-security-notice#rights</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes (https://www.wri.org/about/privacy-policy)</td>
+				<td>Yes (https://climatefundsupdate.org/privacy-policy/)</td>
+				<td>Yes  https://data.europa.eu/euodp/en/privacystatement</td>
+				<td>Yes  https://data.europa.eu/euodp/en/privacystatement</td>
+				<td>Yes  https://data.europa.eu/euodp/en/privacystatement</td>
 			</tr>
 			<tr>
 				<td>"1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? 
 https://advisera.com/eugdpracademy/knowledgebase/eu-gdpr-controller-vs-processor-what-are-the-differences/ 
 
 https://www.altalex.com/documents/news/2018/04/12/articolo-4-gdpr-definizioni"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>OCHA, the system administrator of the HDX platform (inferred: it is the Controller, Google Analytics and Mixpanel are the Processors). </td>
+				<td>No, Inferred: NOAA is the Controller</td>
+				<td>No, no</td>
+				<td>Yes inferred Controller-NOAA and Processor-Google Analytics</td>
+				<td>Not stated inferred Controller OECD</td>
+				<td>No, Inferred: NOAA is the Controller</td>
+				<td>No, inferred Controller EPA</td>
+				<td>Not stated. Inferred: OECD is the Controller</td>
+				<td>Not stated. Inferred: Global Footprint Network is the Controller</td>
+				<td>Not stated. Inferred: WRI is the Controller</td>
+				<td>Yes controller (Heinrich-Böll-Stiftung Washington, DC)</td>
+				<td>"Unit C.4, ""EU Open Data and CORDIS"" of the Publications Office is the Controller
+
+European Union Open Data Portal (EU ODP) is the Processor"</td>
+				<td>"Unit C.4, ""EU Open Data and CORDIS"" of the Publications Office is the Controller
+
+European Union Open Data Portal (EU ODP) is the Processor"</td>
+				<td>"Unit C.4, ""EU Open Data and CORDIS"" of the Publications Office is the Controller
+
+European Union Open Data Portal (EU ODP) is the Processor"</td>
 			</tr>
 			<tr>
 				<td>1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality)</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.?Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
+				<td>Not stated if they are physically stored or just online.</td>
 			</tr>
 			<tr>
 				<td>"1.11 Do you have non-personal data?
 Are you sure that are not “mixed data”?"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
+				<td>Yes. Yes.</td>
 			</tr>
 			<tr>
 				<td>2. IPR of the dataset</td>
@@ -1063,72 +1071,83 @@ Are you sure that are not “mixed data”?"</td>
 			</tr>
 			<tr>
 				<td>2.1 Do you have created and generated the dataset ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes (UNEP)</td>
+				<td>Yes. Dartmouth Flood Observatory.</td>
+				<td>Yes. NOAA NCEI</td>
+				<td>Yes, Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
+				<td>Yes. NOAA NCEI - NCDC</td>
+				<td>Yes. OECD</td>
+				<td>Yes (NSIDC)</td>
+				<td>Yes NOAA NCEI</td>
+				<td>Yes. OECD</td>
+				<td>Yes. Global Footprint Network</td>
+				<td>Yes (WRI)</td>
+				<td>Yes (Climate Funds Update)</td>
+				<td>Yes (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes (Directorate-General for Communication of the European Commission)</td>
 			</tr>
 			<tr>
 				<td>2.2 Are you the owner of the dataset? Who is the owner?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes (UNEP)</td>
+				<td>Yes. Dartmouth Flood Observatory.</td>
+				<td>Yes. NOAA NCEI</td>
+				<td>Yes, Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
+				<td>Yes. NOAA NCEI - NCDC</td>
+				<td>Yes. OECD</td>
+				<td>Yes (NSIDC)</td>
+				<td>Yes NOAA NCEI</td>
+				<td>Yes. OECD</td>
+				<td>Yes. Global Footprint Network</td>
+				<td>Yes (WRI)</td>
+				<td>Yes (Climate Funds Update)</td>
+				<td>Yes (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes (Directorate-General for Communication of the European Commission)</td>
 			</tr>
 			<tr>
 				<td>2.3 Are you using third party data with the proper authorization and license? Are the dataset free from third party licenses or patents?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>"Third party data are used. No licences provided.
+https://preview.grid.unep.ch/index.php?preview=about&cat=3&lang=eng"</td>
+				<td>Third party data are used. No licences provided.</td>
+				<td>Yes: https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
+				<td>Third party data are used. No licences provided.</td>
+				<td>Third party data are used. No licences provided.</td>
+				<td>No third party data</td>
+				<td>"NOAA use NSIDC data.
+No licence provided."</td>
+				<td>"Third party data are used. No licences provided.
+https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-monthly-version-2 
+"</td>
+				<td>Third party data are used. No licences provided.</td>
+				<td>Third party data are used. No licences provided.</td>
+				<td>"Yes
+The third party data used are those of the countries which provided their data."</td>
+				<td>Third party data are used. No licences provided.</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>2.4 Are there some limitations in the national legal system of the dataset for releasing some kind of datasets with open license?</td>
+				<td>"No
+
+Geneva (Switzerland)
+None or very limited activities are performed to monitor the
+reuse of open data in the country
+https://www.europeandataportal.eu/sites/default/files/open_data_maturity_report_2019.pdf
+vedi p.71 ""Beginner"""</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td></td>
+				<td>No</td>
+				<td>No</td>
 				<td></td>
 				<td></td>
 				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -1153,57 +1172,57 @@ Are you sure that are not “mixed data”?"</td>
 			</tr>
 			<tr>
 				<td><b>3.1 Is the dataset released with an open data license ? In case of the use of CC0 have they all the right necessary for this particular kind of license (e.g., jurisdiction)?</b></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Available for free for non commercial purpose (https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng&fbclid=IwAR2swMOTGMxCFZKVptR1wGa7yY2HNz0mfYZMur_aGG3TZAfdg4IEz_qcjDs#datause)</td>
+				<td>Creative Commons Attribution 4.0 International license - CC BY 4.0 (HDX)</td>
+				<td>World Data Center for Meteorology policy + World Meteorological Organization's Resolution 40 policy https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
+				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Policy.</td>
+				<td>Yes FOIA</td>
+				<td>Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD</td>
+				<td>Yes FOIA</td>
+				<td>Yes FOIA</td>
+				<td>Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD</td>
+				<td>Creative Commons Attribution-ShareAlike 4.0 International License. (CC-BY-SA)</td>
+				<td>Creative Commons Attribution 4.0 International License (CC BY 4.0)</td>
+				<td>Not stated</td>
+				<td>Yes: Reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
+				<td>Yes: Reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
+				<td>Yes: Reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
 			</tr>
 			<tr>
 				<td>3.2 Is the clause included: "In any case the dataset can’t be used for re-identifying the person" ?</td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
 				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
+				<td>No </td>
 			</tr>
 			<tr>
 				<td><b>3.3 Is the API (in case there is) released with an open source license ?</b></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes API, No licence</td>
+				<td>No API</td>
+				<td>No API</td>
+				<td>Yes API, No licence</td>
+				<td>Yes API, No licence</td>
+				<td>Yes API, No open source licence</td>
+				<td>Yes API, No licence</td>
+				<td>No API</td>
+				<td>Yes API, No open source licence</td>
+				<td>Yes API, No licence</td>
+				<td>Yes API, No licence</td>
+				<td>Yes API, No licence</td>
+				<td>No API</td>
+				<td>No API</td>
+				<td>No API</td>
 			</tr>
 			<tr>
 				<td>"3.4 Is the open data/API platform license regime compliant with your IPR policy? Do they have all the licences related to the open data platform/API software?
@@ -1212,21 +1231,21 @@ se non c'è l'api la domanda è riferita alla open data platform.
 se non c'è licenza non si pone il problema
 se c'è vedere se quello che dicono è in linea con il resto
 se si risponde alla prima, la seconda va da sè"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No license for the data platform</td>
+				<td>No license for the data platform</td>
+				<td>No license for the data platform</td>
+				<td>Data platform license compliant to IPR policy but no licence for the API platform thus inferred data platform license, yes</td>
+				<td>Data platform license compliant to IPR policy but no licence for the API platform thus inferred data platform license, yes</td>
+				<td>Data platform/API license compliant to IPR policy , yes</td>
+				<td>No, no</td>
+				<td>Data platform license compliant to IPR policy and has no API, yes</td>
+				<td>(API)Yes, yes</td>
+				<td>No license for the data platform</td>
+				<td>No license for the data platform</td>
+				<td>No license for the data platform</td>
+				<td>(data platform)Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
+				<td>(data platform)Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
+				<td>(data platform)Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
 			</tr>
 			<tr>
 				<td>4. Limitations on public access</td>
@@ -1248,96 +1267,118 @@ se si risponde alla prima, la seconda va da sè"</td>
 			</tr>
 			<tr>
 				<td>4.1 Does the dataset concern your institutional competences, scope and finality? Does the dataset concern other public administration competences?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, yes: UNFCCC</td>
+				<td>Yes, yes: UN</td>
+				<td>"Yes 
+(https://www.wri.org/about/values)
+(https://www.wri.org/about/mission-goals)"</td>
+				<td>"Yes
+Yes (Overhead refers to expenditures from the Fund that are not directed to projects (such as administration fees))."</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
+				<td>Yes, no</td>
 			</tr>
 			<tr>
 				<td>4.2 Does the dataset respect the limitations for the publication stated by your national legislation or by the EU directives ? https://project-open-data.cio.gov/policy-memo/ for USA</td>
+				<td>Yes (penso di sì perchè ci sono poche limitazioni -> vedi risposta alla domanda 2.4)</td>
+				<td>No open license on Dartmouth Observatory website</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
 				<td></td>
 				<td></td>
 				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>4.3 Are there some limitations connected to the international relations, public security or national defence ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>4.4 Are there some limitations concerning the public interest ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>4.5 Does the dataset respect the international law limitations? https://opendatacharter.net/principles/ (?)</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes but Open data platform not linked to metadata</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>4.6 Does the dataset respect the INSPIRE law limitations for the spatial data? https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32007L0002</td>
+				<td>"No
+https://it.wikipedia.org/wiki/INSPIRE"</td>
+				<td>Not eu dataset</td>
+				<td>Not eu dataset</td>
+				<td>Not eu dataset</td>
+				<td>Not eu dataset</td>
+				<td>Not eu dataset</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>5. Economical Conditions</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -1373,40 +1414,21 @@ se si risponde alla prima, la seconda va da sè"</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>5. Economical Conditions</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>5.1 Could the dataset be released for free ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>5.1 Could the dataset be released for free ?</td>td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>5.2 Are there some agreements with some other partners in order to release the dataset with a reasonable price ?</td>
@@ -1428,21 +1450,25 @@ se si risponde alla prima, la seconda va da sè"</td>
 			</tr>
 			<tr>
 				<td>5.3 Does the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+				<td>No, just for links</td>
+				<td>No</td>
+				<td>No, just for links</td>
+				<td>Yes for the dataset and API</td>
+				<td>"No, just for links
+NOAA.gov does not control or guarantee the accuracy, relevance, timeliness or completeness of information contained in a linked site."</td>
+				<td>"Not stated in EPA 
+NOAA just for links"</td>
+				<td>Yes API, yes data</td>
+				<td>No</td>
+				<td>"Yes if (https://www.wri.org/about/open-data-commitment)
+
+No (?)"</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes for the open data platform</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>5.4 In case you decide to release the dataset to a reasonable price are the limitation imposed by the new directive 2019/1024/EU respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”?</td>
@@ -1500,75 +1526,76 @@ se si risponde alla prima, la seconda va da sè"</td>
 			</tr>
 			<tr>
 				<td>6.1 Do you have a temporary policy for updating the dataset ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Never (HDX)</td>
+				<td>"active" =  current events are added immediately</td>
+				<td>Twice weekly - Weekly (IBTrACS Project) / Daily (NOAA) </td>
+				<td>Periodically</td>
+				<td>No  </td>
+				<td>No  </td>
+				<td>No  </td>
+				<td>No  </td>
+				<td>No  </td>
+				<td>Annually</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>"No
+The United Nations periodically adds, changes, improves or updates the Materials on this Site without notice"</td>
+				<td>No</td>
+				<td>Yes, forum</td>
+				<td>Yes, Email</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
+				<td>Indexed</td>
 			</tr>
 			<tr>
 				<td>6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>Yes, email (HDX)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes, email</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes, email</td>
+				<td>No</td>
+				<td>Yes (https://www.wri.org/about/privacy-policy > choices)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 		</table>
 <h2>Ethical analysis</h2>
