@@ -267,8 +267,9 @@
 
 
   <script>
-    var mydata = JSON.parse(json_data); 
-    alert(mydata[0].droughts); 
+    function set_chart(clicked_id) {
+      var mydata = JSON.parse(json_data); 
+      alert(mydata[0].droughts + ', ' + clicked_id); 
     }
     
 
