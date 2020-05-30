@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="json_data.json"></script>
 </head>
 
 <body id="page-top">                              
@@ -266,10 +267,8 @@
 
 
   <script>
-    function set_chart(clicked_id) {
-      $.getJSON( "json_data.json", function(result){
-        $.each(alert(result);
-        });
+    var mydata = JSON.parse(json_data); 
+    alert(mydata[0].droughts); 
     }
     
 
