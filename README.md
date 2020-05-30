@@ -17,6 +17,349 @@
 </p>
 
 <h2>Original datasets</h2>
+<h3>General analysis</h3>
+<table style="border: 1px solid black">
+			<tr style="border: 1px solid black">
+				<th>Subject</th>
+				<th>Name</th>
+				<th>Owner</th>
+				<th>URL Owner</th>
+				<th>Publisher</th>
+				<th>Re-user</th>
+				<th>URL publisher/re-user</th>
+				<th>Typology/ Data Type</th>
+				<th>Format</th>
+				<th>Metadata</th>
+				<th>Licence</th>
+				<th>Domain</th>
+				<th>Spatial coverage</th>
+				<th>Time range of dataset</th>
+				<th>Upload date</th>
+				<th>Last update</th>
+				<th>Update Frequency</th>
+				<th>Nature (description)</th>
+			</tr>
+			<tr>
+				<td>Droughts</td>
+				<td>Droughts events 1980-2001</td>
+				<td>United Nations Environment Programme UNEP</td>
+				<td>https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng</td>
+				<td></td>
+				<td>Humanitarian Data Exchange HDX</td>
+				<td>https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>Yes, ISO 19115:2003/19139</td>
+				<td>Other: data use and disclaimers: https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>Jan 01, 1980 - Dec 31, 2001</td>
+				<td>Not stated</td>
+				<td>November 17, 2018</td>
+				<td>Never</td>
+				<td></td>
+		
+			</tr>
+			
+			<tr>
+				<td>Floods</td>
+				<td>Global Active Archive of Large Flood Events</td>
+				<td>Dartmouth Flood Observatory, University of Colorado</td>
+				<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
+				<td></td>
+				<td>Humanitarian Data Exchange HDX</td>
+				<td>https://data.humdata.org/dataset/global-active-archive-of-large-flood-events</td>
+				<td>Direct Observational Data/Anecdotal Data</td>
+				<td>XLSX</td>
+				<td>Just HDX</td>
+				<td>Creative Commons Attribution 4.0 International license (CC BY 4.0)</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1985 - present</td>
+				<td>Sep 02, 2019 (HDX)</td>
+				<td>Last entry 01/2020 (dataset) / October 11, 2019 (HDX)</td>
+				<td>Live</td>
+				<td></td>
+				
+		
+			</tr>
+			<tr>
+				<td>Hurricanes</td>
+				<td>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</td>
+				<td>NOAA National Centers for Environmental Information</td>
+				<td>https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access</td>
+				<td>NOAA National Centers for Environmental Information</td>
+				<td></td>
+				<td>https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>"Yes
+ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td>
+				<td>World Data Center for Meteorology policy + World Meteorological Organization's Resolution 40 policy https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1980 to Present</td>
+				<td>2019-02-15 (NOAA) / March 2019 (IBTrACS Project)</td>
+				<td>Not stated</td>
+				<td>Twice weekly - Weekly (IBTrACS Project) / Daily (NOAA) </td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Wildfires</td>
+				<td>GFED4 burned area</td>
+				<td>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
+				<td>http://www.globalfiredata.org/analysis.html</td>
+				<td>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC).</td>
+				<td></td>
+				<td>http://www.globalfiredata.org/analysis.html</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>Yes https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
+				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Polic</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1995-06-01 to 2016-12-31 / 2003-2019</td>
+				<td>September 2015</td>
+				<td>2017-09-29</td>
+				<td>Periodically</td>
+				<td>This dataset is data on the global estimates of annual fires of different types.</td>
+		
+			</tr>
+			<tr>
+				<td>Temperature</td>
+				<td>Climate at a Glance: Global Time Series</td>
+				<td>NOAA National Centers for Environmental Information</td>
+				<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool </td>
+				<td>NOAA National Centers for Environmental Information</td>
+				<td>https://www.ncdc.noaa.gov/cag/global/time-series</td>
+				<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
+				<td>Land-based station, Marine / Ocean</td>
+				<td>CSV, XML, JSON</td>
+				<td>Yes, https://www.ncdc.noaa.gov/cag/global/data-info / https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool </td>
+				<td>FOIA (5 USC 552)</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1880-present</td>
+				<td>February 2020 (it changes every month)</td>
+				<td>Not stated</td>
+				<td>Monthly (not stated)</td>
+				<td>This dataset is the result of Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century showing if conditions are warmer or cooler than the past.</td>
+		
+			</tr>
+			<tr>
+				<td>Threatened species</td>
+				<td>Threatened species</td>
+				<td>OECD (Organisation for Economic Co-operation and Development)</td>
+				<td>https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
+				<td>OECD (Organisation for Economic Co-operation and Development)</td>
+				<td></td>
+				<td>https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
+				<td>Quantitative</td>
+				<td>Text file (CSV), Excel, SDMX(XML)</td>
+				<td>Yes, https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
+				<td>http://www.oecd.org/termsandconditions/  Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD by using the citation associated with the relevant Data, or, if no specific citation is available, You must cite the source information using the following format: OECD (year), (dataset name),(data source) DOI or URL (accessed on (date)). When sharing or licensing work created using the Data, You agree to include the same acknowledgment requirement in any sub-licenses that You grant, along with the requirement that any further sub-licensees do the same.</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>2018-2019</td>
+				<td>Not stated</td>
+				<td>March 2019</td>
+				<td>Not stated?</td>
+				<td>This dataset is data on the state of threatened species build on country replies to the Annual Quality Assurance (AQA) of OECD environmental reference series.</td>
+		
+			</tr>
+			<tr>
+				<td>Sea ice</td>
+				<td>Sea Ice and Snow Cover Extent</td>
+				<td>NSIDC National Snow and Ice Data Center (https://nsidc.org/)</td>
+				<td></td>
+				<td></td>
+				<td>NOAA National Centers for Environmental Information</td>
+				<td>https://www.ncdc.noaa.gov/snow-and-ice/extent/</td>
+				<td>Satellite</td>
+				<td>CSV, XML, JSON</td>
+				<td>Yes: https://www.climate.gov/maps-data/dataset/snow-or-ice-extent-graphing-tool</td>
+				<td>FOIA (5 USC 552)</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1979-2020</td>
+				<td>Not stated</td>
+				<td>Not stated</td>
+				<td>Not stated</td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Precipitations</td>
+				<td>Climate Change Indicators: U.S. and Global Precipitation</td>
+				<td>NOAA National Centers for Environmental Information</td>
+				<td>https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-monthly-version-2?fbclid=IwAR20WeoOz2fCxr0hPl_KgqkAIJKu2CY0eNTlPYu5CtH3osaDUSbFlQR26kM</td>
+				<td></td>
+				<td>EPA - US Environmental Protection Agency</td>
+				<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>"Yes 
+EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-documentation)       NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#"</td>
+				<td>Not stated / Yes FOIA?</td>
+				<td>Environment</td>
+				<td>USA and Global</td>
+				<td>1901-2015</td>
+				<td>April 2010</td>
+				<td>August 2016</td>
+				<td>Not stated</td>
+				<td>This dataset shows how the total annual amount of precipitation over land worldwide has changed since 1901.</td>
+		
+			</tr>
+			<tr>
+				<td>Ghg emissions by country</td>
+				<td>Greenhouse Gas Emissions</td>
+				<td>OECD</td>
+				<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
+				<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
+				<td></td>
+				<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>Yes</td>
+				<td>http://www.oecd.org/termsandconditions/</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1990-2017</td>
+				<td>Not stated</td>
+				<td>August 2019</td>
+				<td>Not stated</td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Footprint by country</td>
+				<td>National Footprint and Biocapacity Accounts 2019 Public Data Package</td>
+				<td>Global Footprint Network</td>
+				<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
+				<td>Global Footprint Network</td>
+				<td></td>
+				<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>Yes</td>
+				<td>Creative Commons Attribution-ShareAlike 4.0 International License.</td>
+				<td>Environment</td>
+				<td>Global</td>
+				<td>1961-2016</td>
+				<td>Not stated</td>
+				<td>Not stated</td>
+				<td>Not stated</td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Adhesion to Paris agreement</td>
+				<td>CAIT Paris Contributions Data</td>
+				<td>WRI - World Resource Institute</td>
+				<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
+				<td>WRI - World Resource Institute</td>
+				<td></td>
+				<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
+				<td>Descriptive</td>
+				<td>XLSX</td>
+				<td>Yes</td>
+				<td>Creative Commons Attribution 4.0 International License</td>
+				<td>Environment, Politics</td>
+				<td>Global</td>
+				<td>2015-2016</td>
+				<td>March 2015</td>
+				<td>February 19, 2016</td>
+				<td>Not stated</td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Investments for climate change</td>
+				<td>Cumulative data on the contributors of climate finance</td>
+				<td>Climate Funds Update</td>
+				<td>https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8</td>
+				<td>Climate Funds Update</td>
+				<td></td>
+				<td>https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8</td>
+				<td>Quantitative</td>
+				<td>CSV</td>
+				<td>Yes: https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
+				<td>Not stated</td>
+				<td>Economy, Environment </td>
+				<td>Global</td>
+				<td>2003-2019</td>
+				<td>Not stated</td>
+				<td>February 2019</td>
+				<td>Not stated</td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Opinions on climate change EU 2009</td>
+				<td>Special Eurobarometer 313: Europeans’ attitudes towards climate change</td>
+				<td>Directorate-General for Communication of the European Commission</td>
+				<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
+				<td>Directorate-General for Communication of the European Commission</td>
+				<td></td>
+				<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
+				<td>Qualitative and quantitative</td>
+				<td>XLS</td>
+				<td>Yes + https://europarl.europa.eu/at-your-service/files/be-heard/eurobarometer/2009/climate-change/report/it-report-climate-change-200907.pdf</td>
+				<td>https://data.europa.eu/euodp/it/copyright</td>
+				<td>Government and public sector</td>
+				<td>Slovacchia, Slovenia, Svezia, Paesi Bassi, Polonia, Portogallo, Romania, Belgio, Austria, Cipro, Bulgaria, Germania, Cechia, Spagna, Danimarca, Finlandia, Estonia, Regno Unito, Francia, Ungheria, Grecia, Italia, Irlanda, Lussemburgo, Lituania, Malta, Lettonia</td>
+				<td>January-February 2009</td>
+				<td>2014-12-09</td>
+				<td></td>
+				<td></td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>Opinions on climate change EU 2019</td>
+				<td>Special Eurobarometer 409: Climate change</td>
+				<td>Directorate-General for Communication of the European Commission</td>
+				<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
+				<td>Directorate-General for Communication of the European Commission</td>
+				<td></td>
+				<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
+				<td>Qualitative and quantitative</td>
+				<td>XLS</td>
+				<td>Yes</td>
+				<td>https://data.europa.eu/euodp/it/copyright</td>
+				<td>Government and public sector</td>
+				<td>Romania, Slovacchia, Slovenia, Svezia, Malta, Paesi Bassi, Polonia, Portogallo, Belgio, Austria, Cipro, Bulgaria, Germania, Cechia, Spagna, Danimarca, Finlandia, Estonia, Regno Unito, Francia, Croazia, Grecia, Irlanda, Ungheria, Lituania, Italia, Lettonia, Lussemburgo</td>
+				<td>From 2019-04-09 to 2019-04-26</td>
+				<td>2019-09-11</td>
+				<td></td>
+				<td></td>
+				<td></td>
+		
+			</tr>
+				<tr>
+				<td>Opinions on climate change EU 2013</td>
+				<td>Special Eurobarometer 409: Climate change</td>
+				<td>Directorate-General for Communication of the European Commission</td>
+				<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
+				<td>Directorate-General for Communication of the European Commission</td>
+				<td></td>
+				<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
+				<td>Qualitative and quantitative</td>
+				<td>XLS</td>
+				<td>Yes</td>
+				<td>https://data.europa.eu/euodp/it/copyright</td>
+				<td>Government and public sector</td>
+				<td>Romania, Slovacchia, Slovenia, Svezia, Malta, Paesi Bassi, Polonia, Portogallo, Belgio, Austria, Cipro, Bulgaria, Germania, Cechia, Spagna, Danimarca, Finlandia, Estonia, Regno Unito, Francia, Croazia, Grecia, Irlanda, Ungheria, Lituania, Italia, Lettonia, Lussemburgo</td>
+				<td>November-December 2013</td>
+				<td>2014-12-03</td>
+				<td></td>
+				<td></td>
+				<td>This dataset is data on the public opinon of European citizens on the issue of climate change.</td>
+		
+			</tr>
+	
+	</table>
 <h2>Quality analysis</h2>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
@@ -39,24 +382,28 @@
 			</tr>
 			<tr>
 				<td><b>Other</b></td>
+				<td>We wrote an email to the contributor of the dataset in order to ask if there exist a legend to codify the headers of the dataset, but we never received an answer.</td>
+				<td></td>
+				<td>The dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator. Thus, we weren't able for its usage limits to work on the whole dataset.</td>
+				<td>The API platform from which the data was download could not support mixed queries to retrive at once data of the world so we had to download the data in series and then created a united csv file for the dataset</td>
 				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
+				<td>even if you set some conditions for your query e.g. include LULUFC it gives you also the data before where it is excluded</td>
 				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>"In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information.
+
+Another change was made in the cells of the columns containing the ""Summary"". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities."</td>
 				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
+			<tr>	
+			
 			<tr>
-				<td><b>Content quality</b></td>
+				<td>Content quality</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -73,6 +420,7 @@
 				<td></td>
 				<td></td>
 			</tr>
+			
 			<tr>
 				<td>Is the dataset complete?</td>
 				<td></td>
@@ -91,81 +439,85 @@
 				<td></td>
 				<td></td>
 			</tr>
-			<tr>
+	
+	
 				<td>"Contain a header row with a single description of what is shown. This means that once a
 dataset structure is in place, it should not change when sources are added. In the
 metadata, the header should be described"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes, but the key (legenda) for reading the columns is not provided</td>
+				<td>Yes, but the header entries described on the website (http://www.dartmouth.edu/~floods/Archives/ArchiveNotes.html) don't correspond to the dataset's ones.</td>
+				<td>Yes, it is explained in a specific PDF document.</td>
+				<td>Yes in the dataset</td>
+				<td>Yes in the dataset</td>
+				<td>Yes, from dataset and https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
+				<td>Yes</td>
+				<td>Yes from the dataset and from https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
+				<td>Yes, but the header has not been described anywhere.</td>
+				<td>Yes, the header row is present and further explained in the PDF document about the work.</td>
+				<td>Yes (description in natural language)</td>
+				<td>Yes (easily understandable header row) </td>
+				<td>Yes (in dataset)</td>
+				<td>Yes, the questions contained in the dataset are explained in metadata pdf</td>
+				<td>Yes, the questions contained in the dataset are explained in a PDF document about the survey.</td>
 			</tr>
 			<tr>
 				<td>"Be labelled with a version number. Once an update is done the dataset should get a new
 version number in order for the audience to keep track of changes"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes, Version 4</td>
+				<td>Yes Version 4 (GFEDv4)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Global Historical Climatology Network–Monthly (GHCN-M) Version 2</td>
+				<td>No</td>
+				<td>No, there is no version number, but the title contains the year of the last update.</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes, v1.00 </td>
+				<td>Yes, v1.00 </td>
+				<td>Yes, v1.00 </td>
 			</tr>
 			<tr>
 				<td>"Contain information about its origin. What is the data about, where does it come from
 and for what purpose has it been published?"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>Be given a status: Draft, validated, final</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Inferred: Final</td>
+				<td>Validated ("Active")</td>
+				<td>"Version numbers will be updated when processing changes would cause changes to storms from previous years. Such changes could be caused, for example, by adjustments to the merge routines.
+Inferred: Validated"</td>
+				<td>This data is updated periodically and has no reasons for this. Could not access the previous versions because they are superseded by new versions so they say the old versions are accessible at the ORNL. Inferred: Validated</td>
+				<td>Inferred validated bescause the data is updated yearly from a view of the dataset but not stated.</td>
+				<td>Not stated and not inferable since data contains no information on years but just stated in the website that the data is on the latest year available</td>
+				<td>Validated (updated every year since 1979)</td>
+				<td>Inferred Validated since the data has a version and may change in the future</td>
+				<td>Not stated and not inferable, since data contains no information on the years concerned and it is just stated on the website that it is referred to the latest year available.</td>
+				<td>New dataset each year. Inferred: Final</td>
+				<td>Final (data from 2015 and 2016)</td>
+				<td>"Cumulative since 2003; up to date as of February 2019 (https://climatefundsupdate.org/about-us/notes-and-methodology/).
+
+Inferred: Validated"</td>
+				<td>Final</td>
+				<td>Final</td>
+				<td>Final</td>
 			</tr>
 			<tr>
 				<td>Is the data clean?</td>
@@ -187,93 +539,94 @@ and for what purpose has it been published?"</td>
 			</tr>
 			<tr>
 				<td>Empty fields</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes</td>
+				<td>No</td>
+				<td>No (if missing data "Not specified")</td>
+				<td>Yes (345, 346)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>Dummy data and default values: are they correct?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Yes (e.g. 0)</td>
+				<td>Yes: 0, default values in case of uncertain number of deads or displaced (http://www.dartmouth.edu/~floods/Archives/ArchiveNotes.html)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes, maybe the column of powercode</td>
+				<td>Yes (e.g. -9999 probably missing data)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes (0, NULL)</td>
+				<td>No</td>
+				<td>"No dummy
+""Not applicable"" as default value"</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>Wrong values</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>Same countries have occasionally been indicated with different names, e.g. United Kingdom and UK. + encoding /xa0 + countries errori</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes, no codifica UTF-8 quindi non riconosce caratteri speciali: 30978-31425 Cote d'Ivoire senza caratteri speciali per cui codice, idem Réunion 51964-52411</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>Double entries</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>Privacy sensitive information</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td>Is the data accurate?</td>
@@ -296,26 +649,26 @@ and for what purpose has it been published?"</td>
 			<tr>
 				<td>"Is the data accurate enough
 for its potential purpose?"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No, because is only indicated the country and the year. We don't know the duration of the event, the severity, the exact place in the country, ...</td>
+				<td>No, since the work of other archives is not taken into account and it is based mainly on news, so many events could have been left out.</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>v</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>v</td>
+				<td>Yes</td>
+				<td>Yes</td>
 			</tr>
 			<tr>
 				<td>"Does its accuracy affect its reliability? (only if the answer to the previous question is "No")"</td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -333,40 +686,44 @@ for its potential purpose?"</td>
 			<tr>
 				<td>"Are the choices concerning
 interval described?"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No </td>
+				<td>No </td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No since there is no information concerning years</td>
+				<td>"Not explained why the dataset starts from 1979.
+No, but it's easily understendable (i.e. every year since 1979)"</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>"Under the U.N. Framework Convention on Climate Change (UNFCCC), countries committed to create a new international climate agreement by the conclusion of the Paris climate summit in December 2015.
+
+The dataset was created after the above mentioned agreement."</td>
+				<td>"Yes
+CFU data is cumulative since 2003. This is the first year in which one of the dedicated climate funds hat we monitor approved finance for a project. The start date for each fund individually is available on the relevant fund page through ‘The Funds’ (https://climatefundsupdate.org/the-funds/)"</td>
+				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
+				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
+				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
 			</tr>
 			<tr>
 				<td>"Does the data need
 aggregation or disaggregation?"</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>No</td>
+				<td>No</td>
+				<td>Data would probably need aggregation, because the resulting dataset is too big and much information could be condensed. For instance the same hurricane is registered more than once even in the same country because all the steps of the passage are traced.</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
 			</tr>
 			<tr>
 				<td><b>Timeliness</b></td>
@@ -385,27 +742,34 @@ aggregation or disaggregation?"</td>
 				<td></td>
 				<td></td>
 				<td></td>
-			</tr>
+			</tr>	
 			<tr>
 				<td>"Data changes over time. Historical data will remain stable, but recent data will be updated over time.
 Therefore, it is important to check data with regard to its timeliness regularly. For consistency
 purposes, it is wise to create an update process that keeps the data up-to-date. Be sure that the data
 contains a notion of its timeliness. This topic is closely related to the maintenance of datasets."</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>"No (not updated since 2001).
+Timeliness in data."</td>
+				<td>The dataset is updated, but the frequency of the procedure is not stated. Data contains a notion of its timeliness.</td>
+				<td>There is timeliness in data. It is clear that the dataset is updated, but the frequency is unclear: in status section, it is said to be annual; in data access section, twice weekly. Also the update frequency of the single sources is reported on the website.</td>
+				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is said to be updated periodically.</td>
+				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is inferred that it is updated yearly.</td>
+				<td>Not updated but only stated that the data is from the latest year available</td>
+				<td>Yes (inferred: every year)</td>
+				<td>Not stated but inferred may be updated since it has a version. But it also stated in the website that the last update of the version of the data containing precipitation informtion was on 2011-01-01 and this version id considere as the latest available one.</td>
+				<td>Update frequency isn't stated, but there is timeliness in data.</td>
+				<td>Annually updated and timeliness is present in data.</td>
+				<td>Not updated because contains info about an agreement which took place between 2015 and 2016</td>
+				<td>"The dataset is cumulative since 2003 and the last update was in february 2019. 
+Probably every year the dataset is updated with new data, while maintaining the old ones.
+
+No notion of timeliness in data"</td>
+				<td>"Inferred: not needed. 
+No notion of timeliness in the data and no update process because it is referred to a single year."</td>
+				<td>"Inferred: not needed. 
+No notion of timeliness in the data and no update process because it is referred to a single year."</td>
+				<td>"Inferred: not needed. 
+No notion of timeliness in the data and no update process because it is referred to a single year."</td>
 			</tr>
 			<tr>
 				<td><b>Consistency</b></td>
@@ -432,27 +796,31 @@ accuracy, use of terms and timeframe. As an example, if you change the field nam
 collected for managing waste each year, the data cannot be compiled from one year to the next. This
 makes it difficult to use datasets: it will require a large effort of manipulation. Therefore, make sure
 you use the standards and be consistent in publishing datasets of equal quality."</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Not stated</td>
+				<td>There seems to be no consistency w.r.t. the previous tables of 2007 and 2008, available on the website: the standard is different, as well as the field names.</td>
+				<td>"Consistency is stated among the fundamental principles of the project in two occasions on the website: 
+https://www.ncdc.noaa.gov/ibtracs/index.php?name=status
+https://www.ncdc.noaa.gov/ibtracs/index.php?name=principle"</td>
+				<td>No, each version from the writtings is different and contains new information</td>
+				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
+				<td>Not stated, but it is inferred since the data is obdated often and the fields remain the same.</td>
+				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
+				<td>Not stated but inferable. Probably the same sheet was used for the previous version but can't have access to. Need  to call the archive to get this information.</td>
+				<td>Not stated nor inferable.</td>
+				<td>Yes: the methodology for the account of data is described in the explanatory PDF, also for what concerns the previous versions.</td>
+				<td>Yes (only one version, data not updated)</td>
+				<td>"Not stated but inferable. 
+Probably every year the same sheet is updated."</td>
+				<td>No: wrt the other datasets of the eurobarometer series, questions change without explanation</td>
+				<td>No: wrt the other datasets of the eurobarometer series, questions change without explanation</td>
+				<td>No: w.r.t. the other datasets of the Eurobarometer series, questions have changed throughout the time, but the decision and the differences are not explained. </td>
 			</tr>
 		</table>
+		
 <h2>Legal analysis</h2>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
-				<th>Legal Check</th>
+				<th>Legal Basis</th>
 				<th>Global droughts events</th>
 				<th>Global Active Archive of Large Flood Events</th>
 				<th>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</th>
@@ -1243,12 +1611,107 @@ We don’t know anything from the platform about any prejudice or bias respect t
 The platform provided a series of legal information about the license and the way the datasets can be used by the users (e.g. no commercial purpose). However beside this, there are no notions of discrimination and bias.</p>
 <p><b>Conclusion</b>: the dataset can be considered good from an ethical point of view but we cannot say the same about its transparency, because of the lack of the legend.</p>
 
+<h3>Global Active Archive of Large Flood Events</h3>
+<p><b>Purpose</b>: The target is not declared, hence we could just infer that it is addressed to researchers. The benefit is explicitly said to be creating a unique source for large flood events. Nonetheless, since it doesn’t involve other archives, it could instead fragment the scenario. In the purpose, there is no trace of discrimination, prejudice or cognitive bias. It has a global basis.
+</p>
+<p><b>Process</b>: No transparency and accountability in the processing: even if sources are stated, the actual data they provided is not identifiable. Governmental sources they claim to have used are not distinguishable. No caveats nor documentation on what they have done have been provided.
+</p>
+<p><b>Output</b>: In the final dataset: 
+<ul>
+	<li>All countries have been recognised and no political discriminations have been made (e.g. Israel and Palestine). </li>
+	<li>No personal data, but the number of deaths, when small, combined with other information as the location could lead to names. The purpose in using deaths and displaced is to show the gravity of the flood. However, other indices exist and one of them is also used, so using displaced and deaths seem to be done more for sensationalistic effects on the general audience; but isn’t it for researchers?
+</li>
+	<li>Being based on news, as they state, means that they have more info on major events and on “first world” countries (http://floodobservatory.colorado.edu/Archives/ArchiveNotes.html). Stating just news as source but not identifying it poses the problem of the impossibility to check the validity of the statement. On the other hand, if it was easy to identify the news source, it would be easy to identify in case also people.</li>
+	</ul>
+</p>
+<p><b>Conclusion</b>: we can’t say there are prejudice and cognitive bias, but discrimination since data focuses on ‘first world’ countries and on particular sources (news). Moreover, possible ethical problems arise about deaths. Nonetheless, the greatest problems are little openness (especially w.r.t. procedures) and accountability difficulties. If it wasn’t so cited, it wouldn’t seem a proper choice to use it.
+
+</p>
+
+<h3>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4
+</h3>
+<p><b>Purpose</b>: The dataset can be considered as perfect from an ethical point of view because it doesn’t contain prejudice, cognitive bias or discrimination and everything is well documented: purpose and user need , data provenance, caveats and usage information (available in the technical documentation), field names explanation, ways to provide feedback.
+
+</p>
+<p><b>Process</b>: 
+</p>
+<p><b>Output</b>: 
+</p>
+<p><b>Conclusion</b>: 
+</p>
+
+<h3>GFED4 burned area</h3>
+<p><b>Purpose</b>: the data has a clear user need which is to provide global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes which could be used for large-scale modeling studies. 
+</p>
+<p><b>Process</b>:  from a legal point of view the data is on point. The collection of the data used is done without any discrimination, cognitive bias or prejudice as inferred on the website (https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html) making use of the available data from other sources and theirs (Satellite information) to create a global view of the situation. The only note could be that they make no mention of licences for use of data from others.
+</p>
+<p><b>Output</b>: the data used serves exactly the need of the user they want to satisfy and is restricted to its purpose of creation. The dataset released at the end is available in an open format and free for reuse on an API platform. The dataset will in no way harm any individual person,community or country or public interest even with new events registered from the documentation. There is a clear description of the composition of the database again free from any discrimination,cognitive bias or prejudice.
+</p>
+<p><b>Conclusion</b>: we can in summary say that the dataset from an ethical point of view is clean to an extent.
+</p>
+
+<h3>Climate at a Glance: Global Time Series</h3>
+<p><b>Purpose</b>: they don’t state clearly what is the purpose of the dataset created or the user need to which they are responding to but it is inferred that they want to make known to all what is the situation of the temperature anomalies in the world over the years</p>
+<p><b>Process</b>:  for the creation of the final dataset, they combine data from two resources (Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS)) known for  carrying out quality controls on their data for good practice. Their choice of sources is understood which goes to rhyme with the purpose and helps answer strictly to the user's need identified. Therefore no discrimantion, prejudice or cognitive bias.
+</p>
+<p><b>Output</b>:  the dataset released from this combination is made available to all in an open format having all the information it had planned to deliver without any wrong ethical aspect. Good explanation of the basis of the results found in the dataset.
+</p>
+<p><b>Conclusion</b>: it can be therefore considered that the dataset is ethically correct.</p>
+
+
+<h3>Threatened species</h3>
+<p><b>Purpose</b>: the purpose of the dataset is clearly stated and it is to show the numbers of known species (or assessed) and threatened species with the aim of indicating the state of mammals, birds, freshwater fish, reptiles, amphibians, vascular plants, mosses, lichens and invertebrates. This purpose has no issue of discrimination, cognitive bias or prejudice because most especially it goes for world information and also consider information from the various national Delegates. 
+</p>
+<p><b>Process</b>:  the process of collection and analysis of the data to create the dataset is done by updating and revising certain information from the comments of national Delegates. The basis of this act is not well stated on the website. So, it could be inferred that  there may be some cognitive bias in the decision making.
+</p>
+<p><b>Output</b>: the released dataset is done through an API free to all but it is stated on the website that the interpretation should take in consideration the possibility of non exactness of the various values. Also they talk of the possibility of biased results due to overestimation of some of the incompletely evaluated groups of species likely to be threatened in certain countries.
+</p>
+<p><b>Conclusion</b>: the level of ethical correctness of this data set is not completely good because in the end we have a dataset of which some values may be wrong due to certain actions during its creation.
+</p>
 <h3>Sea Ice and Snow Cover Extent</h3>
 <p><b>Purpose</b>: the purpose of providing a tool to see the sea ice extent over years is achieved: users can generate and examine graphs and statistics on ice and snow, or download the data to populate spreadsheets for further analysis.</p>
 <p><b>Process</b>: the purpose of providing a tool to see the sea ice extent over years is achieved: users can generate and examine graphs and statistics on ice and snow, or download the data to populate spreadsheets for further analysis.</p>
 <p><b>Output</b>: the result is a tool for browsing the sea ice extent from 1979 to 2020 for the Northern Hemisphere, Southern Hemisphere, and the Globe. Data can be observed monthly or annually. Very poor documentation, no information about restriction of use, bias and discrimination.
 </p>
 <p><b>Conclusion</b>: the dataset seems to be free from cognitive bias, however very few documentation is provided.
+</p>
+
+<h3>Climate Change Indicators: U.S. and Global Precipitation</h3>
+<p><b>Purpose</b>:  the purpose of creation of the dataset is clear and has no ethical distortion for the precise user need which was to point out all the precipitation anomalies over the given period selected.
+</p>
+<p><b>Process</b>: during the creation of the dataset they make use of all possible resources to create a well informed database on the subject matter. The good aspect is the fact that during the creation they make use of bias correction software ( automated bias correction software) which helps identify and eliminate biases. Also the personal intervention of the staff, scientists and data quality tests are done in the light of excluding any ethical compromise. 
+</p>
+<p><b>Output</b>: the datasets released are well documented and are available without charge through NCEI's anonymous FTP service. The information it contains is of good quality and satisfies the user's need and purpose of creation.
+</p>
+<p><b>Conclusion</b>: this dataset can be consequently considered ethically correct.
+</p>
+
+<h3>Greenhouse Gas Emissions
+</h3>
+<p><b>Purpose</b>: Target and purpose are inferable but not explicitly stated. It is not clear if data is referred just to countries of OECD. In case, this could cause cognitive bias.
+
+</p>
+<p><b>Process</b>: The provenance of the single datum is not stated so there are no ways to compare the dataset with the original sources and detect possible errors. No caveats or technical documentation to make the procedure reproducible have been made public. 
+
+</p>
+<p><b>Output</b>: Even if apparently you are downloading the result of your specific query, the dataset is whole and it can be explored in a fixed order (for instance if you have selected data including LULUFC you will have to pass anyway through the part where it is excluded). In formats as CSV, some values appear to be repeated in two columns. The fact that the countries are those of OECD is just inferable.There is no explanation for the codes of pollutants, variables, units and powercodes. Reference and flags are mainly unusued.
+
+</p>
+<p><b>Conclusion</b>: There is not properly discrimination or cognitive bias, but the vision is definitely partial because the countries are selected and in general the procedure and the output are not enough transparent and accountable.
+</p>
+
+<h3>National Footprint and Biocapacity Accounts 2019 Public Data Package
+</h3>
+<p><b>Purpose</b>: Broader target as possible, with the purpose of making available these data. No discrimination, prejudice or cognitive bias at all.
+
+</p>
+<p><b>Process</b>: The methodology is accountable and transparent.
+ 
+</p>
+<p><b>Output</b>:  Everything is explained in the related paper. You are also given the possibility to access the paper of the previous versions to spot the differences. Their selection of countries could be said politically discriminant (e.g. Israel and Palestine).
+ 
+</p>
+<p><b>Conclusion</b>: The peculiarity of the dataset is the purpose of making it available to everyone. Everything is accountable and transparent. There are no discrimination, prejudice or cognitive bias in any phase except for the choice of the countries, which seems to take a political stand.
 </p>
 
 <h3>CAIT Paris Contributions Data</h3>
@@ -1280,6 +1743,7 @@ No further info about any kind of prejudice or discrimination provided by the pl
 <p><b>Conclusion</b>: it is not very clear who verify the funds and how much accurate data are (not very reliable). We can notice that the greater amount of data come from Europe and Central Asia. The resulting API is easily accessible.
 </p>
 
+
 <h3>Special Eurobarometer 313: Europeans’ attitudes towards climate change
 </h3>
 <p><b>Purpose</b>: The purpose of the dataset is to understand what European citizens think about the climate change situation and what are their expectations for the future.
@@ -1290,46 +1754,6 @@ The survey method and questions are described and documented and it is understan
 <p><b>Output</b>: the dataset released contains all the countries of the EU and all the questions and answers are reported without any change. The data collected was used strictly for the purpose of the dataset and there were possibilities of not answering certain questions. So, the possibility of prejudice is excluded and since everybody could take part in the survey we can say there is no discrimination. From the results there is no cognitive bias since there is no interpretation of the results of the dataset just a publication.
 </p>
 <p><b>Conclusion</b>: </p>
-
-<h3>GFED4 burned area</h3>
-<p><b>Purpose</b>: the data has a clear user need which is to provide global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes which could be used for large-scale modeling studies. 
-</p>
-<p><b>Process</b>:  from a legal point of view the data is on point. The collection of the data used is done without any discrimination, cognitive bias or prejudice as inferred on the website (https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html) making use of the available data from other sources and theirs (Satellite information) to create a global view of the situation. The only note could be that they make no mention of licences for use of data from others.
-</p>
-<p><b>Output</b>: the data used serves exactly the need of the user they want to satisfy and is restricted to its purpose of creation. The dataset released at the end is available in an open format and free for reuse on an API platform. The dataset will in no way harm any individual person,community or country or public interest even with new events registered from the documentation. There is a clear description of the composition of the database again free from any discrimination,cognitive bias or prejudice.
-</p>
-<p><b>Conclusion</b>: we can in summary say that the dataset from an ethical point of view is clean to an extent.
-</p>
-
-<h3>Climate at a Glance: Global Time Series</h3>
-<p><b>Purpose</b>: they don’t state clearly what is the purpose of the dataset created or the user need to which they are responding to but it is inferred that they want to make known to all what is the situation of the temperature anomalies in the world over the years</p>
-<p><b>Process</b>:  for the creation of the final dataset, they combine data from two resources (Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS)) known for  carrying out quality controls on their data for good practice. Their choice of sources is understood which goes to rhyme with the purpose and helps answer strictly to the user's need identified. Therefore no discrimantion, prejudice or cognitive bias.
-</p>
-<p><b>Output</b>:  the dataset released from this combination is made available to all in an open format having all the information it had planned to deliver without any wrong ethical aspect. Good explanation of the basis of the results found in the dataset.
-</p>
-<p><b>Conclusion</b>: it can be therefore considered that the dataset is ethically correct.</p>
-
-
-<h3>Threatened species</h3>
-<p><b>Purpose</b>: the purpose of the dataset is clearly stated and it is to show the numbers of known species (or assessed) and threatened species with the aim of indicating the state of mammals, birds, freshwater fish, reptiles, amphibians, vascular plants, mosses, lichens and invertebrates. This purpose has no issue of discrimination, cognitive bias or prejudice because most especially it goes for world information and also consider information from the various national Delegates. 
-</p>
-<p><b>Process</b>:  the process of collection and analysis of the data to create the dataset is done by updating and revising certain information from the comments of national Delegates. The basis of this act is not well stated on the website. So, it could be inferred that  there may be some cognitive bias in the decision making.
-</p>
-<p><b>Output</b>: the released dataset is done through an API free to all but it is stated on the website that the interpretation should take in consideration the possibility of non exactness of the various values. Also they talk of the possibility of biased results due to overestimation of some of the incompletely evaluated groups of species likely to be threatened in certain countries.
-</p>
-<p><b>Conclusion</b>: the level of ethical correctness of this data set is not completely good because in the end we have a dataset of which some values may be wrong due to certain actions during its creation.
-</p>
-
-<h3>Climate Change Indicators: U.S. and Global Precipitation</h3>
-<p><b>Purpose</b>:  the purpose of creation of the dataset is clear and has no ethical distortion for the precise user need which was to point out all the precipitation anomalies over the given period selected.
-</p>
-<p><b>Process</b>: during the creation of the dataset they make use of all possible resources to create a well informed database on the subject matter. The good aspect is the fact that during the creation they make use of bias correction software ( automated bias correction software) which helps identify and eliminate biases. Also the personal intervention of the staff, scientists and data quality tests are done in the light of excluding any ethical compromise. 
-</p>
-<p><b>Output</b>: the datasets released are well documented and are available without charge through NCEI's anonymous FTP service. The information it contains is of good quality and satisfies the user's need and purpose of creation.
-</p>
-<p><b>Conclusion</b>: this dataset can be consequently considered ethically correct.
-</p>
-
 
 <h3>Special Eurobarometer 409: Climate change</h3>
 <p><b>Purpose</b>: the purpose of the dataset is to understand what European citizens think of the climate change situations and what are their expectations.
@@ -1343,6 +1767,17 @@ The survey method and questions are described and documented and it is understan
 
 </p>
 
+
+<h3>Special Eurobarometer 490: Climate change</h3>
+<p><b>Purpose</b>: vedi 409 + “These surveys will be invaluable in shaping our climate and energy policies over the next five years.”
+</p>
+<p><b>Process</b>: vedi 409 + risk to create cognitive bias or discrimination in inserting questions regarding the economical status, the level of instruction etc? Were they avoidable questions?
+
+</p>
+<p><b>Output</b>: vedi 409
+</p>
+<p><b>Conclusion</b>: Everything is accountable and transparent. No discrimination, prejudice or cognitive bias (except for the risk of incentive them in the readers of the survey?)
+</p>
 
 <h2>Technical analysis</h2>
 <table>
@@ -1366,25 +1801,35 @@ The survey method and questions are described and documented and it is understan
 	</tr>
 	<tr>
 		<td><b>Format</b></td>
-		<td></td>
+		<td>"dbf, shp, shx (UNEP)
+
+CSV (HDX)"</td>
 		<td><b>XLSX</b>, XML, MapInfo TAB, shapefiles</td>
 		<td>netCDF, <b>CSV</b>, shapefiles</td>
 		<td>CSV (Comma-separated values),  HDF (Hierarchical Data Format)</td>
 		<td>XMS (Microsoft eXtended Memory Specification),  CSV (Comma-separated values),  JSON (JavaScript Object Notation ), XML (Extensible Markup Language)</td>
 		<td>XLS, CSV, SDMX(XML)</td>
-		<td></td>
+		<td>CSV, XML, JSON</td>
 		<td>XLS</td>
 		<td>XLS, CSV, PX, <b>SDMX (XML)</b></td>
 		<td><b>CSV</b></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>XLSX</td>
+		<td>XLSX</td>
+		<td>XLSX</td>
 		<td>XLS</td>
 		<td><b>XLS</b></td>
 	</tr>
 	<tr>
 		<td><b>Metadata</b></td>
-		<td></td>
+		<td>"UNEP
+Metadata format: ISO19115
+https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng
+
+Download
+http://preview.grid.unep.ch/geonetwork/srv/en/csw?SERVICE=CSW&VERSION=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&outputFormat=application/xml&REQUEST=GetRecordById&ID=8a56e45c-e86d-4eb1-ae2e-6d46ebec81d3
+
+HDX
+https://data.humdata.org/dataset/global-droughts-events-1980-2001"</td>
 		<td>No</td>
 		<td>Yes, ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
 		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
@@ -1394,27 +1839,35 @@ The survey method and questions are described and documented and it is understan
 		<td>EPA: https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation     NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
 		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
 		<td>No ? paper</td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
+		<td>https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
+		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
 		<td>Yes: https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 	<tr>
 		<td><b>URI</b></td>
-		<td></td>
+		<td>"UNEP
+link scaricabile alla cartella zip
+
+HDX
+https://data.humdata.org/dataset/f5e8b21e-bb71-40e3-8129-5378ebc42e33/resource/222389aa-9089-428d-8d60-1f6895df6618/download/dr-events.csv"</td>
 		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx ?</td>
 		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv ?</td>
 		<td>http://www.globalfiredata.org/downloads/chart_5e8dc22f20efd.txt  / http://www.globalfiredata.org/downloads/chart_5e8dbb6d0359e.txt  /  http://www.globalfiredata.org/downloads/chart_5e8dbd0940b57.txt</td>
 		<td>https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/2/1880-2020/data.json   </td>
 		<td>https://stats.oecd.org/restsdmx/sdmx.ashx/GetData/WILD_LIFE/TOT_KNOWN+TOT_KNOWN_IND+CRITICAL+CRITICAL_IND+ENDANGERED+ENDANGERED_IND+VULNERABLE+VULNERABLE_IND+THREATENED+THREATENED_IND+THREAT_PERCENT+IND_PERCENT.MAMMAL+BIRD+REPTILE+AMPHIBIAN+FISH_TOT+MARINE_F+FRESHW_F+VASCULAR_PLANT+MOSS+LICHEN+INVERTEB.AUS+AUT+BEL+CAN+CHL+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+NMEC+BRA+COL+CRI+RUS/all?</td>
-		<td></td>
+		<td>https://www.ncdc.noaa.gov/snow-and-ice/extent/sea-ice/N/2.xml</td>
 		<td>https://www.epa.gov/sites/production/files/2016-08/precipitation_fig-2.csv</td>
 		<td>?</td>
 		<td>Not available ?</td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>"https://www.wri.org/resources/data-sets/cait-paris-contributions-data#
+(mail requested)"</td>
+		<td>https://climatefundsupdate.org/wp-content/uploads/2019/04/CFU-Website-Master-27-Feb-2019.xlsx</td>
+		<td>"https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313
+
+DOWNLOAD
+http://data.europa.eu/88u/dataset/S942_71_1_EBS313"</td>
 		<td>"http://data.europa.eu/88u/dataset/S1084_80_2_409  
 
 DOWNLOAD
@@ -1423,19 +1876,26 @@ https://ec.europa.eu/commfrontoffice/downloadODP/?6F0F875774E39C6DC9BFA1FFAB49AE
 	</tr>
 	<tr>
 		<td><b>Provenance</b></td>
-		<td></td>
+		<td>"UNEP
+https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng
+
+HDX
+https://data.humdata.org/dataset/global-droughts-events-1980-2001"</td>
 		<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
 		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/</td>
 		<td>http://www.globalfiredata.org/analysis.html</td>
 		<td>https://www.ncdc.noaa.gov/cag/global/time-series</td>
 		<td>https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
-		<td></td>
+		<td>"NOAA
+https://www.climate.gov/maps-data/dataset/snow-or-ice-extent-graphing-tool
+
+il dataset è disponibile solo sul NOAA; non riusciamo a trovarlo su UNSIDC"</td>
 		<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 		<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
 		<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data#</td>
+		<td>https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8</td>
+		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
 		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG ? or landing page?</td>
 	</tr>
