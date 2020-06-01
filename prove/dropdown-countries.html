@@ -266,13 +266,17 @@
 
 
   <script>
-    var obj = JSON.parse('{"Algeria":{"droughts" : "12", "hurricanes" : "20"}, "Albania":{"floods" : "12", "hurricanes" : "21"}}');
+    var obj = JSON.parse('{"Algeria":{"1980":{"droughts" : "12", "hurricanes" : "20"}, "1981":{"wildfires" : "8", "species" : "11"}}, "Albania":{"1990":{"floods" : "2", "seaice" : "15"}, "1991":{"temperature" : "3", "rainfall" : "9"}}}');
 function set_chart(clicked_id) {
   var array = []
   var country = obj[clicked_id]
-      for (var key in country) {
-         array.push(clicked_id + ":" + key + ":" + country[key] + "<br>")   
+  array.push(clicked_id + ":" + "<br>")
+      for (var year in country) {
+        array.push(year + ":" + "<br>")
+        for (var event in country[year]) {
+          array.push(event + ":" + country[year][event] + "<br>")    
     }
+   }
   document.getElementById("demo").innerHTML = array;
 }
 
