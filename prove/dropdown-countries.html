@@ -266,19 +266,14 @@
 
 
   <script>
-    var obj = JSON.parse('{"zambia":{"droughts" : "12", "hurricanes" : "20"}, "zimbabwe":{"floods" : "12", "hurricanes" : "20"}}');
-
-    function set_chart(clicked_id) { 
-          alert(obj.clicked_id.droughts + ', ' + clicked_id); 
-        }
-    
-    function set_chart(clicked_id) { 
-  for (var key in obj) {
-    if (clicked_id == key) {
-      document.getElementById("demo").innerHTML = obj.key;
-      alert(obj.key.droughts + ', ' + clicked_id); 
+    var obj = JSON.parse('{"Algeria":{"droughts" : "12", "hurricanes" : "20"}, "Albania":{"floods" : "12", "hurricanes" : "21"}}');
+function set_chart(clicked_id) {
+  var array = []
+  var country = obj[clicked_id]
+      for (var key in country) {
+         array.push(clicked_id + ":" + key + ":" + country[key] + "<br>")   
     }
-    }
+  document.getElementById("demo").innerHTML = array;
 }
 
   </script>
