@@ -796,6 +796,7 @@ Probably every year the same sheet is updated."</td>
 		</table>
 		
 <h2>Legal analysis</h2>
+<p>Having performed a quality analysis already on our original dataset, we continued our analysis step with the legal analysis. this analysis was performed most with the purpose of checking the legal correctness of the various datasets in terms of Privacy Issues, IPR of the dataset, Licenses, Limitation on Public Access, Economical condition and Temporal aspects.<br> Here below you have a representation of the outcome of this annalysis. On the left of the table, you have the various questions to which we answered using the original datasets and at the top of the table we have all our various original datasets<br>We used a Yes/No  answering format but when neccessary, we also provided broad information or links for clarifications on the choice of the answer.</p>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>Legal Basis</th>
@@ -1906,6 +1907,7 @@ il dataset è disponibile solo sul NOAA; non riusciamo a trovarlo su UNSIDC"</td
 	</tr>
 </table>
 <h2>Mashup and output datasets</h2>
+<p>From our original datasets, having performed all the analysis and verifications of need to continue the realisation of our project with them, we then created an overview of the various information we needed to retrive from them based on questions we wish to answer following our purpose and scenario. From this point we then moved the extraction of data from the dataset which wwe did using Python(link) as our programming laguage. The various codes we used in this process can be found (link). From this process emanated three new datasets which we will be using for the futur points of our project. These datasets are: <ol><li>Dataset on Nature</li><li>Dataset on the actons of countries to fight the global problem</li><li>Dataset on the opinions of European citizens on climate change</li></ol> <br>Here below you have a table of the output datasets,format and the original datasets used to create each</p><table></table><p>As analysis on our created dataset, since we had perform a thourogh analysis on the original dataset, we wpuld say the datasts created are free of any quality, legal, technical and ethical problems <br> we decided to release our dataset under the license... and also we also reference the various licenses found in the open data platforms we used wh requested this procedue during the publication of new dataset deriving from their datasets.(list them)</p><h3>Processing Issues</h3><p>During the extraction of data from our original datast, we encounted certain difficulties which we wish to make mention of for each dataset.(Datasets with their worries)</>
 <h2>Sustainability of the datasets over time</h2>
 <h2>Visualizations</h2>
 <h2>Metadata and RDF assertion</h2>
