@@ -1907,7 +1907,48 @@ il dataset è disponibile solo sul NOAA; non riusciamo a trovarlo su UNSIDC"</td
 	</tr>
 </table>
 <h2>Mashup and output datasets</h2>
-<p>From our original datasets, having performed all the analysis and verifications of need to continue the realisation of our project with them, we then created an overview of the various information we needed to retrive from them based on questions we wish to answer following our purpose and scenario. From this point we then moved the extraction of data from the dataset which wwe did using Python(link) as our programming laguage. The various codes we used in this process can be found (link). From this process emanated three new datasets which we will be using for the futur points of our project. These datasets are: <ol><li>Dataset on Nature</li><li>Dataset on the actons of countries to fight the global problem</li><li>Dataset on the opinions of European citizens on climate change</li></ol> <br>Here below you have a table of the output datasets,format and the original datasets used to create each</p><table></table><p>As analysis on our created dataset, since we had perform a thourogh analysis on the original dataset, we wpuld say the datasts created are free of any quality, legal, technical and ethical problems <br> we decided to release our dataset under the license... and also we also reference the various licenses found in the open data platforms we used wh requested this procedue during the publication of new dataset deriving from their datasets.(list them)</p><h3>Processing Issues</h3><p>During the extraction of data from our original datast, we encounted certain difficulties which we wish to make mention of for each dataset.(Datasets with their worries)</p>
+<p>From our original datasets, having performed all the analysis and verifications of need to continue the realisation of our project with them, we then created an overview of the various information we needed to retrive from them based on questions we wish to answer following our purpose and scenario. From this point we then moved to the extraction of data from the dataset using Python(link) as our programming laguage. The various codes we used in this process can be found (link). In this folder there are three folders: 
+<ol>
+	<li>Extraction-Functions: In this folder you will find the python file "base file" which is a condesé of our 15 fuctions we used to extract data from our original datasets. There is also the file "Countries" which is the python function used to extract the various contries and their iso codes present in our original datasets in order to create our output datasets</li>
+	<li>Mashup-Functions:In this folder you have the three functions we used to create our output XML datasets</li>
+	<li>Output-Datasets: In this folder you find the three XML data files we created as output dataset</li>
+</ol> 
+The various libraries we used are:
+<ul>
+	<li> DBF, Counter, xlrd, datetime, csv, json, xml.etree.ElementTree as ET, math, pprint (links)</>
+</ul>
+	
+</p>
+<p>
+From the extraction and creation process emanated three new datasets which we used for the futur points of our project. These datasets are: 
+<ol>
+	<li>Dataset on Nature i.e natural events according to countries and ones without countries </li>
+	<li>Dataset on the actons of countries to fight the global problem: what is the situation of each country, what its has done and plans to do</li>
+	<li>Dataset on the opinions of European citizens on climate change: what european citizens think of climate change as a global problem, what they expect from their governments aand if they have taken any individual action to fight against climate change</li>
+</ol> 
+<br>Here below you have a table of the output datasets,format and the original datasets used to create each</p>
+<table>
+	<tr>
+		<th>Output Dataset</th>
+		<th>Format</th>
+		<th>Origin Datasets</th>
+	</tr>
+	<tr>
+		<td>Dataset on Nature</td>
+		<td>XML</td>
+		<td>Temperature, Precipitation, Sesice, Floods, Droughts, Hurricanes, Wildfires, Threatened Species </td>
+	<tr>
+		<td>Dataset on the actons of countries to fight the global problem</td>
+		<td>XML</td>
+		<td>GHG Emissions, Footprint, Paris Agreement, Global Funds</td>
+	</tr>
+	<tr>
+		<td>Dataset on the opinions of European citizens on climate change</td>
+		<td>XML</td>
+		<td>Eurobarometer 2009, Eurobarometer 2013, Eurobarometer 2019</td>
+	</tr>
+</table>
+<p>As analysis on our created dataset, since we had perform a thourogh analysis on the original dataset, we wpuld say the datasts created are free of any quality, legal, technical and ethical problems <br> we decided to release our dataset under the license... and also we also reference the various licenses found in the open data platforms we used wh requested this procedue during the publication of new dataset deriving from their datasets.(list them)</p><h3>Processing Issues</h3><p>During the extraction of data from our original datast, we encounted certain difficulties which we wish to make mention of for each dataset.(Datasets with their worries)</p>
 <h2>Sustainability of the datasets over time</h2>
 <h2>Visualizations</h2>
 <h2>Metadata and RDF assertion</h2>
