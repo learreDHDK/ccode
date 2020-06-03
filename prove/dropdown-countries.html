@@ -356,22 +356,22 @@
       var country = obj[clicked_id]
       for (var year in country) {
         years.push(year)
-      if (country[year]["Droughts"] ==  undefined)
-        droughts.push(null)
-      else
-        droughts.push(country[year]["Droughts"])
-      if (country[year]["Floods"] ==  undefined)
-        floods.push(null)
-      else
-        floods.push(country[year]["Floods"])
-      if (country[year]["Hurricanes"] ==  undefined)
-        hurricanes.push(null)
-      else
-        hurricanes.push(country[year]["Hurricanes"])
-      /*if (country[year]["Wildfires"] ==  undefined)
-        wildfires.push(null)
-      else
-        wildfires.push(country[year]["Wildfires"])*/
+        if (country[year]["Droughts"] ==  undefined)
+          droughts.push(null)
+        else
+          droughts.push(country[year]["Droughts"])
+        if (country[year]["Floods"] ==  undefined)
+          floods.push(null)
+        else
+          floods.push(country[year]["Floods"])
+        if (country[year]["Hurricanes"] ==  undefined)
+          hurricanes.push(null)
+        else
+          hurricanes.push(country[year]["Hurricanes"])
+        /*if (country[year]["Wildfires"] ==  undefined)
+          wildfires.push(null)
+        else
+          wildfires.push(country[year]["Wildfires"])*/
 
 
       Highcharts.chart('container', {
