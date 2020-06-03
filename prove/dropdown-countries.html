@@ -321,11 +321,11 @@
 
   <script>
    var colors = Highcharts.getOptions().colors;
-    var request = new XMLHttpRequest();
-     request.open("GET", "https://github.com/learreDHDK/ccode/blob/master/prove/natural-events.json", false);
-     request.send(null)
-     var obj = JSON.parse(request.responseText);
-    //var obj = JSON.parse('{"Algeria":{"1980":{"ghg" : 20, "footprint" : 20, "biocapacity": 2}, "1981":{"ghg" : 11, "footprint" : 18, "biocapacity": 7}}, "Albania":{"1990":{"ghg" : 2, "footprint" : 15}, "1991":{"ghg" : 3, "footprint" : 9}}}');
+    //var request = new XMLHttpRequest();
+    // request.open("GET", "https://github.com/learreDHDK/ccode/blob/master/prove/natural-events.json", false);
+    // request.send(null)
+    // var obj = JSON.parse(request.responseText);
+    var obj = JSON.parse('{"Algeria":{"1980":{"ghg" : 20, "footprint" : 20, "biocapacity": 2}, "1981":{"ghg" : 11, "footprint" : 18, "biocapacity": 7}}, "Albania":{"1990":{"ghg" : 2, "footprint" : 15}, "1991":{"ghg" : 3, "footprint" : 9}}}');
     var years = []
     var ghg = []
     var biocapacity = []
