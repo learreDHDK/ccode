@@ -329,8 +329,10 @@
     request.send(null)
     var obj = JSON.parse(request.responseText);*/
     
+    //?callback
+    
     var obj;
-    $.getJSON("https://github.com/learreDHDK/ccode/blob/master/prove/natural-events.json?callback", function(json){
+    $.getJSON("natural-events.json", function(json){
           obj = json;
       });
     
