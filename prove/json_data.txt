@@ -1,9 +1,0 @@
-{
-   "Algeria": {
-	"droughts": 1,
-	}
- 
-   "Afghanistan": {
-	"hurricanes": 3,
-	}		 
-}
