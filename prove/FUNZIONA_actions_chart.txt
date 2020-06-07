@@ -1,0 +1,208 @@
+###########
+SCRIPT
+###########
+
+var colors = Highcharts.getOptions().colors;
+  
+    //var request = new XMLHttpRequest();
+    //request.open("GET", "https://github.com/learreDHDK/ccode/blob/master/prove/actions.json", false);
+    //request.send(null)
+    //var obj = JSON.parse(request.responseText);
+    
+    var obj = JSON.parse('{"Algeria": {"1961": {"Footprint": 47879431.09, "Biocapacity": 16429067.37}, "1962": {"Footprint": 47358034.08, "Biocapacity": 18077573.46}, "1963": {"Footprint": 47017928.08, "Biocapacity": 18089076.6}, "1964": {"Footprint": 46722297.09, "Biocapacity": 16674496.39}, "1965": {"Footprint": 46776270.08, "Biocapacity": 17100196.08}, "1966": {"Footprint": 46827913.1, "Biocapacity": 15426236.68}, "1967": {"Footprint": 46964174.08, "Biocapacity": 16672847.55}, "1968": {"Footprint": 46968922.09, "Biocapacity": 17495850.42}, "1969": {"Footprint": 47021966.09, "Biocapacity": 17067920.44}, "1970": {"Footprint": 47088176.1, "Biocapacity": 17419041.88}, "1971": {"Footprint": 48358521.09, "Biocapacity": 17343497.46}, "1972": {"Footprint": 48375072.11, "Biocapacity": 18028371.1}, "1973": {"Footprint": 47336934.1, "Biocapacity": 16470663.18}, "1974": {"Footprint": 47432287.9, "Biocapacity": 16505157.83}, "1975": {"Footprint": 46863139.89, "Biocapacity": 17948975.31}, "1976": {"Footprint": 47145565.92, "Biocapacity": 17207763.01}, "1977": {"Footprint": 46971555.91, "Biocapacity": 15672235.27}, "1978": {"Footprint": 46998211.91, "Biocapacity": 16075142.8}, "1979": {"Footprint": 47099204.27, "Biocapacity": 16544151.37}, "1980": {"Footprint": 47126503.28, "Biocapacity": 17459877.17}, "1981": {"Footprint": 42485672.29, "Biocapacity": 15530928.41}, "1982": {"Footprint": 42440623.28, "Biocapacity": 14701753.52}, "1983": {"Footprint": 42635190.29, "Biocapacity": 14580895.11}, "1984": {"Footprint": 42989714.13, "Biocapacity": 14843374.97}, "1985": {"Footprint": 42527215.24, "Biocapacity": 16948306.1}, "1986": {"Footprint": 42047361.57, "Biocapacity": 16107332.14}, "1987": {"Footprint": 42144282.44, "Biocapacity": 15662246.14}, "1988": {"Footprint": 42171692.71, "Biocapacity": 14137126.55}, "1989": {"Footprint": 42111268.78, "Biocapacity": 15395635.13}, "1990": {"Footprint": 42037047.02, "Biocapacity": 14885640.04}, "1991": {"Footprint": 41993495.98, "Biocapacity": 17981112.65}, "1992": {"Footprint": 42246487.98, "Biocapacity": 17940543.5}, "1993": {"Footprint": 42252833.97, "Biocapacity": 15293235.09}, "1994": {"Footprint": 43039303.99, "Biocapacity": 14716908.81}, "1995": {"Footprint": 43055756.01, "Biocapacity": 16248558.86}, "1996": {"Footprint": 43049162.0, "Biocapacity": 20174278.57}, "1997": {"Footprint": 43108617.0, "Biocapacity": 14591360.65}, "1998": {"Footprint": 43249275.99, "Biocapacity": 17428867.5}, "1999": {"Footprint": 43158365.03, "Biocapacity": 16643803.17}, "2000": {"Footprint": 43452100.0, "Biocapacity": 14814054.14}, "2001": {"Footprint": 43543747.99, "Biocapacity": 17342564.06}, "2002": {"Footprint": 43293228.0, "Biocapacity": 16541688.57}, "2003": {"Footprint": 43347575.99, "Biocapacity": 19959107.27}, "2004": {"Footprint": 44591096.0, "Biocapacity": 20480120.59}, "2005": {"Footprint": 44662209.01, "Biocapacity": 19750451.86}, "2006": {"Footprint": 44723289.98, "Biocapacity": 20436777.95}, "2007": {"Footprint": 44886339.94, "Biocapacity": 19703868.51}, "2008": {"Footprint": 45036550.0, "Biocapacity": 17347535.21}, "2009": {"Footprint": 45202090.01, "Biocapacity": 22859571.81}, "2010": {"Footprint": 45292039.94, "Biocapacity": 22007875.02}, "2011": {"Footprint": 45334679.98, "Biocapacity": 22291349.49}, "2012": {"Footprint": 45374849.99, "Biocapacity": 23327876.08}, "2013": {"Footprint": 45439060.03, "Biocapacity": 23676517.95}, "2014": {"Footprint": 45469260.01, "Biocapacity": 21004217.82}, "2015": {"Footprint": 45524989.99, "Biocapacity": 21691268.12}, "2016": {"Footprint": 45458420.02, "Biocapacity": 21527691.11}}, "Austria": {"1990": {"GHG Emissions": 66681.899, "Biocapacity": 26247676.14, "Footprint": 7777799.0}, "1991": {"GHG Emissions": 65659.294, "Biocapacity": 26246757.09, "Footprint": 7777818.7}, "1992": {"GHG Emissions": 64087.893, "Biocapacity": 25649304.79, "Footprint": 7777838.4}, "1993": {"GHG Emissions": 63975.219, "Biocapacity": 25426810.01, "Footprint": 7777858.1}, "1994": {"GHG Emissions": 64376.573, "Biocapacity": 26084756.21, "Footprint": 7777877.8}, "1995": {"GHG Emissions": 66440.875, "Biocapacity": 25829358.81, "Footprint": 7777897.5}, "1996": {"GHG Emissions": 72315.844, "Biocapacity": 25392978.14, "Footprint": 7777917.2}, "1997": {"GHG Emissions": 63329.996, "Biocapacity": 26042627.2, "Footprint": 7777936.9}, "1998": {"GHG Emissions": 64494.743, "Biocapacity": 26103450.83, "Footprint": 7777956.6}, "1999": {"GHG Emissions": 60588.861, "Biocapacity": 26246131.02, "Footprint": 7777976.3}, "2000": {"GHG Emissions": 63996.245, "Biocapacity": 25393323.74, "Footprint": 7777996.0}, "2001": {"GHG Emissions": 65058.987, "Biocapacity": 26074125.42, "Footprint": 7778001.5}, "2002": {"GHG Emissions": 71848.66, "Biocapacity": 25780459.44, "Footprint": 7778007.0}, "2003": {"GHG Emissions": 86919.31, "Biocapacity": 25147676.53, "Footprint": 7778012.5}, "2004": {"GHG Emissions": 82194.593, "Biocapacity": 26277972.11, "Footprint": 7778018.0}, "2005": {"GHG Emissions": 81907.243, "Biocapacity": 25600005.8, "Footprint": 7778023.5}, "2006": {"GHG Emissions": 84948.161, "Biocapacity": 25339767.84, "Footprint": 7778029.0}, "2007": {"GHG Emissions": 81976.185, "Biocapacity": 25431810.86, "Footprint": 7770676.844}, "2008": {"GHG Emissions": 82554.35, "Biocapacity": 26199065.96, "Footprint": 7751776.43}, "2009": {"GHG Emissions": 75796.428, "Biocapacity": 25517292.62, "Footprint": 7737712.657}, "2010": {"GHG Emissions": 78889.519, "Biocapacity": 25273789.92, "Footprint": 7720678.932}, "2011": {"GHG Emissions": 76369.368, "Biocapacity": 25943539.86, "Footprint": 7701970.335}, "2012": {"GHG Emissions": 74344.448, "Biocapacity": 24666939.15, "Footprint": 7683018.569}, "2013": {"GHG Emissions": 75835.454, "Biocapacity": 24542561.22, "Footprint": 7669128.499}, "2014": {"GHG Emissions": 71955.806, "Biocapacity": 25565552.42, "Footprint": 7670422.506}, "2015": {"GHG Emissions": 74346.161, "Biocapacity": 24617188.34, "Footprint": 7678083.165}, "2016": {"GHG Emissions": 75217.28, "Biocapacity": 25383438.89, "Footprint": 7634823.961}, "1961": {"Footprint": 8267864.205, "Biocapacity": 23197080.14}, "1962": {"Footprint": 8252578.211, "Biocapacity": 23056484.88}, "1963": {"Footprint": 8219366.809, "Biocapacity": 23295853.64}, "1964": {"Footprint": 8218948.736, "Biocapacity": 23316661.26}, "1965": {"Footprint": 8220993.396, "Biocapacity": 22682780.51}, "1966": {"Footprint": 8177624.305, "Biocapacity": 23825747.05}, "1967": {"Footprint": 8167290.688, "Biocapacity": 24438271.8}, "1968": {"Footprint": 8161431.411, "Biocapacity": 24422162.34}, "1969": {"Footprint": 8134238.013, "Biocapacity": 24618293.88}, "1970": {"Footprint": 8122077.852, "Biocapacity": 24153208.91}, "1971": {"Footprint": 8109624.595, "Biocapacity": 24445117.22}, "1972": {"Footprint": 8098575.924, "Biocapacity": 24134615.31}, "1973": {"Footprint": 8037844.446, "Biocapacity": 24796356.48}, "1974": {"Footprint": 8024698.274, "Biocapacity": 25141632.56}, "1975": {"Footprint": 8006999.211, "Biocapacity": 24789685.34}, "1976": {"Footprint": 8024241.474, "Biocapacity": 25297267.05}, "1977": {"Footprint": 8022661.278, "Biocapacity": 25137652.48}, "1978": {"Footprint": 8033692.778, "Biocapacity": 25435895.19}, "1979": {"Footprint": 8005093.311, "Biocapacity": 24712594.34}, "1980": {"Footprint": 8008980.113, "Biocapacity": 25801465.1}, "1981": {"Footprint": 8028461.465, "Biocapacity": 25102397.75}, "1982": {"Footprint": 8009738.121, "Biocapacity": 26110042.44}, "1983": {"Footprint": 7771648.656, "Biocapacity": 25798564.51}, "1984": {"Footprint": 7781594.832, "Biocapacity": 26054831.64}, "1985": {"Footprint": 7787461.805, "Biocapacity": 26185276.68}, "1986": {"Footprint": 7747692.555, "Biocapacity": 25419209.79}, "1987": {"Footprint": 7749537.652, "Biocapacity": 25635219.43}, "1988": {"Footprint": 7778679.692, "Biocapacity": 26425946.09}, "1989": {"Footprint": 7782734.897, "Biocapacity": 25868792.87}}}')
+    
+    var years = []
+    var footprint = []
+    var biocapacity = []
+    var ghg = []
+    function set_chart(clicked_id) {
+      if (years.length != 0 && footprint.length != 0 && biocapacity.length != 0 && ghg.length != 0) {
+        years.length = 0;
+        footprint.length = 0;
+        biocapacity.length = 0;
+        ghg.length = 0;
+      }
+      var country = obj[clicked_id]
+      for (var year in country) {
+        years.push(year)
+
+        if (country[year]["Footprint"] ==  undefined)
+          footprint.push(null)
+        else
+          footprint.push(country[year]["Footprint"])
+
+        if (country[year]["Biocapacity"] ==  undefined)
+          biocapacity.push(null)
+        else
+          biocapacity.push(country[year]["Biocapacity"])
+
+        if (country[year]["GHG Emissions"] ==  undefined)
+          ghg.push(null)
+        else
+          ghg.push(country[year]["GHG Emissions"])
+        /*if (country[year]["Wildfires"] ==  undefined)
+          wildfires.push(null)
+        else
+          wildfires.push(country[year]["Wildfires"])*/
+
+
+      Highcharts.chart('container', {
+          chart: {
+              type: 'spline'
+          },
+
+          legend: {
+              symbolWidth: 40
+          },
+
+          title: {
+              text: 'Countries actions'
+          },
+
+          subtitle: {
+              text: 'See the actions undertaken by the countries'
+          },
+
+          yAxis: {
+              title: {
+                  text: 'Total'
+              }
+          },
+
+          xAxis: {
+              title: {
+                  text: 'Years'
+              },
+              accessibility: {
+                  description: 'Time from December 2010 to September 2019'
+              },
+              //inserire anni
+              categories: years
+          },
+
+          plotOptions: {
+              series: {
+                  point: {
+                      events: {
+                          click: function () {
+                              window.location.href = this.series.options.website;
+                          }
+                      }
+                  },
+                  cursor: 'pointer'
+              }
+          },
+
+          series: [
+            //inserire i nostri dati
+              {   
+                  name: 'Footprint',
+                  data: footprint,
+                  dashStyle: 'ShortDashDot',
+                  color: colors[0]
+              }, {
+                  name: 'Biocapacity',
+                  data: biocapacity,
+                  dashStyle: 'ShortDot',
+                  color: colors[2]
+              }, {
+                  name: 'GHG Emissions',
+                  data: ghg,
+                  dashStyle: 'Dash',
+                  color: colors[3]
+              }
+          ],
+
+          responsive: {
+              rules: [{
+                  condition: {
+                      maxWidth: 550
+                  },
+                  chartOptions: {
+                      legend: {
+                          itemWidth: 150
+                      },
+                      //da togliere quando si inseriscono gli anni
+                      xAxis: {
+                          categories: years
+                      },
+                      yAxis: {
+                          title: {
+                              enabled: false
+                          },
+                          labels: {
+                              format: '{value}'
+                          }
+                      }
+                  }
+              }]
+          }
+      });
+       }
+    }
+     
+
+###########
+HTML
+###########
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/themes/high-contrast-light.js"></script>
+
+<a href='#' id='Algeria' onClick='set_chart(this.id)'>Algeria</a>
+  <hr>
+  <a href='#' id='Austria' onClick='set_chart(this.id)'>Austria</a>
+<figure class="highcharts-figure">
+    
+    <div id="container"></div>
+</figure>
+
+###########
+CSS
+###########
+
+#container {
+    height: 420px; 
+}
+
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 360px; 
+    max-width: 820px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+	font-family: Verdana, sans-serif;
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+	font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+a {
+  background-color: white;
+  color: black;
+}
