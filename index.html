@@ -159,8 +159,8 @@
 
 
     slider.oninput = slider.onchange = function() {
-        //divYear.innerHTML = this.value; // + " - " + (parseInt(this.value)+4);
-        divYear.innerHTML = this.value + " - " + (parseInt(this.value)+4);
+        divYear.innerHTML = this.value; // + " - " + (parseInt(this.value)+4);
+        //divYear.innerHTML = this.value + " - " + (parseInt(this.value)+4);
         year = this.value;
         refreshMap(this.value);
     }
