@@ -95,7 +95,7 @@ function set_chart(clicked_id) {
       text: '2009'
     },
     tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage}%</b>'
+      pointFormat: '{series.name}: <b>{point.percentage:.0f}%</b>'
     },
     accessibility: {
       point: {
@@ -142,7 +142,7 @@ function set_chart(clicked_id) {
       text: '2013'
     },
     tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage}%</b>'
+      pointFormat: '{series.name}: <b>{point.percentage:.0f}%</b>'
     },
     accessibility: {
       point: {
@@ -189,7 +189,7 @@ function set_chart(clicked_id) {
       text: '2019'
     },
     tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage}%</b>'
+      pointFormat: '{series.name}: <b>{point.percentage:.0f}%</b>'
     },
     accessibility: {
       point: {
