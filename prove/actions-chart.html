@@ -334,12 +334,19 @@ a {
     var biocapacity = []
     var ghg = []
     function set_chart(clicked_id) {
-      if (years.length != 0 && footprint.length != 0 && biocapacity.length != 0 && ghg.length != 0) {
-        years.length = 0;
-        footprint.length = 0;
-        biocapacity.length = 0;
-        ghg.length = 0;
-      }
+	if (years.length != 0) {
+	      years = [];
+	}
+	if (footprint.length != 0) {
+	      footprint = [];
+      	}
+	if (biocapacity.length != 0) {
+	      biocapacity = [];
+      	}
+	if (ghg.length != 0) {
+	      ghg = [];
+      	}
+
       var country = obj[clicked_id]
       for (var year in country) {
         years.push(year)
