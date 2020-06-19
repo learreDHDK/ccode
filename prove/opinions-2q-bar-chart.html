@@ -133,62 +133,66 @@ var euro19 = []
 
 function set_chart(clicked_id) {
   
-	if (euro09.length != 0 && euro13.length != 0 && euro19.length != 0) {
-		euro09.length = 0;
-		euro13.length = 0;
-		euro19.length = 0;
-		}	
+	if (euro09.length != 0) {
+		euro09 = [];
+	} 
+	if (euro13.length != 0) {
+		euro13 = [];
+	} 
+	if (euro19.length != 0) {
+		euro19 = [];
+	}	
 
-		var country = obj[clicked_id]
+	var country = obj[clicked_id]
 
-		euro09.push(country["2009"])
-		euro09 = euro09[0]
-		euro13.push(country["2013"])
-		euro13 = euro13[0]
-		euro19.push(country["2019"])
-		euro19 = euro19[0]
+	euro09.push(country["2009"])
+	euro09 = euro09[0]
+	euro13.push(country["2013"])
+	euro13 = euro13[0]
+	euro19.push(country["2019"])
+	euro19 = euro19[0]
 
 
-	Highcharts.chart('container', {
-	  chart: {
-	    type: 'column'
-	  },
-	  title: {
-	    text: 'On a scale from 1 to 10, how serious do you consider the problem of climate change?'
-	  },
-	  xAxis: {
-	    categories: ['2009', '2013', '2019']
-	  },
-	  yAxis: {
-	    min: 0,
-	    title: {
-	      text: 'Respondents (%)'
-	    }
-	  },
-	  tooltip: {
-	    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.percentage:.0f}%</b><br/>',
-	    shared: true
-	  },
-	  plotOptions: {
-	    column: {
-	      stacking: 'percent'
-	    }
-	  },
-	  series: [{
-	    name: 'Not a serious problem (1-4)',
-	    data: [euro09[0], euro13[0], euro19[0]]
-	  }, {
-	    name: 'A fairly serious problem (5-6)',
-	    data: [euro09[1], euro13[1], euro19[1]]
-	  }, {
-	    name: 'A very serious problem (7-10)',
-	    data: [euro09[2], euro13[2], euro19[2]]
-	  }, {
-	    name: 'Don\'t know',
-	    data: [euro09[3], euro13[3], euro19[3]]
-	  }]
-	});
-}
+  Highcharts.chart('container', {
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: 'On a scale from 1 to 10, how serious do you consider the problem of climate change?'
+    },
+    xAxis: {
+      categories: ['2009', '2013', '2019']
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Respondents (%)'
+      }
+    },
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.percentage:.0f}%</b><br/>',
+      shared: true
+    },
+    plotOptions: {
+      column: {
+        stacking: 'percent'
+      }
+    },
+    series: [{
+      name: 'Not a serious problem (1-4)',
+      data: [euro09[0], euro13[0], euro19[0]]
+    }, {
+      name: 'A fairly serious problem (5-6)',
+      data: [euro09[1], euro13[1], euro19[1]]
+    }, {
+      name: 'A very serious problem (7-10)',
+      data: [euro09[2], euro13[2], euro19[2]]
+    }, {
+      name: 'Don\'t know',
+      data: [euro09[3], euro13[3], euro19[3]]
+    }]
+  });
+ }
   </script>
 
 </body>
