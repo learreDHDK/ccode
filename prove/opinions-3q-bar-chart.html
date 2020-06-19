@@ -133,11 +133,15 @@ var euro19 = []
 
 function set_chart(clicked_id) {
   
-  if (euro09.length != 0 && euro13.length != 0 && euro19.length != 0) {
-    euro09.length = 0;
-    euro13.length = 0;
-    euro19.length = 0;
-  }
+	if (euro09.length != 0) {
+		euro09 = [];
+	} 
+	if (euro13.length != 0) {
+		euro13 = [];
+	} 
+	if (euro19.length != 0) {
+		euro19 = [];
+	}
 
   var country = obj[clicked_id]
 
