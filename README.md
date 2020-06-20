@@ -17,23 +17,30 @@
 </p>
 
 <h2>Original datasets</h2>
+<p>
+	In order to cope with our goals we chose 15 datasets related to our scenario. These were selected for their various proveniences, typologies, formats, metadata and licenses. Whenever in doubt, we considered the frequent citations of academic sources as proof of the reliability of the dataset. We selected the ones that at least at a first glance seemed free from cognitive biases, fair, legal valid, consistent and accurate.
+</p>
+<p>
+	With the aim to depict climate change over time, we selected 8 datasets, concerning the major factors to measure climate change (temperature, precipitations anomaly and sea ice extent) together with major events caused by it (droughts, floods, hurricanes, wildfires, the increase of threatened species). The majority (6/8) comes from American-based institutions (e.g. NOAA), the other two are provided by sovranational organizations, OECD and UNEP. 5 out of 8 report data collected on a country-based scale. The majority span from 1980 to 2019. Nonetheless, wildfires started in 2003, droughts ended there and threatened species were collected in just a year. Sea ice extent, precipitation and temperature anomaly are available only globally. Precipitation and temperature started from the beginning of last century. 
+
+</p>
 <h3>General analysis</h3>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>Subject</th>
 				<th>Name</th>
 				<th>Owner</th>
-				<th>URL Owner</th>
+				<th>Owner URL</th>
 				<th>Publisher</th>
 				<th>Re-user</th>
-				<th>URL publisher/re-user</th>
-				<th>Typology/ Data Type</th>
-				<th>Format</th>
+				<th>Publisher or re-user URL</th>
+				<th>Data Type</th>
+				<th>Chosen format</th>
 				<th>Metadata</th>
 				<th>Licence</th>
 				<th>Domain</th>
 				<th>Spatial coverage</th>
-				<th>Time range of dataset</th>
+				<th>Time range</th>
 				<th>Upload date</th>
 				<th>Last update</th>
 				<th>Update Frequency</th>
@@ -50,14 +57,14 @@
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes, ISO 19115:2003/19139</td>
-				<td>Other: data use and disclaimers: https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng</td>
+				<td>Available for free for non commercial purpose, as explained at https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng</td>
 				<td>Environment</td>
 				<td>Global</td>
 				<td>Jan 01, 1980 - Dec 31, 2001</td>
 				<td>Not stated</td>
 				<td>November 17, 2018</td>
 				<td>Never</td>
-				<td></td>
+				<td>This dataset includes an estimate of global drought annual repartition based on Standardized Precipitation Index.</td>
 			</tr>
 			<tr>
 				<td>Floods</td>
