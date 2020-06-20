@@ -21,8 +21,19 @@
 	In order to cope with our goals we chose 15 datasets related to our scenario. These were selected for their various proveniences, typologies, formats, metadata and licenses. Whenever in doubt, we considered the frequent citations of academic sources as proof of the reliability of the dataset. We selected the ones that at least at a first glance seemed free from cognitive biases, fair, legal valid, consistent and accurate.
 </p>
 <p>
-	With the aim to depict climate change over time, we selected 8 datasets, concerning the major factors to measure climate change (temperature, precipitations anomaly and sea ice extent) together with major events caused by it (droughts, floods, hurricanes, wildfires, the increase of threatened species). The majority (6/8) comes from American-based institutions (e.g. NOAA), the other two are provided by sovranational organizations, OECD and UNEP. 5 out of 8 report data collected on a country-based scale. The majority span from 1980 to 2019. Nonetheless, wildfires started in 2003, droughts ended there and threatened species were collected in just a year. Sea ice extent, precipitation and temperature anomaly are available only globally. Precipitation and temperature started from the beginning of last century. 
-
+	With the goal to depict climate change over time, we selected 8 datasets, concerning the main factors to measure climate change (temperature and precipitation anomalies and sea ice extent) together with significant events caused by it (droughts, floods, hurricanes, wildfires and the threatening of species). The majority (6/8) comes from American-based institutions (e.g. NOAA), while the others are provided by supranational organizations, as OECD and UNEP. 5 out of 8 report data collected on a country-based scale. Sea Ice Extent, Precipitation and Temperature anomaly are available only globally. Overall the datasets span from 1980 to 2019. Nonetheless, Wildfires started and Droughts ended in 2003; Threatened Species refers to an year only. Precipitation and Temperature started from the beginning of last century. 
+</p>
+<p>
+	To understand the impact of the single countries on climate change and their commitment against it, we selected 4 datasets,  regarding GHG emissions, ecological footprints, commitments to Paris Agreement and global funds concerning climate change. All datasets come from supranational institutions as OECD and WRI. They are all modeled on a country-basis. Starting from the 60s, they have different beginning dates, but they all end in recent years (minimum 2016). Paris agreement is circumstricted to the year of the ratification. 
+</p>
+<p>
+	Aiming to involve the human perception of the problem, we were able to find 3 datasets built from Eurobarometer surveys of 2009, 2013 and 2019, reporting the opinions of European citizens on climate change. Data were collected country by country in the EU and are directly provided by them. 
+</p>
+<p>
+	In some cases, we found the datasets on re-user websites, that we provide below.
+</p>
+<p>
+	Below there can be found the preliminar analysis we performed on each dataset.
 </p>
 <h3>General analysis</h3>
 <table style="border: 1px solid black">
