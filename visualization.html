@@ -34,7 +34,7 @@
 	<button id="button1" type="button" onclick="nature()">Natural events</button>
 	<button id="button2" type="button" onclick="commitments()">Impact and commitments</button>
 	<button id="button3" type="button" onclick="opinions()">European opinions</button>
-	<button id="button4" type="button">First question</button>
+	<button id="button4" type="button" value="New Tab" style="display: none;"/>First question</button>
 
 	<div id="container"></div>
 	<!--<div id="char-container"></div>-->
@@ -42,19 +42,21 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 		
-	<script>
-	function nature() {
-	  $("#button4").show();
-	}
+	<script type="text/javascript">
+	$(function () {
+        	$("#button1").on('click', function () {
+            	$("#button4").show();
+        });
+    });
 	</script>
 
-    <script>
+    <!--<script>
     $(document).ready(function(){
 	$("#button1").click(function(){
 	  $("#container").load("global-nature-chart.html")
 	});
       });
-    </script>	
+    </script>-->
 </body>
 
 </html>
