@@ -205,26 +205,24 @@
       lastPaintedYear = year;
 
       let totals = {};
-      //let stats_year = stats[year]
-      let stats_year = tooltip_info[year]
-      for(let alpha3 in stats_year){
-        let tot = 0;
-        let info = "";
-        let stats_year_alpha3 = stats_year[alpha3];
-        for(let stat in stats_year_alpha3){
-          let value = stats_year_alpha3[stat];
-          tot += value;  // 4 / value * 100
-          info += "<br>" + stat + ": " + value; //tot
+      let stats_year = stats[year]
+      //for(let alpha3 in stats_year){
+      //  let tot = 0;
+      //  let info = "";
+      //  let stats_year_alpha3 = stats_year[alpha3];
+      //  for(let stat in stats_year_alpha3){
+      //    let value = stats_year_alpha3[stat];
+      //    tot += value;  // 4 / value * 100
+      //    info += "<br>" + stat + ": " + value; //tot
         }
-        //console.log("alpha3: " + alpha3);
-        //console.log("tot: " + tot);
+
         let light = (1 - (tot - minValue) / valuesAmplitude) * lightnessAmplitude + minLightness;
         light = Math.floor(light);
-        //console.log("light: " + light);
         light = Math.max(Math.min(light, maxLightness), minLightness);
         //totals[alpha3] = "hsl(169, 61, " + light + ")";
         totals[alpha3] = {color: "hsl(169, 61, " + light + ")", info: info};
       }
+      
       map.updateChoropleth(totals, {reset: true});
     }
 
