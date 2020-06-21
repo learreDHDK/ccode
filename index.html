@@ -145,7 +145,7 @@
   <script>
 
     var request = new XMLHttpRequest();
-    request.open("GET", "map.json", false);
+    request.open("GET", "nat-events-percent.json", false);
     request.send(null)
     var stats = JSON.parse(request.responseText);
 
@@ -171,8 +171,8 @@
     var maxLightness = 90; // in %
     var lightnessAmplitude = maxLightness - minLightness;
 
-    var minValue = 5;
-    var maxValue = 500000;
+    var minValue = 0;
+    var maxValue = 250;
     var valuesAmplitude = maxValue - minValue;
 
     var map = new Datamap({
