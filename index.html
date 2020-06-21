@@ -205,7 +205,7 @@
         let stats_year_alpha3 = stats_year[alpha3];
         for(let stat in stats_year_alpha3){
           let value = stats_year_alpha3[stat];
-          tot += 4 / value * 100;
+          tot += value;  // 4 / value * 100
           info += "<br>" + stat + ": " + value; //tot
         }
         //console.log("alpha3: " + alpha3);
