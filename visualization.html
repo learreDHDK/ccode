@@ -34,7 +34,8 @@
 	<button id="button1" type="button" onclick="nature()">Natural events</button>
 	<button id="button2" type="button" onclick="commitments()">Impact and commitments</button>
 	<button id="button3" type="button" onclick="opinions()">European opinions</button>
-	<button id="button4" type="button" value="New Tab" style="display: none;"/>Global data</button>
+	<button id="button4" type="button" value="New Tab" style="display: none;"/>Global</button>
+	<button id="button5" type="button" value="New Tab" style="display: none;"/>By countries</button>
 
 	<div id="container"></div>
 	<!--<div id="char-container"></div>-->
@@ -43,20 +44,29 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 		
 	<script type="text/javascript">
-	$(function () {
-        	$("#button1").on('click', function () {
-            	$("#button4").show();
-        });
-    });
+		$(function () {
+		$("#button1").on('click', function () {
+		$("#button4").show();
+		$("#button5").show();
+		});
+	});
 	</script>
 
-    <script>
-    $(document).ready(function(){
-	$("#button4").click(function(){
-	  $("#container").load("global-nature-chart.html")
+	<script>
+		$(document).ready(function(){
+		$("#button4").click(function(){
+		$("#container").load("global-nature-chart.html")
+		});
 	});
-      });
-    </script>
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button5").click(function(){
+		$("#container").load("prove/natural-events-bycountries.html")
+		});
+	});
+	</script>
 </body>
 
 </html>
