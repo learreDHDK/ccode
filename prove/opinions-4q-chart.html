@@ -109,7 +109,8 @@
 <li><a href='#' id='United Kingdom' onClick='set_chart(this.id)'>United Kingdom</a></li>
     </ul>
   </div>
-
+<div id="question">Who within the EU is responsible for tackling climate change?</div>
+  
 <figure class="highcharts-figure">
   <div id="container"></div>
   <p class="highcharts-description">
@@ -150,7 +151,7 @@ Highcharts.chart('container', {
     type: 'bar'
   },
   title: {
-    text: 'Who within the EU is responsible for tackling climate change?'
+    text: clicked_id
   },
   xAxis: {
     categories: ['Eurobarometer 2013', 'Eurobarometer 2019']
