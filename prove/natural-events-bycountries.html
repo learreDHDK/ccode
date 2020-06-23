@@ -306,18 +306,32 @@
     </ul>
   </div>
 
+
 <figure class="highcharts-figure">
-  <div id="container"></div>
-  
+	<div id="containerThreat"></div>
+	<div id="container"></div>
 </figure>
 
 
-
-
-  <script>
+<script>
   
+var request = new XMLHttpRequest();
+    request.open("GET", "threatened.json", false);
+    request.send(null)
+    var obj = JSON.parse(request.responseText);
+	
 function set_chart(clicked_id) {
-  document.getElementById("container").innerHTML = "";
+	document.getElementById("container").innerHTML = "";
+	document.getElementById("containerThreat").innerHTML = "";
+	
+	var country = obj[clicked_id]
+	var totK = country['Total known']
+	var threat = country['Threatened']
+	var percentThreat = country['Percentage threatened']
+
+  document.getElementById('containerThreat').innerHTML = "<p> Total known species: " + totK + "</p><p> Total threatened species: " + threat + "</p><p> Percentage of threatened: " + percentThreat + " %</p>"
+	
+	
 ['mousemove', 'touchmove', 'touchstart'].forEach(function (eventType) {
   document.getElementById('container').addEventListener(
     eventType,
