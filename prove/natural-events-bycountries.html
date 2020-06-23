@@ -324,12 +324,15 @@ function set_chart(clicked_id) {
 	document.getElementById("container").innerHTML = "";
 	document.getElementById("containerThreat").innerHTML = "";
 	
+	
 	var country = obj[clicked_id]
+	if (country !=  undefined) {
 	var totK = country['Total known']
 	var threat = country['Threatened']
 	var percentThreat = country['Percentage threatened']
 
   document.getElementById('containerThreat').innerHTML = "<p> Total known species: " + totK + "</p><p> Total threatened species: " + threat + "</p><p> Percentage of threatened: " + percentThreat + " %</p>"
+	}
 	
 	
 ['mousemove', 'touchmove', 'touchstart'].forEach(function (eventType) {
