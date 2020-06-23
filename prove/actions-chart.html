@@ -274,14 +274,18 @@ a {
     </ul>
   </div>
  <figure class="highcharts-figure">
-    
+    <div id="containerCommit"></div>
     <div id="container"></div>
 </figure>
 
 
 
   <script>
-  
+    var request = new XMLHttpRequest();
+    request.open("GET", "funds-and-agreement.json", false);
+    request.send(null)
+    var commmitment = JSON.parse(request.responseText);
+
     var request = new XMLHttpRequest();
     request.open("GET", "actions.json", false);
     request.send(null)
@@ -293,19 +297,19 @@ a {
     var footprint = []
     var biocapacity = []
     var ghg = []
+    
     function set_chart(clicked_id) {
-	if (years.length != 0) {
-	      years = [];
-	}
-	if (footprint.length != 0) {
-	      footprint = [];
-      	}
-	if (biocapacity.length != 0) {
-	      biocapacity = [];
-      	}
-	if (ghg.length != 0) {
-	      ghg = [];
-      	}
+	    
+	document.getElementById("container").innerHTML = "";
+	document.getElementById("containerCommit").innerHTML = "";
+	    
+	var countryCommit = commitment[clicked_id]
+	if (countryCommit !=  undefined) {
+	var dateParis = countryCommit['Paris Agreement']['Date']
+  	var summaryParis = countryCommit['Paris Agreement']['Summary']
+
+	document.getElementById('containerCommit').innerHTML = "<h4>Paris Agreement</h4><p> Submission date: " + dateParis + "</p><p> Commitments summary: " + summaryParis + "</p>"
+  }    
 
       var country = obj[clicked_id]
       for (var year in country) {
