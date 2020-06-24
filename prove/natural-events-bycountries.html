@@ -308,6 +308,7 @@
 
 
 <figure class="highcharts-figure">
+	<div id="countryName"></div>
 	<div id="containerThreat"></div>
 	<div id="container"></div>
 </figure>
@@ -323,7 +324,9 @@ var request = new XMLHttpRequest();
 function set_chart(clicked_id) {
 	document.getElementById("container").innerHTML = "";
 	document.getElementById("containerThreat").innerHTML = "";
+	document.getElementById("countryName").innerHTML = "";
 	
+	document.getElementById("countryName").innerHTML = "clicked_id";
 	
 	var country = obj[clicked_id]
 	if (country !=  undefined) {
