@@ -212,8 +212,9 @@
         let stats_year_alpha3 = stats_year[alpha3];
         for(let stat in stats_year_alpha3){
           let value = stats_year_alpha3[stat];
+          let tooltip_value = tooltip_info[year][alpha3][stat]
           tot += value;  // 4 / value * 100
-          info += "<br>" + stat + ": " + value; //tot
+          info += "<br>" + stat + ": " + tooltip_value; //tot
         }
 
         let light = (1 - (tot - minValue) / valuesAmplitude) * lightnessAmplitude + minLightness;
