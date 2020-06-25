@@ -1654,7 +1654,7 @@ The platform provided a series of legal information about the license and the wa
 
 <h3>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4
 </h3>
-<p>The dataset can be considered as perfect from an ethical point of view because it doesn’t contain prejudice, cognitive bias or discrimination and everything is well documented: purpose and user need , data provenance, caveats and usage information (available in the technical documentation), field names explanation, ways to provide feedback.</p>
+<p>The dataset can be considered as perfect from an ethical point of view because it doesn’t contain prejudice, cognitive bias or discrimination and everything is well documented: purpose and user need, data provenance, caveats and usage information (available in the technical documentation), field names explanation, ways to provide feedback.</p>
 
 <h3>GFED4 burned area</h3>
 <p><b>Purpose</b>: the data has a clear user need which is to provide global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes which could be used for large-scale modeling studies. 
@@ -1718,16 +1718,16 @@ The platform provided a series of legal information about the license and the wa
 
 <h3>National Footprint and Biocapacity Accounts 2019 Public Data Package
 </h3>
-<p><b>Purpose</b>: Broader target as possible, with the purpose of making available these data. No discrimination, prejudice or cognitive bias at all.
+<p><b>Purpose</b>: The target is as broad as possible, with the purpose of making available the data to the public. No discrimination, prejudice or cognitive bias can be detected at this stage.
 
 </p>
 <p><b>Process</b>: The methodology is accountable and transparent.
  
 </p>
-<p><b>Output</b>:  Everything is explained in the related paper. You are also given the possibility to access the paper of the previous versions to spot the differences. Their selection of countries could be said politically discriminant (e.g. Israel and Palestine).
+<p><b>Output</b>:  Everything is explained in the related paper. You are also given the possibility to access the paper of the previous versions to spot the differences. Their selection of countries could be said politically discriminant (e.g. Israel is present, while Palestine absent).
  
 </p>
-<p><b>Conclusion</b>: The peculiarity of the dataset is the purpose of making it available to everyone. Everything is accountable and transparent. There are no discrimination, prejudice or cognitive bias in any phase except for the choice of the countries, which seems to take a political stand.
+<p><b>Conclusion</b>: The peculiarity of the dataset is the purpose of making it available to everyone. Everything is accountable and transparent. There are no discrimination, prejudice or cognitive bias in any phase, except for the choice of the countries, which seems to take a political stand.
 </p>
 
 <h3>CAIT Paris Contributions Data</h3>
