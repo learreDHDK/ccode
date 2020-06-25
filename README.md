@@ -1638,17 +1638,17 @@ The platform provided a series of legal information about the license and the wa
 <h3>Global Active Archive of Large Flood Events</h3>
 <p><b>Purpose</b>: The target is not declared, hence we could just infer that it is addressed to researchers. The benefit is explicitly said to be creating a unique source for large flood events. Nonetheless, since it doesn’t involve other archives, it could instead fragment the scenario. In the purpose, there is no trace of discrimination, prejudice or cognitive bias. It has a global basis.
 </p>
-<p><b>Process</b>: No transparency and accountability in the processing: even if sources are stated, the actual data they provided is not identifiable. Governmental sources they claim to have used are not distinguishable. No caveats nor documentation on what they have done have been provided.
+<p><b>Process</b>: No transparency and accountability in the processing: even if sources are stated, the actual data they provided are not identifiable. Governmental sources they claim to have used are not distinguishable. No caveats nor documentation on what they have done have been provided.
 </p>
 <p><b>Output</b>: In the final dataset: 
 <ul>
 	<li>All countries have been recognised and no political discriminations have been made (e.g. Israel and Palestine). </li>
-	<li>No personal data, but the number of deaths, when small, combined with other information as the location could lead to names. The purpose in using deaths and displaced is to show the gravity of the flood. However, other indices exist and one of them is also used, so using displaced and deaths seem to be done more for sensationalistic effects on the general audience; but isn’t it for researchers?
+	<li>There are no personal data, but the number of deaths, when small, combined with other information as the location could lead to individuals’ names. The purpose in using deaths and displaced is to show the gravity of the flood. However, another index is also used, so this information may have been avoided.
 </li>
-	<li>Being based on news, as they state, means that they have more info on major events and on “first world” countries (http://floodobservatory.colorado.edu/Archives/ArchiveNotes.html). Stating just news as source but not identifying it poses the problem of the impossibility to check the validity of the statement. On the other hand, if it was easy to identify the news source, it would be easy to identify in case also people.</li>
+	<li>Since it is mainly based on news, as they state, the dataset contains mainly data about major events and “first world” countries (http://floodobservatory.colorado.edu/Archives/ArchiveNotes.html). Stating just “news” as source without naming it makes impossible to check the validity of the reported datum. On the other hand, making easy to retrieve the news source could mean in some cases facilitating the identification of involved people.</li>
 	</ul>
 </p>
-<p><b>Conclusion</b>: we can’t say there are prejudice and cognitive bias, but discrimination since data focuses on ‘first world’ countries and on particular sources (news). Moreover, possible ethical problems arise about deaths. Nonetheless, the greatest problems are little openness (especially w.r.t. procedures) and accountability difficulties. If it wasn’t so cited, it wouldn’t seem a proper choice to use it.
+<p><b>Conclusion</b>: there aren’t prejudice and cognitive bias, but discrimination, since data focus on ‘first world’ countries and on limited sources (mainly news). Moreover, possible ethical problems arise about deaths and displaced. Nonetheless, the greatest ethical problems of the dataset are little openness (especially w.r.t. procedures) and accountability difficulties. If it wasn’t so cited in the academic world, it wouldn’t seem enough reliable.
 
 </p>
 
@@ -1856,9 +1856,9 @@ HDX
 https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 		<td>No</td>
 		<td>ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
-		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
-		<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
 		<td>https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
+		<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
+		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
 		<td></td>
 		<td>EPA: https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation     NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
 		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
