@@ -1855,7 +1855,7 @@ http://preview.grid.unep.ch/geonetwork/srv/en/csw?SERVICE=CSW&VERSION=2.0.2&outp
 HDX
 https://data.humdata.org/dataset/global-droughts-events-1980-2001"</td>
 		<td>No</td>
-		<td>Yes, ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
+		<td>ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
 		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
 		<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
 		<td>https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
@@ -1867,7 +1867,7 @@ https://data.humdata.org/dataset/global-droughts-events-1980-2001"</td>
 		<td>https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
-		<td>Yes: https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
+		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 	<tr>
 		<td><b>URI</b></td>
