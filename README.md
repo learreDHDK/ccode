@@ -1710,10 +1710,10 @@ The platform provided a series of legal information about the license and the wa
 <p><b>Process</b>: The provenance of the single datum is not stated so there are no ways to compare the dataset with the original sources and detect possible errors. No caveats or technical documentation to make the procedure reproducible have been made public. 
 
 </p>
-<p><b>Output</b>: Even if apparently you are downloading the result of your specific query, the dataset is whole and it can be explored in a fixed order (for instance if you have selected data including LULUFC you will have to pass anyway through the part where it is excluded). In formats as CSV, some values appear to be repeated in two columns. The fact that the countries are those of OECD is just inferable.There is no explanation for the codes of pollutants, variables, units and powercodes. Reference and flags are mainly unusued.
+<p><b>Output</b>: Even though apparently you are downloading the result of your specific query, the dataset could include unrequested data, e.g. downloading data including LULUFC leads anyway to a dataset that contains at the beginning data excluding LULUFC. Moreover, internal choices have not been clarified: in formats as CSV, values appear to be repeated in two columns; the codes for pollutants, variables, units and powercodes aren’t explained; reference and flags, despite the specific column, are overall unused. Finally, the fact that the countries are those of OECD is just inferable and has not been explicitly stated.
 
 </p>
-<p><b>Conclusion</b>: There is not properly discrimination or cognitive bias, but the vision is definitely partial because the countries are selected and in general the procedure and the output are not enough transparent and accountable.
+<p><b>Conclusion</b>: There is not properly discrimination or cognitive bias, but the vision is definitely partial because the set of countries is limited and in general the procedure and the output are not enough transparent and accountable.
 </p>
 
 <h3>National Footprint and Biocapacity Accounts 2019 Public Data Package
