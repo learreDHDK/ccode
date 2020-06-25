@@ -1785,14 +1785,14 @@ The survey method and questions are described and documented and it is understan
 
 
 <h3>Special Eurobarometer 490: Climate change</h3>
-<p><b>Purpose</b>: vedi 409 + “These surveys will be invaluable in shaping our climate and energy policies over the next five years.”
+<p><b>Purpose</b>: The purpose is explicitly expressed to be understanding European citizens opinions on climate change, in order to shape EU future climate and energy policies.
 </p>
-<p><b>Process</b>: vedi 409 + risk to create cognitive bias or discrimination in inserting questions regarding the economical status, the level of instruction etc? Were they avoidable questions?
+<p><b>Process</b>: The survey method and questions are documented and further described in a specific paper. The surveyed had the possibility to not answer.
 
 </p>
-<p><b>Output</b>: vedi 409
+<p><b>Output</b>: The final dataset is free from ethical distortion. However, it is unclear the purpose of questions related to the economical status or the level of instruction of the individual in such a context; hence, they don’t seem totally free of discriminatory aspects.
 </p>
-<p><b>Conclusion</b>: Everything is accountable and transparent. No discrimination, prejudice or cognitive bias (except for the risk of incentive them in the readers of the survey?)
+<p><b>Conclusion</b>: Everything is accountable and transparent. There are no discrimination, prejudice or cognitive bias, a part for the unclear purpose of some personal questions apparently unrelated to the context.
 </p>
 
 <h2>Technical analysis</h2>
