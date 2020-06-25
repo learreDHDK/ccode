@@ -1654,15 +1654,7 @@ The platform provided a series of legal information about the license and the wa
 
 <h3>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4
 </h3>
-<p><b>Purpose</b>: The dataset can be considered as perfect from an ethical point of view because it doesn’t contain prejudice, cognitive bias or discrimination and everything is well documented: purpose and user need , data provenance, caveats and usage information (available in the technical documentation), field names explanation, ways to provide feedback.
-
-</p>
-<p><b>Process</b>: 
-</p>
-<p><b>Output</b>: 
-</p>
-<p><b>Conclusion</b>: 
-</p>
+<p>The dataset can be considered as perfect from an ethical point of view because it doesn’t contain prejudice, cognitive bias or discrimination and everything is well documented: purpose and user need , data provenance, caveats and usage information (available in the technical documentation), field names explanation, ways to provide feedback.</p>
 
 <h3>GFED4 burned area</h3>
 <p><b>Purpose</b>: the data has a clear user need which is to provide global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes which could be used for large-scale modeling studies. 
