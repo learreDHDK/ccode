@@ -312,7 +312,7 @@ a {
 	    
 	var countryCommit = commitment[clicked_id]
   	if (countryCommit != undefined) {
-	if (country['Paris Agreement'] != undefined) {
+	if (countryCommit['Paris Agreement'] != undefined) {
     	var dateParis = countryCommit['Paris Agreement']['Date']
     	var summaryParis = countryCommit['Paris Agreement']['Summary']
     	for (var key in countryCommit) {
@@ -322,7 +322,7 @@ a {
     	document.getElementById('containerParis').innerHTML = '<h4>Paris Agreement</h4><p> <b>Submission date:</b> ' + dateParis + '</p><p><b> Commitments summary: </b>' + summaryParis + '</p>'
 	}
 
-	if (country['Global Funds'] != undefined) {
+	if (countryCommit['Global Funds'] != undefined) {
     	keys = []
      	for (var key2 in value) {
         var value2 = value[key2]
