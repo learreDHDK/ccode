@@ -312,6 +312,7 @@ a {
 	    
 	var countryCommit = commitment[clicked_id]
   	if (countryCommit != undefined) {
+	if (country['Paris Agreement'] != undefined) {
     	var dateParis = countryCommit['Paris Agreement']['Date']
     	var summaryParis = countryCommit['Paris Agreement']['Summary']
     	for (var key in countryCommit) {
@@ -320,7 +321,9 @@ a {
     	}
 
     	document.getElementById('containerParis').innerHTML = '<h4>Paris Agreement</h4><p> <b>Submission date:</b> ' + dateParis + '</p><p><b> Commitments summary: </b>' + summaryParis + '</p>'
+	}
 
+	if (country['Global Funds'] != undefined) {
     	keys = []
      	for (var key2 in value) {
         var value2 = value[key2]
@@ -333,11 +336,11 @@ a {
         for (var key3 in value2) {
           var value3 = value2[key3]
           keys.push('<br>' + '<b>' + key3 + '</b>' + ': ' + value3 + ' USD million')
-          console.log(key3 + ' ' + value3)
           }
          } 
  	}
-  	document.getElementById('containerCommit').innerHTML = '<p>' + keys + '</p>'    
+  	document.getElementById('containerCommit').innerHTML = '<p>' + keys + '</p>' 
+	}
 
 	    
 	if (years.length != 0) {
