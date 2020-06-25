@@ -275,8 +275,9 @@ a {
   </div>
 
 <figure class="highcharts-figure">
-    <div id="containerCommit"></div>
-    <div id="container"></div>
+	<div id="countryName"></div>
+	<div id="containerCommit"></div>
+	<div id="container"></div>
 </figure>
 
 
@@ -293,8 +294,6 @@ a {
     request2.send(null)
     var commitment = JSON.parse(request2.responseText);
 	  
-    //var commitment = {"Saint Kitts and Nevis": {"Paris Agreement": {"Date": "12/12/2015", "Summary": "The Federation of St. Kitts and Nevis proposes an emissions reduction target of 22% and 35% of St. Kitts and Nevis GHG emissions projected in the business as usual (BAU) scenario for 2025 and 2030 respectively. The INDC also includes an Adaptation Contribution."}}, "Brunei Darussalam": {"Paris Agreement": {"Date": "01/12/2015", "Summary": "Brunei Darussalam’s Intended Nationally Determined Contributions are summarised as follows: i. Energy sector: to reduce total energy consumption by 63% by 2035 compared to a Business-AsUsual (BAU) scenario; and to increase the share of renewables so that 10% of the total power generation is sourced from renewable energy by 2035ii. Land Transport sector: to reduce carbon dioxide emissions from morning peak hour vehicle use by 40% by 2035 compared to a business as usual scenario. iii. Forestry sector: to increase the total gazette forest reserves to 55% of total land area, compared to the current levels of 41%. The INDC also includes an Adaptation contribution."}}}
- 
     var colors = Highcharts.getOptions().colors;
   
     var years = []
@@ -305,6 +304,9 @@ a {
     function set_chart(clicked_id) {
 	    
 	document.getElementById("containerCommit").innerHTML = "";
+	document.getElementById("countryName").innerHTML = "";
+	    
+	document.getElementById("countryName").innerHTML = clicked_id;
 	    
 	var countryCommit = commitment[clicked_id]
 	if (countryCommit !=  undefined) {
