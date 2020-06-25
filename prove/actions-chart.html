@@ -276,6 +276,7 @@ a {
 
 <figure class="highcharts-figure">
 	<div id="countryName"></div>
+	<div id="containerParis"></div>
 	<div id="containerCommit"></div>
 	<div id="container"></div>
 </figure>
@@ -305,17 +306,40 @@ a {
 	    
 	document.getElementById("containerCommit").innerHTML = "";
 	document.getElementById("countryName").innerHTML = "";
+	document.getElementById('containerParis').innerHTML = 
 	    
 	document.getElementById("countryName").innerHTML = clicked_id;
 	    
 	var countryCommit = commitment[clicked_id]
-	if (countryCommit !=  undefined) {
-	var dateParis = countryCommit['Paris Agreement']['Date']
-  	var summaryParis = countryCommit['Paris Agreement']['Summary']
+  	if (countryCommit != undefined) {
+    	var dateParis = countryCommit['Paris Agreement']['Date']
+    	var summaryParis = countryCommit['Paris Agreement']['Summary']
+    	for (var key in countryCommit) {
+      	var value = countryCommit[key]
+      		}
+    	}
 
-	document.getElementById('containerCommit').innerHTML = "<h4>Paris Agreement</h4><p> Submission date: " + dateParis + "</p><p> Commitments summary: " + summaryParis + "</p>"
-  }    
+    	document.getElementById('containerParis').innerHTML = '<h4>Paris Agreement</h4><p> <b>Submission date:</b> ' + dateParis + '</p><p><b> Commitments summary: </b>' + summaryParis + '</p>'
 
+    	keys = []
+     	for (var key2 in value) {
+        var value2 = value[key2]
+        if (key2 == 'Income situation') {
+          keys.push('<br>' + '<h4>' + "Global Funds" + '</h4>' + '<br>' + '<b>' + key2 + '</b>' + ': ' + value2)
+        }
+		
+        else {
+        keys.push('<br>' + key2 + ': ')
+        for (var key3 in value2) {
+          var value3 = value2[key3]
+          keys.push('<br>' + '<b>' + key3 + '</b>' + ': ' + value3 + ' USD million')
+          console.log(key3 + ' ' + value3)
+          }
+         } 
+ 	}
+  	document.getElementById('containerCommit').innerHTML = '<p>' + keys + '</p>'    
+
+	    
 	if (years.length != 0) {
 	  years = [];
 	}
