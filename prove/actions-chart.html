@@ -303,7 +303,6 @@ a {
     
     function set_chart(clicked_id) {
 	    
-	document.getElementById("container").innerHTML = "";
 	document.getElementById("containerCommit").innerHTML = "";
 	    
 	var countryCommit = commitment[clicked_id]
@@ -315,6 +314,13 @@ a {
   }    
 
       var country = obj[clicked_id]
+      if (years.length != 0 && footprint.length != 0 && biocapacity.length != 0 && ghg.length != 0) {
+      	years.length = [];
+	footprint.length = [];
+	biocapacity.length = [];
+	ghg.length = [];
+      }
+	    
       for (var year in country) {
         years.push(year)
 
