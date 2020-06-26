@@ -70,6 +70,10 @@
 	<button id="button4" type="button" value="New Tab" style="display: none;"/>Map</button>
 	<button id="button5" type="button" value="New Tab" style="display: none;"/>Global</button>
 	<button id="button6" type="button" value="New Tab" style="display: none;"/>By countries</button>
+	<button id="button7" type="button" value="New Tab" style="display: none;"/>Q1</button>
+	<button id="button8" type="button" value="New Tab" style="display: none;"/>Q2</button>
+	<button id="button9" type="button" value="New Tab" style="display: none;"/>Q3</button>
+	<button id="button10" type="button" value="New Tab" style="display: none;"/>Q4</button>
 
 	<!--value="New Tab" style="display: none;-->	
 
@@ -90,7 +94,10 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
-		
+	
+
+	<!--NATURE SECTION-->
+
 	<script type="text/javascript">
 		$(function () {
 		$("#button1").on('click', function () {
@@ -101,7 +108,7 @@
 	});
 	</script>
 
-	<script>
+		<script>
 		$(document).ready(function(){
 		$("#button4").click(function(){
 		$("#mainContainer").load("charts/map.html")
@@ -124,19 +131,63 @@
 		});
 	});
 	</script>
-	
-	<!--<script type="text/javascript">
-		function displayChart(clickedButton) {
-			if (clickedButton == "button4") {
-				$("#container").load("global-nature-chart.html")
-				}
-			if (clickedButton == "button5") {
-				$("#container").load("prove/natural-events-bycountries.html")
-				}
-			}
-		}
-	</script>-->
 
+
+	<!--IMPACT AND COMMITMENTS SECTION-->
+
+	<script>
+		$(document).ready(function(){
+		$("#button2").click(function(){
+		$("#mainContainer").load("charts/impact-and-commitments.html")
+		});
+	});
+	</script>
+
+
+	<!--OPINIONS SECTION-->
+
+	<script type="text/javascript">
+		$(function () {
+		$("#button3").on('click', function () {
+		$("#button7").show();
+		$("#button8").show();
+		$("#button9").show();
+		$("#button10").show();
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button7").click(function(){
+		$("#mainContainer").load("charts/.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button8").click(function(){
+		$("#mainContainer").load("charts/.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button9").click(function(){
+		$("#mainContainer").load("charts/.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button10").click(function(){
+		$("#mainContainer").load("charts/.html")
+		});
+	});
+	</script>
 	
 </body>
 
