@@ -286,12 +286,12 @@ a {
   <script>
 	  
     var request = new XMLHttpRequest();
-    request.open("GET", "actions.json", false);
+    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/impact.json", false);
     request.send(null)
     var obj = JSON.parse(request.responseText);
 	  
     var request2 = new XMLHttpRequest();
-    request2.open("GET", "funds-and-agreement.json", false);
+    request2.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/commitments.json", false);
     request2.send(null)
     var commitment = JSON.parse(request2.responseText);
 	  
