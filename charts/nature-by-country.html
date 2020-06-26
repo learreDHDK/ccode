@@ -317,7 +317,7 @@
 <script>
   
 var request = new XMLHttpRequest();
-    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/prove/threatened.json", false);
+    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/nature-by-country-threatened.json", false);
     request.send(null)
     var obj = JSON.parse(request.responseText);
 	
@@ -405,7 +405,7 @@ function syncExtremes(e) {
 
 // Get the data. The contents of the data file can be viewed at
 Highcharts.ajax({
-  url: 'https://raw.githubusercontent.com/learreDHDK/ccode/master/prove/natural-events-bycountries.json',
+  url: 'https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/nature-by-country.json',
   dataType: 'text',
   success: function (activity) {
 
