@@ -25,13 +25,13 @@
 	<script type="text/javascript">
 		 // import del json con i dati per i colori della mappa
     var request = new XMLHttpRequest();
-    request.open("GET", "nat-events-percent2.json", false);
+    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/map-percent.json", false);
     request.send(null)
     var stats = JSON.parse(request.responseText);
     
     // import del json con i dati da mettere nel tooltip
     var request = new XMLHttpRequest();
-    request.open("GET", "nat-events-total.json", false);
+    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/map-total.json", false);
     request.send(null)
     var tooltip_info = JSON.parse(request.responseText);
 
