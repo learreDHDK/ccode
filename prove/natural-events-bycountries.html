@@ -310,7 +310,7 @@
 <figure class="highcharts-figure">
 	<div id="countryName"></div>
 	<div id="containerThreat"></div>
-	<div id="container"></div>
+	<div id="containerEvents"></div>
 </figure>
 
 
@@ -322,7 +322,7 @@ var request = new XMLHttpRequest();
     var obj = JSON.parse(request.responseText);
 	
 function set_chart(clicked_id) {
-	document.getElementById("container").innerHTML = "";
+	document.getElementById("containerEvents").innerHTML = "";
 	document.getElementById("containerThreat").innerHTML = "";
 	document.getElementById("countryName").innerHTML = "";
 	
@@ -339,7 +339,7 @@ function set_chart(clicked_id) {
 	
 	
 ['mousemove', 'touchmove', 'touchstart'].forEach(function (eventType) {
-  document.getElementById('container').addEventListener(
+  document.getElementById('containerEvents').addEventListener(
     eventType,
     function (e) {
       var chart,
@@ -420,7 +420,7 @@ Highcharts.ajax({
     
       var chartDiv = document.createElement('div');
       chartDiv.className = 'chart';
-      document.getElementById('container').appendChild(chartDiv);
+      document.getElementById('containerEvents').appendChild(chartDiv);
 
   Highcharts.chart(chartDiv, {
         chart: {
