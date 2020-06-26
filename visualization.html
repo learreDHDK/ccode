@@ -34,8 +34,8 @@
 	<button id="button1" type="button" onClick="displayChart(this.id)">Natural events</button>
 	<button id="button2" type="button" onClick="displayChart(this.id)">Impact and commitments</button>
 	<button id="button3" type="button" onClick="displayChart(this.id)">European opinions</button>
-	<button id="button4" type="button" value="New Tab" style="display: none;"/>Global</button>
-	<button id="button5" type="button" value="New Tab" style="display: none;"/>By countries</button>
+	<button id="button4" type="button" onClick="displayChart(this.id)" value="New Tab" style="display: none;"/>Global</button>
+	<button id="button5" type="button" value="New Tab" onClick="displayChart(this.id)" style="display: none;"/>By countries</button>
 
 	<div id="container"></div>
 	<!--<div id="char-container"></div>-->
@@ -55,7 +55,15 @@
 	<script type="text/javascript">
 		function displayChart(clickedButton) {
 			if (clickedButton == "button1") {
+				$("#button4").show();
+				$("#button5").show();
+			}
+			if (clickedButton == "button4") {
 				$("#container").load("global-nature-chart.html")
+				}
+			if (clickedButton == "button5") {
+				$("#container").load("prove/natural-events-bycountries.html")
+				}
 			}
 		}
 	</script>
@@ -66,7 +74,7 @@
 		$("#container").load("global-nature-chart.html")
 		});
 	});
-	</script>-->
+	</script>
 
 	<script>
 		$(document).ready(function(){
@@ -74,7 +82,7 @@
 		$("#container").load("prove/natural-events-bycountries.html")
 		});
 	});
-	</script>
+	</script>-->
 </body>
 
 </html>
