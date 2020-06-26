@@ -124,7 +124,15 @@
 	<script>
 		$(document).ready(function(){
 		$("#button5").click(function(){
-		$("#mainContainer").load("charts/nature-global.html")
+			$.ajax({
+			  url: 'chart/nature-global.html',
+			  //success: function( data ) {
+			   if (url.readyState == 'complete') {
+				    $("#mainContainer").load("charts/nature-global.html")
+			    }
+			 // }
+			});
+		
 		});
 	});
 	</script>
