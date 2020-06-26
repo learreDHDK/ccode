@@ -67,8 +67,9 @@
 	<button id="button1" type="button">Natural events</button>
 	<button id="button2" type="button">Impact and commitments</button>
 	<button id="button3" type="button">European opinions</button>
-	<button id="button4" type="button" value="New Tab" style="display: none;"/>Global</button>
-	<button id="button5" type="button" value="New Tab" style="display: none;"/>By countries</button>
+	<button id="button4" type="button" value="New Tab" style="display: none;"/>Map</button>
+	<button id="button5" type="button" value="New Tab" style="display: none;"/>Global</button>
+	<button id="button6" type="button" value="New Tab" style="display: none;"/>By countries</button>
 
 	<!--value="New Tab" style="display: none;-->	
 
@@ -95,6 +96,7 @@
 		$("#button1").on('click', function () {
 		$("#button4").show();
 		$("#button5").show();
+		$("#button6").show();
 		});
 	});
 	</script>
@@ -102,7 +104,7 @@
 	<script>
 		$(document).ready(function(){
 		$("#button4").click(function(){
-		$("#mainContainer").load("global-nature-chart.html")
+		$("#mainContainer").load("charts/map.html")
 		});
 	});
 	</script>
@@ -110,6 +112,14 @@
 	<script>
 		$(document).ready(function(){
 		$("#button5").click(function(){
+		$("#mainContainer").load("global-nature-chart.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button6").click(function(){
 		$("#mainContainer").load("prove/natural-events-bycountries.html")
 		});
 	});
