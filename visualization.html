@@ -31,34 +31,42 @@
 <body>
 
 	<h2>Visualization</h2>
-	<button id="button1" type="button" onclick="nature()">Natural events</button>
-	<button id="button2" type="button" onclick="commitments()">Impact and commitments</button>
-	<button id="button3" type="button" onclick="opinions()">European opinions</button>
+	<button id="button1" type="button" onClick="displayChart(this.id)">Natural events</button>
+	<button id="button2" type="button" onClick="displayChart(this.id)">Impact and commitments</button>
+	<button id="button3" type="button" onClick="displayChart(this.id)">European opinions</button>
 	<button id="button4" type="button" value="New Tab" style="display: none;"/>Global</button>
 	<button id="button5" type="button" value="New Tab" style="display: none;"/>By countries</button>
 
-	<div id="container" style="width: 80vw; height: auto;"></div>
+	<div id="container"></div>
 	<!--<div id="char-container"></div>-->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 		
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 		$(function () {
 		$("#button1").on('click', function () {
 		$("#button4").show();
 		$("#button5").show();
 		});
 	});
+	</script>-->
+
+	<script type="text/javascript">
+		function displayChart(clickedButton) {
+			if (clickedButton == "button1") {
+				$("#container").load("global-nature-chart.html")
+			}
+		}
 	</script>
 
-	<script>
+	<!--<script>
 		$(document).ready(function(){
 		$("#button4").click(function(){
 		$("#container").load("global-nature-chart.html")
 		});
 	});
-	</script>
+	</script>-->
 
 	<script>
 		$(document).ready(function(){
