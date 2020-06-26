@@ -78,6 +78,21 @@
         <div class="subheading mb-5">Climate Change Open Data Experiment
         </div>
         <p class="lead mb-5"></p>
+        
+        <h2>Visualization</h2>
+        <button id="button1" type="button">Natural events</button>
+        <button id="button2" type="button">Impact and commitments</button>
+        <button id="button3" type="button">European opinions</button>
+        <button id="button4" type="button" value="New Tab" style="display: none;"/>Map</button>
+        <button id="button5" type="button" value="New Tab" style="display: none;"/>Global</button>
+        <button id="button6" type="button" value="New Tab" style="display: none;"/>By countries</button>
+        <button id="button7" type="button" value="New Tab" style="display: none;"/>Q1</button>
+        <button id="button8" type="button" value="New Tab" style="display: none;"/>Q2</button>
+        <button id="button9" type="button" value="New Tab" style="display: none;"/>Q3</button>
+        <button id="button10" type="button" value="New Tab" style="display: none;"/>Q4</button>
+
+        <div id="mainContainer"></div>
+
       </div>
     </section>
 
@@ -134,6 +149,117 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+
+  <!--NATURE SECTION-->
+
+	<script type="text/javascript">
+		$(function () {
+		$("#button1").on('click', function () {
+		$("#mainContainer").empty();
+		$("#button4").show();
+		$("#button5").show();
+		$("#button6").show();
+		$("#button7").hide();
+		$("#button8").hide();
+		$("#button9").hide();
+		$("#button10").hide();
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button4").click(function(){
+		$("#mainContainer").load("charts/map.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button5").click(function(){
+		$("#mainContainer").load("charts/nature-global.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button6").click(function(){
+		$("#mainContainer").load("charts/nature-by-country.html")
+		});
+	});
+	</script>
+
+
+	<!--IMPACT AND COMMITMENTS SECTION-->
+
+	<script>
+		$(document).ready(function(){
+		$("#button2").click(function(){
+		$("#mainContainer").load("charts/impact-and-commitments.html")
+		$("#button4").hide();
+		$("#button5").hide();
+		$("#button6").hide();
+		$("#button7").hide();
+		$("#button8").hide();
+		$("#button9").hide();
+		$("#button10").hide();
+		});
+	});
+	</script>
+
+
+	<!--OPINIONS SECTION-->
+
+	<script type="text/javascript">
+		$(function () {
+		$("#button3").on('click', function () {
+		$("#mainContainer").empty();
+		$("#button7").show();
+		$("#button8").show();
+		$("#button9").show();
+		$("#button10").show();
+		$("#button4").hide();
+		$("#button5").hide();
+		$("#button6").hide();
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button7").click(function(){
+		$("#mainContainer").load("charts/eu-opinions-q1.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button8").click(function(){
+		$("#mainContainer").load("charts/eu-opinions-q2.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button9").click(function(){
+		$("#mainContainer").load("charts/eu-opinions-q3.html")
+		});
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$("#button10").click(function(){
+		$("#mainContainer").load("charts/eu-opinions-q4.html")
+		});
+	});
+	</script>
 
 </body>
 
