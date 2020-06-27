@@ -1,0 +1,69 @@
+@prefix adms: <http://www.w3.org/ns/adms#>. 
+@prefix dcat: <http://www.w3.org/ns/dcat#>. 
+@prefix dcatap: <http://data.europa.eu/r5r/>. 
+@prefix dct: <http://purl.org/dc/terms/>. 
+@prefix foaf: <http://xmlns.com/foaf/0.1/>. 
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>. 
+@prefix prov: <http://www.w3.org/ns/prov#>. 
+
+dcat:Dataset	dct:description	"This dataset contains data from different organizations related to the impact of the countries all over the world on the environment and their actions undertaken to fight climate change.";
+		dct:title	"CCODe - Impact on climate change and commitments";
+		dcat:contactPoint	vcard:Group;
+		dcat:distribution	dcat:Distribution;
+		dcat:keyword	"climate change";
+		dcat:keyword	"countries actions";
+		dcat:keyword	"emissions";
+		dcat:keyword	"funds";
+		dcat:keyword	"footprint";
+		dcat:keyword	"Paris Agreement";
+		dcat:keyword	"world";
+ 		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:spatial	<http://dbpedia.org/ontology/world>;
+		dct:temporal	dct:PeriodOfTime;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ECON>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/GOVE>;
+		dct:accessRights	"Open";	
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		foaf:page	<https://learredhdk.github.io/ccode/#impact-and-commitments>;
+		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+	 	dct:identifier	<https://learreDHDK.github.io/ccode/xml/impact_and_commitments.xml>;
+		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
+		dct:issued	"2020/07/01";
+		dct:source	<https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#>;
+		dct:source	<https://www.footprintnetwork.org/licenses/public-data-package-free/>;
+		dct:source	<https://www.wri.org/resources/data-sets/cait-paris-contributions-data>;
+		dct:source	<https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8>;
+		dct:modified 	"2020/07/01";
+		prov:wasGeneratedBy	"Mashup of open access datasets.".
+
+dct:PeriodOfTime	dcat:startDate	"1961";
+			dcat:endDate	"2019".
+
+dcat:Distribution	dcat:accessURL	<https://learredhdk.github.io/ccode/#impact-and-commitments>;
+			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
+			dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
+			dcat:byteSize	"1,73 MB";
+			dcat:downloadURL	<https://learreDHDK.github.io/ccode/xml/impact_and_commitments.xml>;
+			adms:status	<http://purl.org/adms/status/Completed>.
+
+foaf:Person	foaf:name	"Rebecca Del Bene".
+
+foaf:Person	foaf:name	"Leticia S. Hamvegam M.".
+
+foaf:Person	foaf:name	"Arianna Pizzicori".
+
+vcard:Group	vcard:hasEmail	"learre.dhdk@gmail.com".
+
+<http://purl.org/adms/status/Completed>	skos:prefLabel	"Completed".
+
+<http://publications.europa.eu/resource/authority/data-theme/ENVI>	skos:prefLabel	"Environment".
+
+<http://publications.europa.eu/resource/authority/data-theme/ECON>	skos:prefLabel	"Economy and finances".
+
+<http://publications.europa.eu/resource/authority/data-theme/GOVE>	skos:prefLabel	"Government and public sector".
