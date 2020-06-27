@@ -184,7 +184,7 @@
 
   <!--NATURE SECTION-->
 	<script>
-		$("#mainContainer").show("charts/map.html")
+		$("#mainContainer").load("charts/map.html")
 	</script>
 
 	<script type="text/javascript">
@@ -205,7 +205,6 @@
 	<script>
 		$(document).ready(function(){
 		$("#button4").click(function(){
-		$("#mainContainer").empty();
 		$("#mainContainer").load("charts/map.html")
 		});
 	});
@@ -214,7 +213,6 @@
 	<script>
 		$(document).ready(function(){
 		$("#button5").click(function(){
-		$("#mainContainer").empty();
 		$("#mainContainer").load("charts/nature-global.html")
 		});
 	});
@@ -234,7 +232,6 @@
 	<script>
 		$(document).ready(function(){
 		$("#button2").click(function(){
-		$("#mainContainer").empty();
 		$("#mainContainer").load("charts/impact-and-commitments.html")
 		$("#button4").hide();
 		$("#button5").hide();
