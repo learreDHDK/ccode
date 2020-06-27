@@ -39,9 +39,19 @@
 			text-align: center;
 		}
 		
-		.buttons-group button{
+		.first button{
 			background-color: #61371C;
 			border-color: #61371C;
+		}
+		
+		.first button:hover{
+			color: #216140;
+		}
+		
+		.first button:focus{
+			color: #216140;
+			outline: none;
+  			box-shadow: 0 0 0 3px #216140;
 		}
 		
 		.questions button {
@@ -107,7 +117,7 @@
         </div>   
 	 
         <p class="lead mb-5"></p>
-        <div class="buttons-group">
+        <div class="buttons-group first">
 		<button type="button" id="button1" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">Natural events</button>
 		<button type="button" id="button2" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">Impact and commitments</button>
 		<button type="button" id="button3" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">European opinions</button>
