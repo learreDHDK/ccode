@@ -12,14 +12,14 @@ dcat:Dataset	dct:description	"This dataset contains data from the european commi
 		dcat:contactPoint	vcard:Group;
 		dcat:distribution	dcat:Distribution;
 		dcat:keyword	"climate change";
-		dcat:keyword	"Europe";
+		dcat:keyword	"European Union";
 		dcat:keyword	"Eurobarometer";
 		dcat:keyword	"citizens";
 		dcat:keyword	"opinions";
  		dct:publisher	foaf:Person;
 		dct:publisher	foaf:Person;
 		dct:publisher	foaf:Person;
-		dct:spatial	<https://www.geonames.org/6255148/europe.html>;
+		dct:spatial	<https://www.geonames.org/6695072/european-union.html>;
 		dct:temporal	dct:PeriodOfTime;
 		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
 		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/SOCI>;
