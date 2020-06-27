@@ -1,0 +1,182 @@
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcatap: <http://data.europa.eu/r5r/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix locn: <http://www.w3.org/ns/locn#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix odrl: <http://www.w3.org/ns/odrl/2/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+
+dcat:Catalog	dcat:dataset	dcat:Dataset;
+		dcat:dataset	dcat:Dataset;
+		dcat:dataset	dcat:Dataset;
+		dct:description	"The catalogue of the CCODe datasets.";
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:title	"CCODe catalogue";
+		foaf:homepage	<https://learredhdk.github.io/ccode/>;
+		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
+		dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
+		dct:issued	"2020/07/01";
+		dct:spatial	<http://dbpedia.org/ontology/world>;
+		dct:modified	"2020/07/01";
+		dct:rights	"Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
+
+dcat:Dataset	dct:description	"This dataset contains data from different organizations related to the following natural events: precipitation, temperature, sea ice, floods, droughts, wildfires and threatened species. For precipitation, temperature and sea ice the data were collected on a global scale; while for droughts, floods, wildfires and threatened species, data were collected on a country based scale. The temporal coverages of the datasets are different; the majority of them collected data from 1980 to 2019, but there are some cases that bring back to 1880 and some others that end at the beginning of the XXI century.";
+		dct:title	"CCODe - Natural Events";
+		dcat:contactPoint	vcard:Group;
+		dcat:distribution	dcat:Distribution;
+		dcat:keyword	"climate change";
+		dcat:keyword	"natural events";
+		dcat:keyword	"world";
+ 		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:spatial	<http://dbpedia.org/ontology/world>;
+		dct:temporal	dct:PeriodOfTime;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dct:accessRights	"Open";	
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		foaf:page	<https://learredhdk.github.io/ccode/#natural-events>;
+		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+	 	dct:identifier	<https://learreDHDK.github.io/ccode/xml/natural_events.xml>;
+		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
+		dct:issued	"2020/07/01";
+		dct:source	<https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng>;
+		dct:source	<http://floodobservatory.colorado.edu/Archives/index.html>;
+		dct:source	<https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access>;
+		dct:source	<http://www.globalfiredata.org/analysis.html>;
+		dct:source	<https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool>;
+		dct:source	<https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE>;
+		dct:source	<https://www.ncdc.noaa.gov/snow-and-ice/extent/>;
+		dct:source	<https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-monthly-version-2?fbclid=IwAR20WeoOz2fCxr0hPl_KgqkAIJKu2CY0eNTlPYu5CtH3osaDUSbFlQR26kM>;
+		dct:modified 	"2020/07/01";
+		prov:wasGeneratedBy	"Mashup of open access datasets.".
+
+dct:PeriodOfTime	dcat:startDate	"1880";
+			dcat:endDate	"2019".
+
+dcat:Distribution	dcat:accessURL	<https://learredhdk.github.io/ccode/#natural-events>;
+			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
+			dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
+			dcat:byteSize	"2,09 MB";
+			dcat:downloadURL	<https://learreDHDK.github.io/ccode/xml/natural_events.xml>;
+			adms:status	<http://purl.org/adms/status/Completed>.
+				
+dcat:Dataset	dct:description	"This dataset contains data from different organizations related to the impact of the countries all over the world on the environment and their actions undertaken to fight climate change.";
+		dct:title	"CCODe - Impact on climate change and commitments";
+		dcat:contactPoint	vcard:Group;
+		dcat:distribution	dcat:Distribution;
+		dcat:keyword	"climate change";
+		dcat:keyword	"countries actions";
+		dcat:keyword	"emissions";
+		dcat:keyword	"funds";
+		dcat:keyword	"footprint";
+		dcat:keyword	"Paris Agreement";
+		dcat:keyword	"world";
+ 		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:spatial	<http://dbpedia.org/ontology/world>;
+		dct:temporal	dct:PeriodOfTime;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ECON>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/GOVE>;
+		dct:accessRights	"Open";	
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		foaf:page	<https://learredhdk.github.io/ccode/#impact-and-commitments>;
+		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+	 	dct:identifier	<https://learreDHDK.github.io/ccode/xml/impact_and_commitments.xml>;
+		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
+		dct:issued	"2020/07/01";
+		dct:source	<https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#>;
+		dct:source	<https://www.footprintnetwork.org/licenses/public-data-package-free/>;
+		dct:source	<https://www.wri.org/resources/data-sets/cait-paris-contributions-data>;
+		dct:source	<https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8>;
+		dct:modified 	"2020/07/01";
+		prov:wasGeneratedBy	"Mashup of open access datasets.".
+
+dct:PeriodOfTime	dcat:startDate	"1961";
+			dcat:endDate	"2019".
+
+dcat:Distribution	dcat:accessURL	<https://learredhdk.github.io/ccode/#impact-and-commitments>;
+			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
+			dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
+			dcat:byteSize	"1,73 MB";
+			dcat:downloadURL	<https://learreDHDK.github.io/ccode/xml/impact_and_commitments.xml>;
+			adms:status	<http://purl.org/adms/status/Completed>.
+
+dcat:Dataset	dct:description	"This dataset contains data from the european commission related to the opinions of european citizens on climate change issues.";
+		dct:title	"CCODe - European opinions on climate change";
+		dcat:contactPoint	vcard:Group;
+		dcat:distribution	dcat:Distribution;
+		dcat:keyword	"climate change";
+		dcat:keyword	"Europe";
+		dcat:keyword	"Eurobarometer";
+		dcat:keyword	"citizens";
+		dcat:keyword	"opinions";
+ 		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:spatial	<https://www.geonames.org/6255148/europe.html>;
+		dct:temporal	dct:PeriodOfTime;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+		dct:accessRights	"Open";	
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		foaf:page	<https://learredhdk.github.io/ccode/#eu-opinions>;
+		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+	 	dct:identifier	<https://learreDHDK.github.io/ccode/xml/eu_opinions.xml>;
+		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
+		dct:issued	"2020/07/01";
+		dct:source	<https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313>;
+		dct:source	<https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409>;
+		dct:source	<https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG>;
+		dct:modified 	"2020/07/01";
+		prov:wasGeneratedBy	"Mashup of open access datasets.".
+
+dct:PeriodOfTime	dcat:startDate	"2009";
+			dcat:endDate	"2019".	 
+
+dcat:Distribution	dcat:accessURL	<https://learredhdk.github.io/ccode/#eu-opinions>;
+			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
+			dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
+			dcat:byteSize	"185 KB";
+			dcat:downloadURL	<https://learreDHDK.github.io/ccode/xml/eu_opinions.xml>;
+			adms:status	<http://purl.org/adms/status/Completed>.
+
+foaf:Person	foaf:name	"Rebecca Del Bene".
+
+foaf:Person	foaf:name	"Leticia S. Hamvegam M.".
+
+foaf:Person	foaf:name	"Arianna Pizzicori".
+
+vcard:Group	vcard:hasEmail	"learre.dhdk@gmail.com".
+
+<http://purl.org/adms/status/Completed>	skos:prefLabel	"Completed".
+
+<http://publications.europa.eu/resource/authority/data-theme/ENVI>	skos:prefLabel	"Environment".
+
+<http://publications.europa.eu/resource/authority/data-theme/ECON>	skos:prefLabel	"Economy and finances".
+
+<http://publications.europa.eu/resource/authority/data-theme/GOVE>	skos:prefLabel	"Government and public sector".
+
+<http://publications.europa.eu/resource/authority/data-theme/SOCI>	skos:prefLabel	"Population and society".
+
+
