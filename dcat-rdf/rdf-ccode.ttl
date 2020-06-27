@@ -30,7 +30,7 @@ dcat:Catalog	dcat:dataset	dcat:Dataset;
 		dct:issued	"2020/07/01";
 		dct:spatial	<http://dbpedia.org/ontology/world>;
 		dct:modified	"2020/07/01";
-		dct:rights	"Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
+		dct:rights	"Under this licence you may copy, distribute, display and perform works or make derivative works and remixes based on this work even for commercial purposes. This is possible only if you give the author or licensor the credits (attribution) in the manner specified by the license and indicating if changes were made.You may distribute derivative works only under the licence identical to the licence that governs this original work.".
 
 dcat:Dataset	dct:description	"This dataset contains data from different organizations related to the following natural events: precipitation, temperature, sea ice, floods, droughts, wildfires and threatened species. For precipitation, temperature and sea ice the data were collected on a global scale; while for droughts, floods, wildfires and threatened species, data were collected on a country based scale. The temporal coverages of the datasets are different; the majority of them collected data from 1980 to 2019, but there are some cases that bring back to 1880 and some others that end at the beginning of the XXI century.";
 		dct:title	"CCODe - Natural Events";
