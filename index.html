@@ -26,10 +26,6 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.css" rel="stylesheet">
 	
-  	
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-  <script src="charts/map-js/datamaps.world.min.js"></script>-->
 
 	<style>
 		
@@ -581,6 +577,13 @@
 		$("#mainContainer").load("https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/map.html")
 	</script>
 
+	<script>
+		function myFunction() {
+		  $("#container").load('#mainContainer');
+		  $("#mainContainer").load('charts/map.html');
+		}
+	</script>
+
 	<!--by arianna - non cancellare pls xoxo <script>
 		window.onload=function(){
 			$("#hiddenContainer").load("charts/nature-global.html")
@@ -596,13 +599,7 @@
 	});
 	</script>-->
 
-	<!--<script>
-		function myFunction() {
-		  $("#container").load('#mainContainer');
-		  $("#mainContainer").load('charts/map.html');
-		}
-	</script>-->
-
+	
 	<script type="text/javascript">
 		$(function () {
 		$("#button1").on('click', function () {
@@ -713,94 +710,6 @@
 	});
 	</script>
 	
-<!--<script type="text/javascript">
-    // import del json con i dati per i colori della mappa
-    var request = new XMLHttpRequest();
-    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/map-percent.json", false);
-    request.send(null)
-    var stats = JSON.parse(request.responseText);
-    
-    // import del json con i dati da mettere nel tooltip
-    var request = new XMLHttpRequest();
-    request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/map-total.json", false);
-    request.send(null)
-    var tooltip_info = JSON.parse(request.responseText);
-
-    var slider = document.getElementById('sliderYear'), divYear = document.getElementById("divYear");
-    var minYear = Math.min(...Object.keys(stats).map(y => parseInt(y)));
-    var maxYear = Math.max(...Object.keys(stats).map(y => parseInt(y)));
-
-    var year = maxYear;
-    var lastPaintedYear = null;
-    console.log(year);
-
-
-    slider.oninput = slider.onchange = function() {
-        divYear.innerHTML = this.value; // + " - " + (parseInt(this.value)+4);
-        //divYear.innerHTML = this.value + " - " + (parseInt(this.value)+4);
-        year = this.value;
-        refreshMap(this.value);
-    }
-
-    var hue = 169;         // from 0 to 255
-    var saturation = 61;   // in %
-    var minLightness = 20; // in %
-    var maxLightness = 80; // in %
-    var lightnessAmplitude = maxLightness - minLightness;
-
-    var minValue = 0;
-    var maxValue = 150; //137 somma massima delle percentuali
-    var valuesAmplitude = maxValue - minValue;
-
-    var map = new Datamap({
-      element: document.getElementById("container"),
-      projection: 'mercator', // equirectangular
-      //fills: {defaultFill: "hsl(169, 61, " + minLightness + ")"},
-      fills: {defaultFill: "#d3d3d3"}, //french guyana (GUF), gibuti (DJI), falkland islands (FLK), kosovo (RKS), territori australi francesi (ATF)
-      data: {},
-      geographyConfig: {
-          //highlightBorderColor: '#bada55',
-        popupTemplate: function(geography, data) {
-            if(data.info == undefined)
-              data.info = "";
-            return '<div class="hoverinfo"><b>' + geography.properties.name + "</b>" + data.info +"</div>" //info nel tooltip
-          },
-          //highlightBorderWidth: 3
-        },
-    });
-
-    function refreshMap(year){
-      if(lastPaintedYear == year)
-        return;
-      lastPaintedYear = year;
-
-      let totals = {};
-      let stats_year = stats[year]
-      for(let alpha3 in stats_year){
-        let tot = 0;
-        let info = "";
-        let stats_year_alpha3 = stats_year[alpha3];
-        for(let stat in stats_year_alpha3){
-          let value = stats_year_alpha3[stat];
-          let tooltip_value = tooltip_info[year][alpha3][stat]
-          tot += value;  // 4 / value * 100
-          info += "<br>" + stat + ": " + tooltip_value; //tot
-        }
-
-        let light = (1 - (tot - minValue) / valuesAmplitude) * lightnessAmplitude + minLightness;
-        light = Math.floor(light);
-        light = Math.max(Math.min(light, maxLightness), minLightness);
-        //totals[alpha3] = "hsl(169, 61, " + light + ")";
-        totals[alpha3] = {color: "hsl(169, 61, " + light + ")", info: info};
-      }
-      
-      map.updateChoropleth(totals, {reset: true});
-    }
-
-    refreshMap(year);
-
-</script>-->
-
 </body>
 
 </html>
