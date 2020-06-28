@@ -124,7 +124,7 @@
 	 
         <p class="lead mb-5"></p>
 	      
-	<div class="dropdown">
+	<div class="dropdown" id="natural-events-dropdown">
 	    <button id="button1" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Natural events<span class="caret"></span></button>
 
 	    <div class="dropdown-menu" style="overflow: auto; height: 32vh;">  
@@ -133,23 +133,38 @@
 		<a class="dropdown-item" id="button6">Evolution of natural events by country</a>
 	    </div>
 	</div>
+	
+	<div id="impact-and-commitments-dropdown">
+	    <button type="button" id="button2" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">Impact and commitments</button>
+	</div>
 	      
-        <div class="buttons-group first">
-		<!--<button type="button" id="button1" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">Natural events</button>-->
+	<div class="dropdown" id="eu-opinions-dropdown">
+	    <button id="button3" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">European opinions<span class="caret"></span></button>
+
+	    <div class="dropdown-menu" style="overflow: auto; height: 32vh;">  
+		<a class="dropdown-item" id="button7">Perception of climate change as the most serious problem</a>
+		<a class="dropdown-item" id="button8">Perception of the severity of climate change on a scale from 1 to 10</a>
+		<a class="dropdown-item" id="button9">Citizens personally taking actions against climate change</a>
+		<a class="dropdown-item" id="button10">Perception of the responsibles in EU for tackling climate change</a>
+	    </div>
+	</div>
+	      
+        <!--<div class="buttons-group first">
+		<button type="button" id="button1" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">Natural events</button>
 		<button type="button" id="button2" class="btn btn-primary " data-toggle="button" aria-pressed="true" autocomplete="on">Impact and commitments</button>
 		<button type="button" id="button3" class="btn btn-primary" data-toggle="button" aria-pressed="true" autocomplete="on">European opinions</button>
-	</div>
+	</div>-->
 	<!--<div class="buttons-group questions" id="natural-events-questions">
 		<button id="button4" type="button" value="New Tab" style="display: none;"/>Global evolution of natural events</button>
 		<button  id="button5" type="button" value="New Tab" style="display: none;"/>Global evolution of temperature, precipitations and sea ice extent</button>
 		<button  id="button6" type="button" value="New Tab" style="display: none;"/>Evolution of natural events by country</button>
-	</div>-->
+	</div>
 	<div class="buttons-group questions" id="eu-opinions-questions">
 		<button  id="button7" type="button" value="New Tab" style="display: none;"/>Perception of climate change as the most serious problem</button>
 		<button  id="button8" type="button" value="New Tab" style="display: none;"/>Perception of the severity of climate change on a scale from 1 to 10</button>
 		<button  id="button9" type="button" value="New Tab" style="display: none;"/>Citizens personally taking actions against climate change</button>
         	<button  id="button10" type="button" value="New Tab" style="display: none;"/>Perception of the responsibles in EU for tackling climate change</button>
-	</div>
+	</div>-->
 	
         <div id="mainContainer"></div>
 	<div id="hiddenContainer"></div>
@@ -608,10 +623,10 @@
 		//$("#button4").show();
 		//$("#button5").show();
 		//$("#button6").show();
-		$("#button7").hide();
-		$("#button8").hide();
-		$("#button9").hide();
-		$("#button10").hide();
+		//$("#button7").hide();
+		//$("#button8").hide();
+		//$("#button9").hide();
+		//$("#button10").hide();
 		});
 	});
 	</script>
@@ -648,13 +663,13 @@
 		$("#button2").click(function(){
 		$("#container").empty();
 		$("#mainContainer").load("charts/impact-and-commitments.html")
-		$("#button4").hide();
-		$("#button5").hide();
-		$("#button6").hide();
-		$("#button7").hide();
-		$("#button8").hide();
-		$("#button9").hide();
-		$("#button10").hide();
+		//$("#button4").hide();
+		//$("#button5").hide();
+		//$("#button6").hide();
+		//$("#button7").hide();
+		//$("#button8").hide();
+		//$("#button9").hide();
+		//$("#button10").hide();
 		});
 	});
 	</script>
@@ -667,13 +682,13 @@
 		$("#button3").on('click', function () {
 		$("#container").empty();
 		$("#mainContainer").empty();
-		$("#button7").show();
-		$("#button8").show();
-		$("#button9").show();
-		$("#button10").show();
-		$("#button4").hide();
-		$("#button5").hide();
-		$("#button6").hide();
+		//$("#button7").show();
+		//$("#button8").show();
+		//$("#button9").show();
+		//$("#button10").show();
+		//$("#button4").hide();
+		//$("#button5").hide();
+		//$("#button6").hide();
 		});
 	});
 	</script>
