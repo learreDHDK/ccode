@@ -38,8 +38,12 @@
 			margin: 0 5%;
 		}
 		
+		#natural-events-dropdown {
+			width: 10vw;
+		}
+		
 		#eu-opinions-dropdown {
-			width: 20vw;
+			width: 10vw;
 		}
 		
 		#question {
@@ -47,7 +51,26 @@
 			padding-bottom: 20px;
 		}
 		
-		.first button{
+		.single-button {
+			background-color: #61371C !important;
+			border-color: #61371C !important;
+			}
+		
+		.single-button .btn-primary:visited{
+			background-color: #61371C !important;
+			border-color: #61371C !important;
+		}
+		
+		.single-button button:hover,
+		.single-button button:focus,
+		.single-button button:active{
+			background-color: #216140 !important;
+			border-color: #216140 !important;
+			outline: 1px transparent #216140 !important;
+			box-shadow: 3px 3px 3px 3px #216140 !important;
+		}
+		
+		/*.first button{
 			background-color: #61371C !important;
 			border-color: #61371C !important;
 			}
@@ -79,7 +102,7 @@
 		
 		.buttons-group button {
 			margin: 0 5vw;
-		}
+		}*/
 		
 		#mainContainer {
 			margin-top: 40px;
@@ -161,7 +184,7 @@
 		<div class="dropdown single-button" id="eu-opinions-dropdown">
 		    <button id="button3" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">European opinions<span class="caret"></span></button>
 
-		    <div class="dropdown-menu dropdown-menu-center" style="overflow: auto; height: 32vh;">  
+		    <div class="dropdown-menu dropdown-menu-right" style="overflow: auto; height: 32vh;">  
 			<a class="dropdown-item" id="button7">Perception of climate change as the most serious problem</a>
 			<a class="dropdown-item" id="button8">Perception of the severity of climate change on a scale from 1 to 10</a>
 			<a class="dropdown-item" id="button9">Citizens personally taking actions against climate change</a>
