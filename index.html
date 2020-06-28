@@ -140,6 +140,7 @@
 	</div>
 	
         <div id="mainContainer" style="border: 1px solid black;"></div>
+	<div id="hiddenContainer" style="border: 1px solid black;"></div>
 
       </div>
     </section>
@@ -584,12 +585,17 @@
 		}
 	</script>
 
+	<script>
+		$("#hiddenContainer").load("charts/nature-global.html")
+		document.getElementById("hiddenContainer").style.display = "none";
+	</script>
+
 	<!--by arianna - non cancellare pls xoxo <script>
 		window.onload=function(){
 			$("#hiddenContainer").load("charts/nature-global.html")
 			document.getElementById("hiddenContainer").style.display = "none";
 		}
-	</script>
+	</script>-->
 
 	<script>
 		$(document).ready(function(){
@@ -597,7 +603,7 @@
 			document.getElementById("hiddenContainer").style.display = "block";
 		});
 	});
-	</script>-->
+	</script>
 
 	
 	<script type="text/javascript">
@@ -624,13 +630,13 @@
 	});
 	</script>
 					
-	<script>
+	<!--<script>
 		$(document).ready(function(){
 		$("#button5").click(function(){
 		$("#mainContainer").load("charts/nature-global.html")
 		});
 	});
-	</script>
+	</script>-->
 
 	<script>
 		$(document).ready(function(){
