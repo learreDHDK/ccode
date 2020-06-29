@@ -1619,9 +1619,9 @@ The United Nations periodically adds, changes, improves or updates the Materials
 			</tr>
 		</table>
 <h2>Ethical analysis</h2>
-<p>In order to carry out the ethical analysis on the original datasets, we relied on the <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/737137/Data_Ethics_Framework.pdf?fbclid=IwAR0Ebh7ZyY-PkNbfLKlATHL1VYDBHge9XLuYtX-MceYq_JZujpptendmwNA">Data Ethics Framework</a>. We organized our analysis of each dataset according to several point of views: transparency, accountability, discrimination, cognitive bias and prejudice.</p>
+<p>In order to carry out the ethical analysis of the original datasets, we relied on the <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/737137/Data_Ethics_Framework.pdf?fbclid=IwAR0Ebh7ZyY-PkNbfLKlATHL1VYDBHge9XLuYtX-MceYq_JZujpptendmwNA">Data Ethics Framework</a>. We organized our analysis of each dataset according to several points of view: transparency, accountability, discrimination, cognitive bias and prejudice.</p>
 <p>
-In particular, we tried to analyze each of this aspects organizing our analysis in 4 areas:
+In particular, we tried to analyze each of these aspects organizing our analysis in four areas:
 <li><b>The purpose</b>: what is the goal the dataset wants to achieve?</li>
 <li><b>The process</b>: how were the data collected? </li>
 <li><b>The output </b>: how was the dataset released? </li>
@@ -1918,48 +1918,70 @@ il dataset è disponibile solo sul NOAA; non riusciamo a trovarlo su UNSIDC</td>
 	</tr>
 </table>
 <h2>Mashup and output datasets</h2>
-<p>From our original datasets, having performed all the analysis and verifications of need to continue the realisation of our project with them, we then created an overview of the various information we needed to retrive from them based on questions we wish to answer following our purpose and scenario. From this point we then moved to the extraction of data from the dataset using Python(link) as our programming laguage. The various codes we used in this process can be found (link). In this folder there are three folders: 
+<p>From our original datasets, having performed all the analysis and verifications needed, we then created an overview of the various information we needed to retrieve from them based on questions we wish to answer to following our purpose and scenario. From this point we then moved to the extraction of data from the datasets using Python as our programming language. The various codes we used in this process can be found in the “code” folder. In this folder there are three folders: 
 <ol>
-	<li>Extraction-Functions: In this folder you will find the python file "base file" which is a condesé of our 15 fuctions we used to extract data from our original datasets. There is also the file "Countries" which is the python function used to extract the various contries and their iso codes present in our original datasets in order to create our output datasets</li>
-	<li>Mashup-Functions:In this folder you have the three functions we used to create our output XML datasets</li>
-	<li>Output-Datasets: In this folder you find the three XML data files we created as output dataset</li>
-</ol> 
-The various libraries we used are:
-<ul>
-	<li> DBF, Counter, xlrd, datetime, csv, json, xml.etree.ElementTree as ET, math, pprint (links)</>
-</ul>
-	
+	<li>1-data-extraction: in this folder you will find the python file <code>base-file.py</code> which is a condesé of our 15 functions we used to extract data from our original datasets. There is also the file <code>countries.py</code> which contains the python function used to extract the various countries and their ISO codes present in our original datasets, in order to manage the mistakes and the exceptions.</li>
+	<li>2-py-to-xml: in this folder you have the three functions we used to create our output XML datasets.</li>
+	<li>3-xml-to-json: in this folder you find the python files we used to create the json files useful for the visualizations, starting from our XML datasets.</li>
+</ol> 	
 </p>
 <p>
-From the extraction and creation process emanated three new datasets which we used for the futur points of our project. These datasets are: 
+Through the extraction and creation processes we produced three new datasets in XML format, which contain also their metadata. These datasets were used for the future points of our project and are collected in the “xml” folder. These datasets are: 
 <ol>
-	<li>Dataset on Nature i.e natural events according to countries and ones without countries </li>
-	<li>Dataset on the actons of countries to fight the global problem: what is the situation of each country, what its has done and plans to do</li>
-	<li>Dataset on the opinions of European citizens on climate change: what european citizens think of climate change as a global problem, what they expect from their governments aand if they have taken any individual action to fight against climate change</li>
+	<li>natural_events.xml</li>
+	<li>impact_and_commitments.xml</li>
+	<li>eu_opinions-xml</li>
 </ol> 
-<br>Here below you have a table of the output datasets,format and the original datasets used to create each</p>
+<br>Here below you have a table of the output datasets and the original datasets used to create each of them.</p>
 <table>
 	<tr>
 		<th>Output Dataset</th>
-		<th>Format</th>
 		<th>Origin Datasets</th>
 	</tr>
 	<tr>
-		<td>Dataset on Nature</td>
-		<td>XML</td>
-		<td>Temperature, Precipitation, Sesice, Floods, Droughts, Hurricanes, Wildfires, Threatened Species </td>
+		<td>natural_events.xml</td>
+		<td>Droughts events 1980-2001,
+Global Active Archive of Large Flood Events, 
+International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4, 
+GFEDv4 (Global Fire Emissions Database, Version 4)
+Climate at a Glance - Time Series Graphs of Temperature Anomalies, 
+Climate Change Indicators: U.S. and Global Precipitation, 
+Sea Ice and Snow Cover Extent.</td>
 	<tr>
-		<td>Dataset on the actons of countries to fight the global problem</td>
-		<td>XML</td>
-		<td>GHG Emissions, Footprint, Paris Agreement, Global Funds</td>
+		<td>impact_and_commitments.xml</td>
+		<td>Greenhouse Gas Emissions, 
+National Footprint and Biocapacity Accounts 2019 Public Data Package, 
+CAIT Paris Contributions Data, 
+Cumulative data on the contributors of climate finance.</td>
 	</tr>
 	<tr>
-		<td>Dataset on the opinions of European citizens on climate change</td>
-		<td>XML</td>
-		<td>Eurobarometer 2009, Eurobarometer 2013, Eurobarometer 2019</td>
+		<td>eu_opinions.xml</td>
+		<td>Special Eurobarometer 313: Europeans’ attitudes towards climate change, 
+Special Eurobarometer 409: Climate change, 
+Special Eurobarometer 490: Climate change.</td>
 	</tr>
 </table>
-<p>As analysis on our created dataset, since we had perform a thourogh analysis on the original dataset, we wpuld say the datasts created are free of any quality, legal, technical and ethical problems <br> we decided to release our dataset under the license... and also we also reference the various licenses found in the open data platforms we used wh requested this procedue during the publication of new dataset deriving from their datasets.(list them)</p><h3>Processing Issues</h3><p>During the extraction of data from our original datast, we encounted certain difficulties which we wish to make mention of for each dataset.(Datasets with their worries)</p>
+<p>The datasets have been created according to the “FAIR Principles”, so we would say that they are free of any quality, legal, technical and ethical problems.</p>
+<p>We decided to release our datasets under the license CC-BY-SA 4.0.</p>
+
+<h3>Processing Issues</h3>
+<p>During the extraction of data from our original datasets, we encountered certain difficulties which we wish to make mention of for each dataset.</p>
+<ul>
+	<li>Droughts events 1980-2001</li> 
+	<li>Global Active Archive of Large Flood Events</li> 
+	<li>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</li> 
+	<li>GFEDv4 (Global Fire Emissions Database, Version 4)</li>
+	<li>Climate at a Glance - Time Series Graphs of Temperature Anomalies</li> 
+	<li>Climate Change Indicators: U.S. and Global Precipitation</li> 
+	<li>Sea Ice and Snow Cover Extent</li>
+	<li>Greenhouse Gas Emissions</li> 
+	<li>National Footprint and Biocapacity Accounts 2019 Public Data Package</li> 
+	<li>CAIT Paris Contributions Data</li> 
+	<li>Cumulative data on the contributors of climate finance</li>
+	<li>Special Eurobarometer 313: Europeans’ attitudes towards climate change</li> 
+	<li>Special Eurobarometer 409: Climate change</li> 
+	<li>Special Eurobarometer 490: Climate change</li>
+</ul>
 <h2>Sustainability of the datasets over time</h2>
 <h2>Visualizations</h2>
 <h2>Metadata and RDF assertion</h2>
