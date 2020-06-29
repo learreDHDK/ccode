@@ -374,7 +374,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<th>Greenhouse Gas Emissions</th>
 				<th>National Footprint and Biocapacity Accounts 2019 Public Data Package</th>
 				<th>CAIT Paris Contributions Data</th>
-				<th>Global Investments</th>
+				<th>Cumulative data on the contributors of climate finance</th>
 				<th>Special Eurobarometer 313: Europeans’ attitudes towards climate change</th>
 				<th>Special Eurobarometer 409: Climate change</th>
 				<th>Special Eurobarometer 490: Climate change</th>
