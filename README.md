@@ -383,7 +383,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td><b>Other</b></td>
 				<td>We wrote an email to the contributor of the dataset in order to ask if there exist a legend to codify the headers of the dataset, but we never received an answer.</td>
 				<td></td>
-				<td>The dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator. Thus, we weren't able for its usage limits to work on the whole dataset.</td>
+				<td></td>
 				<td>The API platform from which the data was download could not support mixed queries to retrive at once data of the world so we had to download the data in series and then created a united csv file for the dataset</td>
 				<td></td>
 				<td></td>
@@ -391,9 +391,9 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td>even if you set some conditions for your query e.g. include LULUFC it gives you also the data before where it is excluded</td>
 				<td></td>
-				<td>"In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information.
+				<td>In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information.
 
-Another change was made in the cells of the columns containing the ""Summary"". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities."</td>
+Another change was made in the cells of the columns containing the ""Summary"". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities.</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -440,7 +440,7 @@ Another change was made in the cells of the columns containing the ""Summary"". 
 dataset structure is in place, it should not change when sources are added. In the
 metadata, the header should be described"</td>
 				<td>Yes, but the key (legenda) for reading the columns is not provided</td>
-				<td>Yes, but the header entries described on the website (http://www.dartmouth.edu/~floods/Archives/ArchiveNotes.html) don't correspond to the dataset's ones.</td>
+				<td>Yes, but the header entries described on the website (http://www.dartmouth.edu/~floods/Archives/ArchiveNotes.html) don't correspond to the actual entries of the dataset.</td>
 				<td>Yes, it is explained in a specific PDF document.</td>
 				<td>Yes in the dataset</td>
 				<td>Yes in the dataset</td>
@@ -497,8 +497,8 @@ and for what purpose has it been published?"</td>
 				<td>Be given a status: Draft, validated, final</td>
 				<td>Inferred: Final</td>
 				<td>Validated ("Active")</td>
-				<td>"Version numbers will be updated when processing changes would cause changes to storms from previous years. Such changes could be caused, for example, by adjustments to the merge routines.
-Inferred: Validated"</td>
+				<td>Version numbers are updated when processing changes cause changes to storms from previous years (for example, by adjustments to the merge routines)
+Inferred: Validated</td>
 				<td>This data is updated periodically and has no reasons for this. Could not access the previous versions because they are superseded by new versions so they say the old versions are accessible at the ORNL. Inferred: Validated</td>
 				<td>Inferred validated bescause the data is updated yearly from a view of the dataset but not stated.</td>
 				<td>Not stated and not inferable since data contains no information on years but just stated in the website that the data is on the latest year available</td>
@@ -507,9 +507,9 @@ Inferred: Validated"</td>
 				<td>Not stated and not inferable, since data contains no information on the years concerned and it is just stated on the website that it is referred to the latest year available.</td>
 				<td>New dataset each year. Inferred: Final</td>
 				<td>Final (data from 2015 and 2016)</td>
-				<td>"Cumulative since 2003; up to date as of February 2019 (https://climatefundsupdate.org/about-us/notes-and-methodology/).
+				<td>Cumulative since 2003; up to date as of February 2019 (https://climatefundsupdate.org/about-us/notes-and-methodology/).
 
-Inferred: Validated"</td>
+Inferred: Validated</td>
 				<td>Final</td>
 				<td>Final</td>
 				<td>Final</td>
@@ -563,8 +563,8 @@ Inferred: Validated"</td>
 				<td>No</td>
 				<td>Yes (0, NULL)</td>
 				<td>No</td>
-				<td>"No dummy
-""Not applicable"" as default value"</td>
+				<td>No dummy
+"Not applicable" as default value</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
@@ -572,7 +572,7 @@ Inferred: Validated"</td>
 			<tr>
 				<td>Wrong values</td>
 				<td>No</td>
-				<td>Same countries have occasionally been indicated with different names, e.g. United Kingdom and UK. + encoding /xa0 + countries errori</td>
+				<td>Same countries have occasionally been indicated with different names, e.g. United Kingdom and UK. Many countries' names have been mispelled</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
@@ -687,16 +687,16 @@ interval described?"</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No since there is no information concerning years</td>
-				<td>"Not explained why the dataset starts from 1979.
-No, but it's easily understendable (i.e. every year since 1979)"</td>
+				<td>Not explained why the dataset starts from 1979.
+No, but it's easily understendable (i.e. every year since 1979)</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
-				<td>"Under the U.N. Framework Convention on Climate Change (UNFCCC), countries committed to create a new international climate agreement by the conclusion of the Paris climate summit in December 2015.
+				<td>Under the U.N. Framework Convention on Climate Change (UNFCCC), countries committed to create a new international climate agreement by the conclusion of the Paris climate summit in December 2015.
 
-The dataset was created after the above mentioned agreement."</td>
-				<td>"Yes
-CFU data is cumulative since 2003. This is the first year in which one of the dedicated climate funds hat we monitor approved finance for a project. The start date for each fund individually is available on the relevant fund page through ‘The Funds’ (https://climatefundsupdate.org/the-funds/)"</td>
+The dataset was created after the above mentioned agreement.</td>
+				<td>Yes
+CFU data is cumulative since 2003. This is the first year in which one of the dedicated climate funds hat we monitor approved finance for a project. The start date for each fund individually is available on the relevant fund page through ‘The Funds’ (https://climatefundsupdate.org/the-funds/)</td>
 				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
 				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
 				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
@@ -706,7 +706,7 @@ CFU data is cumulative since 2003. This is the first year in which one of the de
 aggregation or disaggregation?"</td>
 				<td>No</td>
 				<td>No</td>
-				<td>Data would probably need aggregation, because the resulting dataset is too big and much information could be condensed. For instance the same hurricane is registered more than once even in the same country because all the steps of the passage are traced.</td>
+				<td>Data would probably need aggregation, because the resulting dataset is too big and much information could probably be condensed. For instance the same hurricane is registered more than once even in the same country because all the steps of the passage are traced.</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
@@ -743,10 +743,10 @@ aggregation or disaggregation?"</td>
 Therefore, it is important to check data with regard to its timeliness regularly. For consistency
 purposes, it is wise to create an update process that keeps the data up-to-date. Be sure that the data
 contains a notion of its timeliness. This topic is closely related to the maintenance of datasets."</td>
-				<td>"No (not updated since 2001).
-Timeliness in data."</td>
+				<td>No (not updated since 2001).
+Timeliness in data.</td>
 				<td>The dataset is updated, but the frequency of the procedure is not stated. Data contains a notion of its timeliness.</td>
-				<td>There is timeliness in data. It is clear that the dataset is updated, but the frequency is unclear: in status section, it is said to be annual; in data access section, twice weekly. Also the update frequency of the single sources is reported on the website.</td>
+				<td>There is timeliness in data. It is clear that the dataset is updated, but the frequency is unclear: in "Status" section, it is said to be annual; in "Data access" section, twice weekly. Also the update frequency of the single sources is reported on the website.</td>
 				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is said to be updated periodically.</td>
 				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is inferred that it is updated yearly.</td>
 				<td>Not updated but only stated that the data is from the latest year available</td>
@@ -755,16 +755,16 @@ Timeliness in data."</td>
 				<td>Update frequency isn't stated, but there is timeliness in data.</td>
 				<td>Annually updated and timeliness is present in data.</td>
 				<td>Not updated because contains info about an agreement which took place between 2015 and 2016</td>
-				<td>"The dataset is cumulative since 2003 and the last update was in february 2019. 
+				<td>The dataset is cumulative since 2003 and the last update was in february 2019. 
 Probably every year the dataset is updated with new data, while maintaining the old ones.
 
-No notion of timeliness in data"</td>
-				<td>"Inferred: not needed. 
-No notion of timeliness in the data and no update process because it is referred to a single year."</td>
-				<td>"Inferred: not needed. 
-No notion of timeliness in the data and no update process because it is referred to a single year."</td>
-				<td>"Inferred: not needed. 
-No notion of timeliness in the data and no update process because it is referred to a single year."</td>
+No notion of timeliness in data</td>
+				<td>Inferred: not needed. 
+No notion of timeliness in the data and no update process because it is referred to a single year.</td>
+				<td>Inferred: not needed. 
+No notion of timeliness in the data and no update process because it is referred to a single year.</td>
+				<td>Inferred: not needed. 
+No notion of timeliness in the data and no update process because it is referred to a single year.</td>
 			</tr>
 			<tr>
 				<td><b>Consistency</b></td>
@@ -793,9 +793,9 @@ makes it difficult to use datasets: it will require a large effort of manipulati
 you use the standards and be consistent in publishing datasets of equal quality."</td>
 				<td>Not stated</td>
 				<td>There seems to be no consistency w.r.t. the previous tables of 2007 and 2008, available on the website: the standard is different, as well as the field names.</td>
-				<td>"Consistency is stated among the fundamental principles of the project in two occasions on the website: 
-https://www.ncdc.noaa.gov/ibtracs/index.php?name=status
-https://www.ncdc.noaa.gov/ibtracs/index.php?name=principle"</td>
+				<td>Consistency is stated among the fundamental principles of the project in two occasions on the website: 
+https://www.ncdc.noaa.gov/ibtracs/index.php?name=status and
+https://www.ncdc.noaa.gov/ibtracs/index.php?name=principle</td>
 				<td>No, each version from the writtings is different and contains new information</td>
 				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
 				<td>Not stated, but it is inferred since the data is obdated often and the fields remain the same.</td>
@@ -804,8 +804,8 @@ https://www.ncdc.noaa.gov/ibtracs/index.php?name=principle"</td>
 				<td>Not stated nor inferable.</td>
 				<td>Yes: the methodology for the account of data is described in the explanatory PDF, also for what concerns the previous versions.</td>
 				<td>Yes (only one version, data not updated)</td>
-				<td>"Not stated but inferable. 
-Probably every year the same sheet is updated."</td>
+				<td>Not stated but inferable. 
+Probably every year the same sheet is updated.</td>
 				<td>No: wrt the other datasets of the eurobarometer series, questions change without explanation</td>
 				<td>No: wrt the other datasets of the eurobarometer series, questions change without explanation</td>
 				<td>No: w.r.t. the other datasets of the Eurobarometer series, questions have changed throughout the time, but the decision and the differences are not explained. </td>
