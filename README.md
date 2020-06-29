@@ -27,10 +27,10 @@
 	To understand the impact of the single countries on climate change and their commitment against it, we selected 4 datasets,  regarding GHG emissions, ecological footprints, commitments to Paris Agreement and global funds concerning climate change. All datasets come from supranational institutions as OECD and WRI. They are all modeled on a country-basis. Starting from the 60s, they have different beginning dates, but they all end in recent years (minimum 2016). Paris agreement is circumstricted to the year of the ratification. 
 </p>
 <p>
-	Aiming to involve the human perception of the problem, we were able to find 3 datasets built from Eurobarometer surveys of 2009, 2013 and 2019, reporting the opinions of European citizens on climate change. Data were collected country by country in the EU and are directly provided by them. 
+	Aiming to include the human perception of the problem, we were able to find 3 datasets built from Eurobarometer surveys of 2009, 2013 and 2019, reporting the opinions of European citizens on climate change. Data were collected country by country in the EU and are directly provided by them. 
 </p>
 <p>
-	In some cases, we found the datasets on re-user websites, that we provide below.
+	In some cases, we found the datasets on re-user websites, as specified.
 </p>
 <p>
 	Below there can be found the preliminar analysis we performed on each dataset.
