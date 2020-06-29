@@ -2007,7 +2007,7 @@ Special Eurobarometer 490: Climate change.</td>
 <p>Of course, the different time spans of the datasets and, in the case of the opinions, of a global spatial coverage influenced the output, which lacks for this reason of precision. Moreover, we discovered there could be external factors that condition data, as for example w.r.t. emissions, for which a country can balance its accounts investing to fight climate change.</p>
 <p>Nonetheless, some phenomena are evident:
 <ol>
-<li>Extreme natural events as droughts and wildfires have been increasing, even if the numbers are not extremely impressive, given the limited time span;</li>
+<li>Extreme natural events as droughts and wildfires have been increasing, even though not impressively, given the limited time span;</li>
 <li>With a larger range of years, the climb is highly evident, as it happens with temperature and sea ice extent anomalies. Clearly their trends are inversely proportional;</li>
 <li>During the latest years, footprint and emissions are overall decreasing and biocapacity is growing, even though still on a small scale. Could it be interpreted as a sign of the current awareness?</li>
 <li>There is a marked distinction between first-world and third-world countries, which is evident by the magnitude of their emissions and by the amount of deposited funds;</li>
