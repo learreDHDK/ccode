@@ -1797,6 +1797,7 @@ The survey method and questions are described and documented and it is understan
 </p>
 
 <h2>Technical analysis</h2>
+<p>At this stage we analyzed our datasets under the technical point of view. We examined the available formats, the presence of metadata, the URIs and the provenance. Below the result:</p>
 <table>
 	<tr>
 		<th></th>
@@ -1932,7 +1933,8 @@ Through the extraction and creation processes we produced three new datasets in 
 	<li>impact_and_commitments.xml</li>
 	<li>eu_opinions-xml</li>
 </ol> 
-<br>Here below you have a table of the output datasets and the original datasets used to create each of them.</p>
+</p>
+<p>Here below you have a table of the output datasets and the original datasets used to create each of them.</p>
 <table>
 	<tr>
 		<th>Output Dataset</th>
