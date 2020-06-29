@@ -467,7 +467,7 @@ version number in order for the audience to keep track of changes"</td>
 				<td>No</td>
 				<td>Global Historical Climatology Network–Monthly (GHCN-M) Version 2</td>
 				<td>No</td>
-				<td>No, there is no version number, but the title contains the year of the last update.</td>
+				<td>No, there is no version number, but the title contains the year of the account.</td>
 				<td>No</td>
 				<td>No</td>
 				<td>Yes, v1.00 </td>
@@ -505,7 +505,7 @@ Inferred: Validated</td>
 				<td>Validated (updated every year since 1979)</td>
 				<td>Inferred Validated since the data has a version and may change in the future</td>
 				<td>Not stated and not inferable, since data contains no information on the years concerned and it is just stated on the website that it is referred to the latest year available.</td>
-				<td>New dataset each year. Inferred: Final</td>
+				<td>A new dataset is published every year. Inferred: Final</td>
 				<td>Final (data from 2015 and 2016)</td>
 				<td>Cumulative since 2003; up to date as of February 2019 (https://climatefundsupdate.org/about-us/notes-and-methodology/).
 
@@ -580,7 +580,7 @@ Inferred: Validated</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
-				<td>Yes, no codifica UTF-8 quindi non riconosce caratteri speciali: 30978-31425 Cote d'Ivoire senza caratteri speciali per cui codice, idem Réunion 51964-52411</td>
+				<td>Yes: Côte d'Ivoire and Réunion have special characters instead of accented letters, probably for encoding issues.</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
