@@ -95,7 +95,7 @@
 				<td>Sep 02, 2019 (HDX)</td>
 				<td>Last entry 01/2020 (dataset) / October 11, 2019 (HDX)</td>
 				<td>Live</td>
-				<td></td>
+				<td>This dataset contains an active archive of flood event records.</td>
 			</tr>
 			<tr>
 				<td>Hurricanes</td>
