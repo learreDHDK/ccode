@@ -2004,7 +2004,7 @@ Special Eurobarometer 490: Climate change.</td>
 <h2>Conclusion</h2>
 <p>Brainstorming ideas for the project, we all found ourselves concerned about climate change and hopeful that data could be an answer in representing it. Therefore, our initial question was: how evident is the problem of climate change?</p>
 <p>This initial doubt lead to asking ourselves: how do countries behave in terms of emissions, one of the main causes of the phenomenon, and how do they commit against it? What is the perception of the problem from the citizens’ side?</p>
-<p>Of course, the different time spans of the datasets and, in the case of the opinions, of a global spatial coverage influenced the output, which lacks for this reason of precision. Moreover, we discovered there could be external factors that condition data, as for example w.r.t. emissions, for which a country can balance its accounts investing to fight climate.</p>
+<p>Of course, the different time spans of the datasets and, in the case of the opinions, of a global spatial coverage influenced the output, which lacks for this reason of precision. Moreover, we discovered there could be external factors that condition data, as for example w.r.t. emissions, for which a country can balance its accounts investing to fight climate change.</p>
 <p>Nonetheless, some phenomena are evident:
 <ol>
 <li>Extreme natural events as droughts and wildfires have been increasing, even if the numbers are not extremely impressive, given the limited time span;</li>
