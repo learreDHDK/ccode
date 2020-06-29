@@ -1985,5 +1985,12 @@ Special Eurobarometer 490: Climate change.</td>
 	<li>Special Eurobarometer 490: Climate change</li>
 </ul>
 <h2>Sustainability of the datasets over time</h2>
+<p>The CCODe project is the outcome of an academic project at the University of Bologna. Thus, it won’t be maintained. Nonetheless the resulting datasets are based on other datasets that were originally collected by larger organizations and many of them are actively updated. We provided the links in the “General analysis” section, so that anyone can compare our datasets with the original ones.</p>
+<p>We invite you to notify us in case you find errors or ways to improve our work; we provided the email contact in the metadata of the datasets.</p>
+<p>In order to make our datasets easily reusable, we have indeed completed them with their metadata following DCAT_AP (v 2.0.0).</p>
+<p>Moreover we provided the python codes that we used to extract the data of our interest and to produce the final xml and json files. They are freely available for further reuse, as long as the license is respected.</p>
+<p>Everything is protected by the CC-BY-SA 4.0 license, which allows many uses of the work, provided that the creator is cited and the same license is maintained for the derivative works. See the specification for the use, on <a href=”https://creativecommons.org/licenses/by-sa/4.0/”>Creative Commons website</a>. Please cite us as “Del Bene R., Hamvegam M. L. S., Pizzicori A. (2020) CCODe”.</p>
+<p>If the project was financed, for a further implementation it would be useful to maintain the current datasets and enlarge them with data related to the missing years. It could also be desirable to cross-check in new ways our datasets, to make unexpected knowledge emerge.</p>
+
 <h2>Visualizations</h2>
 <h2>Metadata and RDF assertion</h2>
