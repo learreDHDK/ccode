@@ -1,19 +1,17 @@
 <h2>Introduction and scenario</h2>
 <p>
-	CCode project has been carried out for the exam Open Access and Digital Ethics as a Digital Humanities and Digital Knowlegde 		course at the University of Bologna.
-	The aim of the project is the analysis and the further re-use of open access datasets, in order to find some kind of new 		knowledge reachable through the mashup of the original data.
-	The scenario object of our study is the one concerning the climate change.
-	What interested us was to go a step further in showing (in addition to the data symbol of climate change e.g. the increasing of 	the temperatures) even the connection between the climate change and:
-	<li>The commitments undertaken by the countries to fight it (agreements, funds)</li>
-	<li>The opinions of the citizens</li>
+	CCODe project has been carried out for the exam Open Access and Digital Ethics of Digital Humanities and Digital Knowledge course at the University of Bologna. The aim of the project is the analysis and the further re-use of open access datasets, in order to find some kind of new knowledge reachable through the mashup of the original data. The scenario object of our study is climate change. What interested us was to go deeper in showing:
+	<li>The main factors of climate change;</li>
+	<li>The impact of the countries on climate change and the commitments undertaken by them to fight it;</li>
+	<li>The opinions of the European Union citizens on climate change.</li>
 </p>
 
 <p>
-	We selected 15 datasets, each collecting data about natural events, the commitments of the countries to fight the climate change 	and the opinions of the citizens about it. Almost all the datasets depict the global situation, while the datasets on citizens’ 	opinions depicts the European situation.
-	On these datasets we perform several analysis under different point of views, then we extracted the data which we were 			interested in and finally we created 3 new datasets which collected the data according to our areas of interests:
-	<li>Natural events/disasters</li>
-	<li>(come definisco ghg e footprint?) Commitments of the countries</li>
-	<li>Opinions of the citizens</li>
+	In line with our purpose, we selected 15 datasets and we performed on them several analysis under different points of view, then we extracted the data which we were interested in and finally we created three new datasets based on the above-mentioned areas.
+</p>
+
+<p>
+	The last step was the visualization of our datasets to facilitate the access and the understanding for the final user.
 </p>
 
 <h2>Original datasets</h2>
@@ -21,19 +19,19 @@
 	In order to cope with our goals we chose 15 datasets related to our scenario. These were selected for their various proveniences, typologies, formats, metadata and licenses. Whenever in doubt, we considered the frequent citations of academic sources as proof of the reliability of the dataset. We selected the ones that at least at a first glance seemed free from cognitive biases, fair, legal valid, consistent and accurate.
 </p>
 <p>
-	With the goal to depict climate change over time, we selected 8 datasets, concerning the main factors to measure climate change (temperature and precipitation anomalies and sea ice extent) together with significant events caused by it (droughts, floods, hurricanes, wildfires and the threatening of species). The majority (6/8) comes from American-based institutions (e.g. NOAA), while the others are provided by supranational organizations, as OECD and UNEP. 5 out of 8 report data collected on a country-based scale. Sea Ice Extent, Precipitation and Temperature anomaly are available only globally. Overall the datasets span from 1980 to 2019. Nonetheless, Wildfires started and Droughts ended in 2003; Threatened Species refers to an year only. Precipitation and Temperature started from the beginning of last century. 
+	With the goal to depict climate change over time, we selected eight datasets, concerning the main factors to measure climate change (temperature and precipitation anomalies and sea ice extent) together with significant events caused by it (droughts, floods, hurricanes, wildfires and the threatening of species). The majority (6/8) comes from American-based institutions (e.g. NOAA), while the others are provided by supranational organizations, as OECD and UNEP. Five out of eight report data collected on a country-based scale. Sea Ice Extent, Precipitation and Temperature anomalies are available only globally. Overall the datasets span from 1980 to 2019. Nonetheless, Wildfires started and Droughts ended in 2003; Threatened Species refers to 2019 only. Precipitation and Temperature started from the end of the XIX century. 
 </p>
 <p>
-	To understand the impact of the single countries on climate change and their commitment against it, we selected 4 datasets,  regarding GHG emissions, ecological footprints, commitments to Paris Agreement and global funds concerning climate change. All datasets come from supranational institutions as OECD and WRI. They are all modeled on a country-basis. Starting from the 60s, they have different beginning dates, but they all end in recent years (minimum 2016). Paris agreement is circumstricted to the year of the ratification. 
+	To understand the impact of the single countries on climate change and their commitment against it, we selected four datasets, regarding GHG emissions, ecological footprints, submissions to Paris Agreement and global funds concerning climate change. All datasets come from supranational institutions as OECD and WRI. They are all modeled on a country basis. Starting from the 60s, they have different beginning dates, but they all end in recent years (minimum 2016). Paris agreement is circumstricted to the year of the ratification (2015). 
 </p>
 <p>
-	Aiming to include the human perception of the problem, we were able to find 3 datasets built from Eurobarometer surveys of 2009, 2013 and 2019, reporting the opinions of European citizens on climate change. Data were collected country by country in the EU and are directly provided by them. 
+	Aiming to include the human perception of the problem, we were able to find three datasets built from Eurobarometer surveys of 2009, 2013 and 2019, reporting the opinions of European citizens on climate change. Data were collected country by country in the EU and are directly provided by this body. 
 </p>
 <p>
-	In some cases, we found the datasets on re-user websites, as specified.
+	In some cases, we found the datasets on re-user websites, as specified below.
 </p>
 <p>
-	Below there can be found the preliminar analysis we performed on each dataset.
+	In the following table, the preliminary analysis we performed on each dataset can be found.
 </p>
 <h3>General analysis</h3>
 <table style="border: 1px solid black">
@@ -107,16 +105,16 @@
 				<td>https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access</td>
 				<td>Quantitative</td>
 				<td>CSV</td>
-				<td>"Yes
-ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552"</td>
-				<td>World Data Center for Meteorology policy + World Meteorological Organization's Resolution 40 policy https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
+				<td>Yes
+ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
+				<td>World Data Center for Meteorology policy and World Meteorological Organization's Resolution 40 policy: https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
 				<td>Environment</td>
 				<td>Global</td>
-				<td>1980 to Present</td>
+				<td>1980 - present</td>
 				<td>2019-02-15 (NOAA) / March 2019 (IBTrACS Project)</td>
 				<td>Not stated</td>
 				<td>Twice weekly - Weekly (IBTrACS Project) / Daily (NOAA) </td>
-				<td></td>
+				<td>This dataset contains a complete set of historical tropical cyclones, obtained from the combination of information from numerous tropical cyclone datasets.</td>
 			</tr>
 			<tr>
 				<td>Wildfires</td>
