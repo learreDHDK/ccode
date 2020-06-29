@@ -235,7 +235,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Not stated</td>
 				<td>August 2019</td>
 				<td>Not stated</td>
-				<td></td>
+				<td>This dataset presents trends in man-made emissions of major greenhouse gases and emissions by gas.</td>
 			</tr>
 			<tr>
 				<td>Footprint by country</td>
@@ -248,14 +248,14 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes</td>
-				<td>Creative Commons Attribution-ShareAlike 4.0 International License.</td>
+				<td>Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0)</td>
 				<td>Environment</td>
 				<td>Global</td>
 				<td>1961-2016</td>
 				<td>Not stated</td>
 				<td>Not stated</td>
 				<td>Not stated</td>
-				<td></td>
+				<td>This dataset contains data related to the ecological footprint of the countries.</td>
 			</tr>
 			<tr>
 				<td>Adhesion to Paris agreement</td>
@@ -359,7 +359,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 			</tr>
 	</table>
 <h2>Quality analysis</h2>
-<p>We started the analysis of the original datasets by inspecting their quality and accuracy. As a reference, we used the "Open Data Goldbook for Data Managers and Data Holders", provided by European Data Portal, which is meant to be a practical guidebook for organizations wanting to publish Open Data. The questions posed to examine the quality of the dataset mainly concern completeness, cleaness, accuracy, timeliness and consistency. In the following table we report the output of the analysis.</p>
+<p>We started the analysis of the original datasets by inspecting their quality and accuracy. As a reference, we used the <a href="https://www.europeandataportal.eu/sites/default/files/european_data_portal_-_open_data_goldbook.pdf">Open Data Goldbook for Data Managers and Data Holders</a>, provided by European Data Portal, which is meant to be a practical guidebook for organizations wanting to publish Open Data. The questions posed to examine the quality of the dataset mainly concern completeness, cleanness, accuracy, timeliness and consistency. In the following table we report the output of the analysis.</p>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>DATA QUALITY</th>
