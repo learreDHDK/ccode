@@ -813,7 +813,9 @@ Probably every year the same sheet is updated."</td>
 		</table>
 		
 <h2>Legal analysis</h2>
-<p>Having performed a quality analysis already on our original dataset, we continued our analysis step with the legal analysis. this analysis was performed most with the purpose of checking the legal correctness of the various datasets in terms of Privacy Issues, IPR of the dataset, Licenses, Limitation on Public Access, Economical condition and Temporal aspects.<br> Here below you have a representation of the outcome of this annalysis. On the left of the table, you have the various questions to which we answered using the original datasets and at the top of the table we have all our various original datasets<br>We used a Yes/No answering format but when neccessary, we also provided broad information or links for clarifications on the choice of the answer.</p>
+<p>Having performed a quality analysis already on our original datasets, we continued our analysis step with the legal one. This analysis was performed mostly with the purpose of checking the legal correctness of the various datasets in terms of Privacy Issues, IPR of the dataset, Licenses, Limitation on Public Access, Economical condition and Temporal aspects according to the “Check list for Public Administration for the Open Data release”.</p>
+<p>Here below you have a representation of the outcome of this analysis.</p>
+<p>We used a Yes/No answering format but when necessary, we also provided broad information or links for clarifications on the choice of the answer.</p>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>Legal Basis</th>
