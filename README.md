@@ -2002,3 +2002,16 @@ Special Eurobarometer 490: Climate change.</td>
 <h2>Metadata and RDF assertion</h2>
 
 <h2>Conclusion</h2>
+<p>Brainstorming ideas for the project, we all found ourselves concerned about climate change and hopeful that data could be an answer in representing it. Therefore, our initial question was: how evident is the problem of climate change?</p>
+<p>This initial doubt lead to asking ourselves: how do countries behave in terms of emissions, one of the main causes of the phenomenon, and how do they commit against it? What is the perception of the problem from the citizens’ side?</p>
+<p>Of course, the different time spans of the datasets and, in the case of the opinions, of a global spatial coverage influenced the output, which lacks for this reason of precision. Moreover, we discovered there could be external factors that condition data, as for example w.r.t. emissions, for which a country can balance its accounts investing to fight climate.</p>
+<p>Nonetheless, some phenomena are evident:
+<ol>
+<li>Extreme natural events as droughts and wildfires have been increasing, even if the numbers are not extremely impressive, given the limited time span;</li>
+<li>With a larger range of years, the climb is highly evident, as it happens with temperature and sea ice extent anomalies. Clearly their trends are inversely proportional;</li>
+<li>During the latest years, footprint and emissions are overall decreasing and biocapacity is growing, even though still on a small scale. Could it be interpreted as a sign of the current awareness?</li>
+<li>There is a marked distinction between first-world and third-world countries, which is evident by the magnitude of their emissions and by the amount of deposited funds;</li>
+<li>The perception and the reaction of European citizens to climate change saw a negative trend from 2009 and 2013, while in 2019 the awareness is more spread, probable result of the highlighting of the problem in the past years.</li>
+</ol></p>
+<p>Some of these outcomes proved our hypothesis; some others were unexpected, as for example the high amount of each natural event, China’s official “low” account of emissions and the citizens’ perception negative change in 2013. Overall, we thought that data could make emerge a knowledge that is still to much ignored and we were proved in this sense right.</p>
+
