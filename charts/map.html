@@ -10,20 +10,25 @@
   </head>
 
 	<body>
-    <h3 id="question">Global evolution of natural events</h3>	
-    <div id="container" style="position: relative;"></div> <!--mappa-->
-      <div class="slidecontainer">
-        <p>Select year:</p>
-        <input id="sliderYear" type="range" min="1980" max="2019" value="2019">
-        <div id="divYear">2019</div>
-       </div>
+		<h3 id="question">Global evolution of natural events</h3>	
+		<div id="container" style="position: relative;"></div> <!--mappa-->
+			<div class="slidecontainer">
+			<p>Select year:</p>
+			<input id="sliderYear" type="range" min="1980" max="2019" value="2019">
+			<div id="divYear">2019</div>
+		</div>
+		<div>
+			<p>The darker the color on the map, the higher is the sum of the natural events which occurred in that country during that year.
+			<br>
+			N.B. The data on the total of hurricanes are available only every five years, starting from 1980.</p>
+		</div>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
   <script src="charts/map-js/datamaps.world.min.js"></script>
   
-	<script type="text/javascript">
-		 // import del json con i dati per i colori della mappa
+<script type="text/javascript">
+    // import del json con i dati per i colori della mappa
     var request = new XMLHttpRequest();
     request.open("GET", "https://raw.githubusercontent.com/learreDHDK/ccode/master/charts/json-files/map-percent.json", false);
     request.send(null)
