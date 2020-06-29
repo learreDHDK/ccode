@@ -206,8 +206,8 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 				<td>Quantitative</td>
 				<td>CSV</td>
-				<td>"Yes 
-EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-documentation)       NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#"</td>
+				<td>Yes 
+EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-documentation)       NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
 				<td>Not stated / Yes FOIA?</td>
 				<td>Environment</td>
 				<td>USA and Global</td>
