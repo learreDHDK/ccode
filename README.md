@@ -361,6 +361,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 			</tr>
 	</table>
 <h2>Quality analysis</h2>
+<p>We started the analysis of the original datasets by inspecting their quality and accuracy. As a reference, we used the "Open Data Goldbook for Data Managers and Data Holders", provided by European Data Portal, which is meant to be a practical guidebook for organizations wanting to publish Open Data. The questions posed to examine the quality of the dataset mainly concern completeness, cleaness, accuracy, timeliness and consistency. In the following table we report the output of the analysis.</p>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>DATA QUALITY</th>
