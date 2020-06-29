@@ -830,7 +830,7 @@ Probably every year the same sheet is updated.</td>
 				<th>Greenhouse Gas Emissions</th>
 				<th>National Footprint and Biocapacity Accounts 2019 Public Data Package</th>
 				<th>CAIT Paris Contributions Data</th>
-				<th>Global Investments</th>
+				<th>Cumulative data on the contributors of climate finance</th>
 				<th>Special Eurobarometer 313: Europeans’ attitudes towards climate change</th>
 				<th>Special Eurobarometer 409: Climate change</th>
 				<th>Special Eurobarometer 490: Climate change</th>
@@ -1685,6 +1685,7 @@ The platform provided a series of legal information about the license and the wa
 </p>
 <p><b>Conclusion</b>: the level of ethical correctness of this data set is not completely good because in the end we have a dataset of which some values may be wrong due to certain actions during its creation.
 </p>
+
 <h3>Sea Ice and Snow Cover Extent</h3>
 <p><b>Purpose</b>: the purpose of providing a tool to see the sea ice extent over years is achieved: users can generate and examine graphs and statistics on ice and snow, or download the data to populate spreadsheets for further analysis.</p>
 <p><b>Process</b>: the purpose of providing a tool to see the sea ice extent over years is achieved: users can generate and examine graphs and statistics on ice and snow, or download the data to populate spreadsheets for further analysis.</p>
@@ -1812,7 +1813,7 @@ The survey method and questions are described and documented and it is understan
 		<th>Greenhouse Gas Emissions</th>
 		<th>National Footprint and Biocapacity Accounts 2019 Public Data Package</th>
 		<th>CAIT Paris Contributions Data</th>
-		<th>Global Investments</th>
+		<th>Cumulative data on the contributors of climate finance</th>
 		<th>Special Eurobarometer 313: Europeans’ attitudes towards climate change</th>
 		<th>Special Eurobarometer 409: Climate change</th>
 		<th>Special Eurobarometer 490: Climate change</th>
