@@ -194,7 +194,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Not stated</td>
 				<td>Not stated</td>
 				<td>Not stated</td>
-				<td></td>
+				<td>This dataset shows how the sea ice extent has changed from 1979 to 2020. The available data cover the North America + Greenland, Northern Hemisphere, Eurasia, and North America.</td>
 			</tr>
 			<tr>
 				<td>Precipitations</td>
@@ -275,7 +275,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>March 2015</td>
 				<td>February 19, 2016</td>
 				<td>Not stated</td>
-				<td></td>
+				<td>This dataset collects information about all the countries which submitted the Paris Agreement. In particular the date of submission and the summary of the undertaken commitments.</td>
 			</tr>
 			<tr>
 				<td>Investments for climate change</td>
@@ -295,7 +295,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Not stated</td>
 				<td>February 2019</td>
 				<td>Not stated</td>
-				<td></td>
+				<td>This dataset collects information about the funds invested by the countries at a global level in order to fight the climate change.</td>
 			</tr>
 			<tr>
 				<td>Opinions on climate change EU 2009</td>
@@ -315,7 +315,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>2014-12-09</td>
 				<td></td>
 				<td></td>
-				<td></td>
+				<td>This dataset is data on the public opinon of European citizens on the issue of climate change.</td>
 			</tr>
 			<tr>
 				<td>Opinions on climate change EU 2019</td>
