@@ -7,13 +7,22 @@
     <!-- Flag sprites service provided by Martijn Lafeber, https://github.com/lafeber/world-flags-sprite/blob/master/LICENSE -->
     <link rel="stylesheet" type="text/css" href="//github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
 
+    <style>
+	    #sliderYear {
+			fill: #00818c !important;
+		}
+	    
+	    #divYear {
+		    font-weight: bold;
+	    }    
+    </style>
   </head>
 
 	<body>
 		<h3 id="question">Global evolution of natural events</h3>	
 		<div id="container" style="position: relative;"></div> <!--mappa-->
 			<div class="slidecontainer">
-			<p>Select year:</p>
+			<p><b>Select year:</b></p>
 			<input id="sliderYear" type="range" min="1980" max="2019" value="2019">
 			<div id="divYear">2019</div>
 		</div>
