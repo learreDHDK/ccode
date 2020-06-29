@@ -47,14 +47,22 @@
 </head>
 
 <body id="page-top">
-  <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/data.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/data.js"></script>
 
- <h3 id="question">Evolution of natural events by country</h3>
-	
-<div class="dropdown  country-select">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select the country
-    <span class="caret"></span></button>
+	<div>
+		<p>
+			By scrolling the cursor on one of the graphs, you can immediately see a vertical line which permit you to visualize the data of the graphs, in a synchronized manner.
+			At the top-right of each graph there is the total of the number of that event for that year.
+			<br>
+			Original sources:
+		</p>
+	</div>
+	<h3 id="question">Evolution of natural events by country</h3>
+
+	<div class="dropdown  country-select">
+	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select the country
+	<span class="caret"></span></button>
 	  
     <div class="dropdown-menu" style="overflow: auto; height: 32vh;">  
 	<a class="dropdown-item" href='#' id='Afghanistan' onClick='set_chart(this.id)'>Afghanistan</a>
