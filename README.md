@@ -1993,4 +1993,12 @@ Special Eurobarometer 490: Climate change.</td>
 <p>If the project was financed, for a further implementation it would be useful to maintain the current datasets and enlarge them with data related to the missing years. It could also be desirable to cross-check in new ways our datasets, to make unexpected knowledge emerge.</p>
 
 <h2>Visualizations</h2>
+<p>At the beginning of our work, we formulated some hypotheses, starting from various questions with the final aim to decide how to intersect data.</p>
+<p>We tried to reproduce this mind map in the final visualization section, organizing it in three categories, one for each dataset. Our purpose was to guide the user in the exploration of our data.</p>
+<p>Since a part of the data was collected on a global scale and another on a country-base scale, we diversify our charts following the same approach.</p>
+<p><a href=”https://www.highcharts.com/demo”>Highchart</a> is the JavaScript library we used to create the charts. This required the implementation of JSON files specifically formatted for the purpose.</p>
+<p>Only the visualization of the map was created using another library, <a href=”https://datamaps.github.io/”>DataMaps</a>, which allows us to create a choropleth map, to explore the evolution of the events over time.</p>
+
 <h2>Metadata and RDF assertion</h2>
+
+<h2>Conclusion</h2>
