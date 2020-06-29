@@ -118,7 +118,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 			</tr>
 			<tr>
 				<td>Wildfires</td>
-				<td>GFED4 burned area</td>
+				<td>GFEDv4 (Global Fire Emissions Database, Version 4)</td>
 				<td>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
 				<td>http://www.globalfiredata.org/analysis.html</td>
 				<td>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC).</td>
@@ -138,7 +138,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 			</tr>
 			<tr>
 				<td>Temperature</td>
-				<td>Climate at a Glance: Global Time Series</td>
+				<td>Climate at a Glance - Time Series Graphs of Temperature Anomalies</td>
 				<td>NOAA National Centers for Environmental Information</td>
 				<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool </td>
 				<td>NOAA National Centers for Environmental Information</td>
@@ -363,11 +363,11 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>DATA QUALITY</th>
-				<th>Global droughts events</th>
+				<th>Droughts events 1980-2001</th>
 				<th>Global Active Archive of Large Flood Events</th>
 				<th>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</th>
-				<th>GFED4 burned area</th>
-				<th>Climate at a Glance: Global Time Series</th>
+				<th>GFEDv4 (Global Fire Emissions Database, Version 4)</th>
+				<th>Climate at a Glance - Time Series Graphs of Temperature Anomalies</th>
 				<th>Threatened species</th>
 				<th>Sea Ice and Snow Cover Extent</th>
 				<th>Climate Change Indicators: U.S. and Global Precipitation</th>
@@ -819,11 +819,11 @@ Probably every year the same sheet is updated.</td>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
 				<th>Legal Basis</th>
-				<th>Global droughts events</th>
+				<th>Droughts events 1980-2001</th>
 				<th>Global Active Archive of Large Flood Events</th>
 				<th>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</th>
-				<th>GFED4 burned area</th>
-				<th>Climate at a Glance: Global Time Series</th>
+				<th>GFEDv4 (Global Fire Emissions Database, Version 4)</th>
+				<th>Climate at a Glance - Time Series Graphs of Temperature Anomalies</th>
 				<th>Threatened species</th>
 				<th>Sea Ice and Snow Cover Extent</th>
 				<th>Climate Change Indicators: U.S. and Global Precipitation</th>
@@ -914,7 +914,7 @@ If so is there a law that authorize the PA to release them ?"</td>
 			<tr>
 				<td>1.4 Is the dataset free of any information that combined with common data available in the web, could identify the person? If so, is there a law that authorize the PA to release them?</td>
 				<td>Yes</td>
-				<td>No, there is data related to the location and the date, so the news sources could be traced back, leading to name of the deads.</td>
+				<td>No, for each event, the location and the date are stated, so tracing back the news source could lead to individuals' name.</td>
 				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -1003,9 +1003,9 @@ UNEP: No"</td>
 				<td>Yes</td>
 				<td>Yes (https://www.wri.org/about/privacy-policy)</td>
 				<td>Yes (https://climatefundsupdate.org/privacy-policy/)</td>
-				<td>Yes  https://data.europa.eu/euodp/en/privacystatement</td>
-				<td>Yes  https://data.europa.eu/euodp/en/privacystatement</td>
-				<td>Yes  https://data.europa.eu/euodp/en/privacystatement</td>
+				<td>Yes: https://data.europa.eu/euodp/en/privacystatement</td>
+				<td>Yes: https://data.europa.eu/euodp/en/privacystatement</td>
+				<td>Yes: https://data.europa.eu/euodp/en/privacystatement</td>
 			</tr>
 			<tr>
 				<td>"1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? 
@@ -1014,7 +1014,7 @@ https://advisera.com/eugdpracademy/knowledgebase/eu-gdpr-controller-vs-processor
 https://www.altalex.com/documents/news/2018/04/12/articolo-4-gdpr-definizioni"</td>
 				<td>No</td>
 				<td>OCHA, the system administrator of the HDX platform (inferred: it is the Controller, Google Analytics and Mixpanel are the Processors). </td>
-				<td>No, Inferred: NOAA is the Controller</td>
+				<td>No, inferred: NOAA is the Controller</td>
 				<td>No, no</td>
 				<td>Yes inferred Controller-NOAA and Processor-Google Analytics</td>
 				<td>Not stated inferred Controller OECD</td>
@@ -1194,19 +1194,19 @@ vedi p.71 ""Beginner"""</td>
 				<td><b>3.1 Is the dataset released with an open data license ? In case of the use of CC0 have they all the right necessary for this particular kind of license (e.g., jurisdiction)?</b></td>
 				<td>Available for free for non commercial purpose (https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng&fbclid=IwAR2swMOTGMxCFZKVptR1wGa7yY2HNz0mfYZMur_aGG3TZAfdg4IEz_qcjDs#datause)</td>
 				<td>Creative Commons Attribution 4.0 International license - CC BY 4.0 (HDX)</td>
-				<td>World Data Center for Meteorology policy + World Meteorological Organization's Resolution 40 policy https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
+				<td>World Data Center for Meteorology policy and World Meteorological Organization's Resolution 40 policy https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
 				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Policy.</td>
 				<td>Yes FOIA</td>
 				<td>Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD</td>
 				<td>Yes FOIA</td>
 				<td>Yes FOIA</td>
-				<td>Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD</td>
-				<td>Creative Commons Attribution-ShareAlike 4.0 International License. (CC-BY-SA)</td>
+				<td>Except where additional restrictions apply as stated in the website, you can extract from, download, copy, adapt, print, distribute, share and embed data for any purpose, even for commercial use. You must give appropriate credit to the OECD.</td>
+				<td>Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0)</td>
 				<td>Creative Commons Attribution 4.0 International License (CC BY 4.0)</td>
 				<td>Not stated</td>
-				<td>Yes: Reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
-				<td>Yes: Reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
-				<td>Yes: Reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
+				<td>Yes: reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
+				<td>Yes: reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
+				<td>Yes: reuse of data published on this website for commercial or non-commercial purposes is authorised provided the source is acknowledged.</td>
 			</tr>
 			<tr>
 				<td>3.2 Is the clause included: "In any case the dataset can’t be used for re-identifying the person" ?</td>
@@ -1228,18 +1228,18 @@ vedi p.71 ""Beginner"""</td>
 			</tr>
 			<tr>
 				<td><b>3.3 Is the API (in case there is) released with an open source license ?</b></td>
-				<td>Yes API, No licence</td>
+				<td>Yes API, no licence</td>
 				<td>No API</td>
 				<td>No API</td>
-				<td>Yes API, No licence</td>
-				<td>Yes API, No licence</td>
-				<td>Yes API, No open source licence</td>
-				<td>Yes API, No licence</td>
+				<td>Yes API, no licence</td>
+				<td>Yes API, no licence</td>
+				<td>Yes API, no open source licence</td>
+				<td>Yes API, no licence</td>
 				<td>No API</td>
-				<td>Yes API, No open source licence</td>
-				<td>Yes API, No licence</td>
-				<td>Yes API, No licence</td>
-				<td>Yes API, No licence</td>
+				<td>Yes API, no open source licence</td>
+				<td>Yes API, no licence</td>
+				<td>Yes API, no licence</td>
+				<td>Yes API, no licence</td>
 				<td>No API</td>
 				<td>No API</td>
 				<td>No API</td>
@@ -1259,13 +1259,13 @@ se si risponde alla prima, la seconda va da sè"</td>
 				<td>Data platform/API license compliant to IPR policy , yes</td>
 				<td>No, no</td>
 				<td>Data platform license compliant to IPR policy and has no API, yes</td>
-				<td>(API)Yes, yes</td>
+				<td>(API) Yes, yes</td>
 				<td>No license for the data platform</td>
 				<td>No license for the data platform</td>
 				<td>No license for the data platform</td>
-				<td>(data platform)Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
-				<td>(data platform)Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
-				<td>(data platform)Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
+				<td>(data platform) Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
+				<td>(data platform) Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
+				<td>(data platform) Yes, yes: https://data.europa.eu/euodp/en/copyright</td>
 			</tr>
 			<tr>
 				<td>4. Limitations on public access</td>
@@ -1382,11 +1382,11 @@ Yes (Overhead refers to expenditures from the Fund that are not directed to proj
 				<td>4.6 Does the dataset respect the INSPIRE law limitations for the spatial data? https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32007L0002</td>
 				<td>"No
 https://it.wikipedia.org/wiki/INSPIRE"</td>
-				<td>Not eu dataset</td>
-				<td>Not eu dataset</td>
-				<td>Not eu dataset</td>
-				<td>Not eu dataset</td>
-				<td>Not eu dataset</td>
+				<td>Not EU dataset</td>
+				<td>Not EU dataset</td>
+				<td>Not EU dataset</td>
+				<td>Not EU dataset</td>
+				<td>Not EU dataset</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -1657,7 +1657,7 @@ The platform provided a series of legal information about the license and the wa
 </h3>
 <p>The dataset can be considered as perfect from an ethical point of view because it doesn’t contain prejudice, cognitive bias or discrimination and everything is well documented: purpose and user need, data provenance, caveats and usage information (available in the technical documentation), field names explanation, ways to provide feedback.</p>
 
-<h3>GFED4 burned area</h3>
+<h3>GFEDv4 (Global Fire Emissions Database, Version 4)</h3>
 <p><b>Purpose</b>: the data has a clear user need which is to provide global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes which could be used for large-scale modeling studies. 
 </p>
 <p><b>Process</b>:  from a legal point of view the data is on point. The collection of the data used is done without any discrimination, cognitive bias or prejudice as inferred on the website (https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html) making use of the available data from other sources and theirs (Satellite information) to create a global view of the situation. The only note could be that they make no mention of licences for use of data from others.
@@ -1667,7 +1667,7 @@ The platform provided a series of legal information about the license and the wa
 <p><b>Conclusion</b>: we can in summary say that the dataset from an ethical point of view is clean to an extent.
 </p>
 
-<h3>Climate at a Glance: Global Time Series</h3>
+<h3>Climate at a Glance - Time Series Graphs of Temperature Anomalies</h3>
 <p><b>Purpose</b>: they don’t state clearly what is the purpose of the dataset created or the user need to which they are responding to but it is inferred that they want to make known to all what is the situation of the temperature anomalies in the world over the years</p>
 <p><b>Process</b>:  for the creation of the final dataset, they combine data from two resources (Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS)) known for  carrying out quality controls on their data for good practice. Their choice of sources is understood which goes to rhyme with the purpose and helps answer strictly to the user's need identified. Therefore no discrimantion, prejudice or cognitive bias.
 </p>
@@ -1801,11 +1801,11 @@ The survey method and questions are described and documented and it is understan
 <table>
 	<tr>
 		<th></th>
-		<th>Global droughts events</th>
+		<th>Droughts events 1980-2001</th>
 		<th>Global Active Archive of Large Flood Events</th>
 		<th>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</th>
-		<th>GFED4 burned area</th>
-		<th>Climate at a Glance: Global Time Series</th>
+		<th>GFEDv4 (Global Fire Emissions Database, Version 4)</th>
+		<th>Climate at a Glance - Time Series Graphs of Temperature Anomalies</th>
 		<th>Threatened species</th>
 		<th>Sea Ice and Snow Cover Extent</th>
 		<th>Climate Change Indicators: U.S. and Global Precipitation</th>
