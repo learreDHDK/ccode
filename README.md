@@ -1911,18 +1911,11 @@ Special Eurobarometer 490: Climate change.</td>
 <h3>Processing Issues</h3>
 <p>During the extraction of data from our original datasets, we encountered certain difficulties which we wish to make mention of for each dataset.</p>
 <ul>
-	<li><b>Droughts events 1980-2001</b></li> 
 	<li><b>Global Active Archive of Large Flood Events</b>: when we started the extraction process on the original dataset, we found out that some cells present the character /xa0, which is a non-breaking space in Latin1 (ISO 8859-1). We had to replace it before proceeding. Moreover, dates cells aren’t human-readable, so we used the library <code>datetime</code> to translate them.</li> 
 	<li><b>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</b>: the dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator, Open Street Map, but, we weren't able for its usage limits to work on the whole dataset. Thus, we selected data every five years and create a parallel CSV on which to work.</li> 
 	<li><b>GFEDv4 (Global Fire Emissions Database, Version 4)</b>: not being able to download the global dataset at once since the API platform did not advise this for reasons of bulkiness, we downloaded the dataset in series of  three and combined them to create the CSV file reason for having three different URIs for the dataset.</li>
-	<li><b>Climate at a Glance - Time Series Graphs of Temperature Anomalies</b></li> 
-	<li><b>Climate Change Indicators: U.S. and Global Precipitation</b></li> 
-	<li><b>Sea Ice and Snow Cover Extent</b></li>
 	<li><b>CAIT Paris Contributions Data</b>: In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information. Another change was made in the cells of the columns containing the "Summary". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities.
-</li> 
-	<li><b>Cumulative data on the contributors of climate finance</b></li>
-	<li><b>Special Eurobarometer 313: Europeans’ attitudes towards climate change</b></li> 
-	<li><b>Special Eurobarometer 409: Climate change</b></li> 
+</li>
 </ul>
 <h2>Sustainability of the datasets over time</h2>
 <p>The CCODe project is the outcome of an academic project at the University of Bologna. Thus, it won’t be maintained. Nonetheless the resulting datasets are based on other datasets that were originally collected by larger organizations and many of them are actively updated. We provided the links in the “General analysis” section, so that anyone can compare our datasets with the original ones.</p>
