@@ -1747,37 +1747,15 @@ No further info about any kind of prejudice or discrimination provided by the pl
 
 <h3>Special Eurobarometer 313: Europeans’ attitudes towards climate change
 </h3>
-<p><b>Purpose</b>: The purpose of the dataset is to understand what European citizens think about the climate change situation and what are their expectations for the future.
-</p>
-<p><b>Process</b>: to be able to accomplish their aim, the opinions of the citizen were collected carrying out surveys which results have been later analysed.
-The survey method and questions are described and documented and it is understandable that there is no ethical distortion.
-</p>
-<p><b>Output</b>: the dataset released contains all the countries of the EU and all the questions and answers are reported without any change. The data collected was used strictly for the purpose of the dataset and there were possibilities of not answering certain questions. So, the possibility of prejudice is excluded and since everybody could take part in the survey we can say there is no discrimination. From the results there is no cognitive bias since there is no interpretation of the results of the dataset just a publication.
-</p>
-<p><b>Conclusion</b>: </p>
-
 <h3>Special Eurobarometer 409: Climate change</h3>
-<p><b>Purpose</b>: the purpose of the dataset is to understand what European citizens think of the climate change situations and what are their expectations.
-</p>
-<p><b>Process</b>: to be able to accomplish their aim, they carry out surveys to collect opinions of the citizens and analyse the results. The survey method and questions are described and documented and it is understandable that there is no ethical distortion.
-</p>
-<p><b>Output</b>: the dataset released contains all the countries of the EU and all the questions and answers are reported without any change. The data collected was used strictly for the purpose of the dataset and there were possibilities of not answering certain questions. So, the possibility of prejudice is excluded and since everybody could take part in the survey we can say there is no discrimination. From the results there is no cognitive bias since there is no interpretation of the results of the dataset just a publication.
-
-</p>
-<p><b>Conclusion</b>: it can be said that, some questions included in the dataset went to individuate certain aspects of the life of the citizens (like their economic status) without really giving a reason for this. So, we will say that the dataset to an extent is not ethically correct because data analists can nevertheless infer much information from the personality of European citizens and their reactions to climate change.
-
-</p>
-
-
 <h3>Special Eurobarometer 490: Climate change</h3>
-<p><b>Purpose</b>: The purpose is explicitly expressed to be understanding European citizens opinions on climate change, in order to shape EU future climate and energy policies.
+<p><b>Purpose</b>: the purpose of the dataset is to understand what European citizens think about the climate change situation and what are their expectations for the future.
 </p>
-<p><b>Process</b>: The survey method and questions are documented and further described in a specific paper. The surveyed had the possibility to not answer.
-
+<p><b>Process</b>: to be able to accomplish their aim, the opinions of the citizen were collected carrying out surveys which results have been later analysed. The survey method and questions are described and documented and it is understandable that there is no ethical distortion.
 </p>
-<p><b>Output</b>: The final dataset is free from ethical distortion. However, it is unclear the purpose of questions related to the economical status or the level of instruction of the individual in such a context; hence, they don’t seem totally free of discriminatory aspects.
+<p><b>Output</b>: the dataset released contains all the countries of the EU and all the questions and answers are reported without any change. The survey method and questions are documented and further described in a specific paper. The data collected was used strictly for the purpose of the dataset and there were possibilities of not answering certain questions. So, the possibility of prejudice is excluded and since everybody could take part in the survey we can say there is no discrimination. From the results there is no cognitive bias since there is no interpretation of the results of the dataset, just a publication. However, it is unclear the purpose of questions related to the economical status or the level of instruction of the individual in such a context; hence, they don’t seem totally free of discriminatory aspects.
 </p>
-<p><b>Conclusion</b>: Everything is accountable and transparent. There are no discrimination, prejudice or cognitive bias, a part for the unclear purpose of some personal questions apparently unrelated to the context.
+<p><b>Conclusion</b>: everything is accountable and transparent. There are no discrimination, prejudice or cognitive bias, a part for the unclear purpose of some personal questions (e.g. economic status) apparently unrelated to the context.
 </p>
 
 <h2>Technical analysis</h2>
