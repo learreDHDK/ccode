@@ -1822,7 +1822,7 @@ https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang
 		<td>https://data.humdata.org/dataset/f5e8b21e-bb71-40e3-8129-5378ebc42e33/resource/52263859-fdfa-4622-bfb0-34ba82cc6729/download/dr-events-20150505221917-shapefile.zip (download)</td>
 		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx (download)</td>
 		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv (download)</td>
-		<td>http://www.globalfiredata.org/downloads/chart_5e8dc22f20efd.txt  / http://www.globalfiredata.org/downloads/chart_5e8dbb6d0359e.txt  /  http://www.globalfiredata.org/downloads/chart_5e8dbd0940b57.txt</td>
+		<td>No</td>
 		<td>https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/2/1880-2020/data.json   </td>
 		<td>https://stats.oecd.org/restsdmx/sdmx.ashx/GetData/WILD_LIFE/TOT_KNOWN+TOT_KNOWN_IND+CRITICAL+CRITICAL_IND+ENDANGERED+ENDANGERED_IND+VULNERABLE+VULNERABLE_IND+THREATENED+THREATENED_IND+THREAT_PERCENT+IND_PERCENT.MAMMAL+BIRD+REPTILE+AMPHIBIAN+FISH_TOT+MARINE_F+FRESHW_F+VASCULAR_PLANT+MOSS+LICHEN+INVERTEB.AUS+AUT+BEL+CAN+CHL+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+NMEC+BRA+COL+CRI+RUS/all?</td>
 		<td>https://www.ncdc.noaa.gov/snow-and-ice/extent/sea-ice/N/2.xml</td>
@@ -1911,9 +1911,9 @@ Special Eurobarometer 490: Climate change.</td>
 <p>During the extraction of data from our original datasets, we encountered certain difficulties which we wish to make mention of for each dataset.</p>
 <ul>
 	<li><b>Global Active Archive of Large Flood Events</b>: when we started the extraction process on the original dataset, we found out that some cells present the character /xa0, which is a non-breaking space in Latin1 (ISO 8859-1). We had to replace it before proceeding. Moreover, dates cells aren’t human-readable, so we used the library <code>datetime</code> to translate them.</li> 
-	<li><b>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</b>: the dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator, Open Street Map, but, we weren't able for its usage limits to work on the whole dataset. Thus, we selected data every five years and create a parallel CSV on which to work.</li> 
-	<li><b>GFEDv4 (Global Fire Emissions Database, Version 4)</b>: not being able to download the global dataset at once since the API platform did not advise this for reasons of bulkiness, we downloaded the dataset in series of  three and combined them to create the CSV file reason for having three different URIs for the dataset.</li>
-	<li><b>CAIT Paris Contributions Data</b>: In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information. Another change was made in the cells of the columns containing the "Summary". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities.
+	<li><b>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</b>: the dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator, Open Street Map, but, we weren't able for its usage limits to work on the whole dataset. Thus, we selected data every five years and created a parallel CSV on which to work on.</li> 
+	<li><b>GFEDv4 (Global Fire Emissions Database, Version 4)</b>: not being able to download the global dataset at once since the API platform did not advise this for reasons of bulkiness, we downloaded the dataset in series of  three in a TXT format and combined them to create the CSV file. Due to this reason we have no URI for the dataset because the link we used is no longer accessible on the server.</li>
+	<li><b>CAIT Paris Contributions Data</b>: In order to process our dataset we needed to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information. Another change was made in the cells of the columns containing the "Summary". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities.
 </li>
 </ul>
 <h2>Sustainability of the datasets over time</h2>
@@ -1927,13 +1927,13 @@ Special Eurobarometer 490: Climate change.</td>
 <h2>Visualizations</h2>
 <p>At the beginning of our work, we formulated some hypotheses, starting from various questions with the final aim to decide how to intersect data.</p>
 <p>We tried to reproduce this mind map in the final visualization section, organizing it in three categories, one for each dataset. Our purpose was to guide the user in the exploration of our data.</p>
-<p>Since a part of the data was collected on a global scale and another on a country-base scale, we diversify our charts following the same approach.</p>
+<p>Since a part of the data was collected on a global scale and another on a country-base scale, we diversified our charts following the same approach.</p>
 <p><a href=”https://www.highcharts.com/demo”>Highchart</a> is the JavaScript library we used to create the charts. This required the implementation of JSON files specifically formatted for the purpose.</p>
 <p>Only the visualization of the map was created using another library, <a href=”https://datamaps.github.io/”>DataMaps</a>, which allows us to create a choropleth map, to explore the evolution of the events over time.</p>
 
 <h2>Metadata and RDF assertion</h2>
 <p>In order to make our data reusable and interoperable, we provided them with their metadata, following the <a href="DCAT_AP_2.0.0.pdf">DCAT_AP (v 2.0.0)</a> documentation.</p>
-<p>The metadata were added both at the beginning of the XML documents (our final datasets) and incorporated into some tables on the <a href="https://learredhdk.github.io/ccode/">website</a> of the project. 
+<p>The metadata were added both at the beginning of the XML documents (our final datasets) and incorporated into some tables on the <a href="https://learredhdk.github.io/ccode/#metadata">metadata section of the website</a> of the project. 
 </p>
 <p>We provided metadata for the whole catalogue (including the three datasets) and for each dataset individually. Moreover the RDF assertion for the metadata, following the Turtle serialization, has been released. This is accessible from the website as well.
 </p>
@@ -1941,7 +1941,7 @@ Special Eurobarometer 490: Climate change.</td>
 <h2>Conclusion</h2>
 <p>Brainstorming ideas for the project, we all found ourselves concerned about climate change and hopeful that data could be an answer in representing it. Therefore, our initial question was: how evident is the problem of climate change?</p>
 <p>This initial doubt lead to asking ourselves: how do countries behave in terms of emissions, one of the main causes of the phenomenon, and how do they commit against it? What is the perception of the problem from the citizens’ side?</p>
-<p>Of course, the different time spans of the datasets and, in the case of the opinions, of a global spatial coverage influenced the output, which lacks for this reason of precision. Moreover, we discovered there could be external factors that condition data, as for example w.r.t. emissions, for which a country can balance its accounts investing to fight climate change.</p>
+<p>Of course, the different time spans of the datasets and, in the case of the opinions, of a global spatial coverage influenced the output, which lacks for this reason of precision. Moreover, we discovered there could be external factors that condition data, as for example w.r.t. emissions, for which a country can balance its accounts by investing to fight climate change.</p>
 <p>Nonetheless, some phenomena are evident:
 <ul>
 <li>Extreme natural events as droughts and wildfires have been increasing, even though not impressively, given the limited time span;</li>
