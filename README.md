@@ -1970,17 +1970,17 @@ Special Eurobarometer 490: Climate change.</td>
 <h3>Processing Issues</h3>
 <p>During the extraction of data from our original datasets, we encountered certain difficulties which we wish to make mention of for each dataset.</p>
 <ul>
-	<li>Droughts events 1980-2001</li> 
-	<li>Global Active Archive of Large Flood Events: when we started the extraction process on the original dataset, we found out that some cells present the character /xa0, which is a non-breaking space in Latin1 (ISO 8859-1). We had to replace it before proceeding. Moreover, dates cells aren’t human-readable, so we used the library <code>datetime</code> to translate them.</li> 
-	<li>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4: the dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator, Open Street Map, but, we weren't able for its usage limits to work on the whole dataset. Thus, we selected data every five years and create a parallel CSV on which to work.</li> 
-	<li>GFEDv4 (Global Fire Emissions Database, Version 4)</li>
-	<li>Climate at a Glance - Time Series Graphs of Temperature Anomalies</li> 
-	<li>Climate Change Indicators: U.S. and Global Precipitation</li> 
-	<li>Sea Ice and Snow Cover Extent</li>
-	<li>CAIT Paris Contributions Data</li> 
-	<li>Cumulative data on the contributors of climate finance</li>
-	<li>Special Eurobarometer 313: Europeans’ attitudes towards climate change</li> 
-	<li>Special Eurobarometer 409: Climate change</li> 
+	<li><b>Droughts events 1980-2001</b></li> 
+	<li><b>Global Active Archive of Large Flood Events</b>: when we started the extraction process on the original dataset, we found out that some cells present the character /xa0, which is a non-breaking space in Latin1 (ISO 8859-1). We had to replace it before proceeding. Moreover, dates cells aren’t human-readable, so we used the library <code>datetime</code> to translate them.</li> 
+	<li><b>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</b>: the dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator, Open Street Map, but, we weren't able for its usage limits to work on the whole dataset. Thus, we selected data every five years and create a parallel CSV on which to work.</li> 
+	<li><b>GFEDv4 (Global Fire Emissions Database, Version 4)</b></li>
+	<li><b>Climate at a Glance - Time Series Graphs of Temperature Anomalies</b></li> 
+	<li><b>Climate Change Indicators: U.S. and Global Precipitation</b></li> 
+	<li><b>Sea Ice and Snow Cover Extent</b></li>
+	<li><b>CAIT Paris Contributions Data</b></li> 
+	<li><b>Cumulative data on the contributors of climate finance</b></li>
+	<li><b>Special Eurobarometer 313: Europeans’ attitudes towards climate change</b></li> 
+	<li><b>Special Eurobarometer 409: Climate change</b></li> 
 </ul>
 <h2>Sustainability of the datasets over time</h2>
 <p>The CCODe project is the outcome of an academic project at the University of Bologna. Thus, it won’t be maintained. Nonetheless the resulting datasets are based on other datasets that were originally collected by larger organizations and many of them are actively updated. We provided the links in the “General analysis” section, so that anyone can compare our datasets with the original ones.</p>
