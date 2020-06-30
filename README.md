@@ -122,7 +122,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Quantitative</td>
 				<td>CSV, HDF</td>
 				<td>Yes: https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
-				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Polic</td>
+				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Policy</td>
 				<td>Environment</td>
 				<td>Global</td>
 				<td>2003-present</td>
@@ -367,7 +367,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>We wrote an email to the contributor of the dataset in order to ask if there exist a legend to codify the headers of the dataset, but we never received an answer.</td>
 				<td></td>
 				<td></td>
-				<td>The API platform from which the data was download could not support mixed queries to retrive at once data of the world so we had to download the data in series and then created a united csv file for the dataset</td>
+				<td>The API platform from which the data was downloaded could not support mixed queries to retrive at once data of the world so we had to download the data in series and then created a united csv file for the dataset</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -427,7 +427,7 @@ metadata, the header should be described"</td>
 				<td>Yes, it is explained in a specific PDF document.</td>
 				<td>Yes, but the header is not described in the metadata.</td>
 				<td>Yes, but the header is not described in the metadata.</td>
-				<td>Yes, from dataset and the header is described on the data characteristics section of the platform https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
+				<td>Yes, the header is described in the data characteristics section of the platform https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
 				<td>Yes</td>
 				<td>Yes, but the header is not described in the metadata.</td>
 				<td>Yes, but the header has not been described anywhere.</td>
@@ -732,9 +732,9 @@ Timeliness in data.</td>
 				<td>There is timeliness in data. It is clear that the dataset is updated, but the frequency is unclear: in "Status" section, it is said to be annual; in "Data access" section, twice weekly. Also the update frequency of the single sources is reported on the website.</td>
 				<td>Yes, there is timeliness in the data because the version of the dataset available is inferred to be updated every month and thus when new infomation is available, it is enterred.</td>
 				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is inferred that it is updated yearly.</td>
-				<td>Not updated but only stated that the data is from the latest year available</td>
+				<td>It is stated the website that the data is from the latest year available and it is inferred that it updated every month since the values present constantly change</td>
 				<td>Yes (inferred: every year)</td>
-				<td>No timiliness since the data hasn't been updated ever since with information of new years therefore can said to be historiacal.</td>
+				<td>No timiliness since the data hasn't been updated ever since with information of new years therefore it can be said to be historiacal.</td>
 				<td>Update frequency isn't stated, but there is timeliness in data.</td>
 				<td>Annually updated and timeliness is present in data.</td>
 				<td>Not updated because contains info about an agreement which took place between 2015 and 2016</td>
@@ -783,7 +783,7 @@ https://www.ncdc.noaa.gov/ibtracs/index.php?name=principle</td>
 				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
 				<td>Not stated, but it is inferred since the data is updated often and the fields remain the same.</td>
 				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
-				<td>Though the dataset hasn't been updated for a long period now, but if need be the consistency of the data will be maintained.</td>
+				<td>Though the dataset hasn't been updated for a long period now, if need be the consistency of the data will be maintained.</td>
 				<td>Not stated nor inferable.</td>
 				<td>Yes: the methodology for the account of data is described in the explanatory PDF, also for what concerns the previous versions.</td>
 				<td>Yes (only one version, data not updated)</td>
@@ -999,7 +999,7 @@ https://www.altalex.com/documents/news/2018/04/12/articolo-4-gdpr-definizioni"</
 				<td>OCHA, the system administrator of the HDX platform (inferred: it is the Controller, Google Analytics and Mixpanel are the Processors). </td>
 				<td>No, inferred: NOAA is the Controller</td>
 				<td>No, no</td>
-				<td>Yes inferred Controller-NOAA and Processor-Google Analytics</td>
+				<td>No inferred Controller-NOAA and Processor-Google Analytics</td>
 				<td>Not stated inferred Controller OECD</td>
 				<td>No, Inferred: NOAA is the Controller</td>
 				<td>No, inferred Controller EPA</td>
@@ -1074,39 +1074,39 @@ Are you sure that are not “mixed data”?"</td>
 			</tr>
 			<tr>
 				<td>2.1 Do you have created and generated the dataset ?</td>
-				<td>Yes (UNEP)</td>
-				<td>Yes. Dartmouth Flood Observatory.</td>
-				<td>Yes. NOAA NCEI</td>
+				<td>Yes, (UNEP)</td>
+				<td>Yes, Dartmouth Flood Observatory.</td>
+				<td>Yes, NOAA NCEI</td>
 				<td>Yes, Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
-				<td>Yes. NOAA NCEI - NCDC</td>
-				<td>Yes. OECD</td>
-				<td>Yes (NSIDC)</td>
-				<td>Yes NOAA NCEI</td>
-				<td>Yes. OECD</td>
-				<td>Yes. Global Footprint Network</td>
-				<td>Yes (WRI)</td>
-				<td>Yes (Climate Funds Update)</td>
-				<td>Yes (Directorate-General for Communication of the European Commission)</td>
-				<td>Yes (Directorate-General for Communication of the European Commission)</td>
-				<td>Yes (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes, NOAA NCEI - NCDC</td>
+				<td>Yes, OECD</td>
+				<td>Yes, (NSIDC)</td>
+				<td>Yes, NOAA NCEI</td>
+				<td>Yes, OECD</td>
+				<td>Yes, Global Footprint Network</td>
+				<td>Yes, (WRI)</td>
+				<td>Yes, (Climate Funds Update)</td>
+				<td>Yes, (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes, (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes, (Directorate-General for Communication of the European Commission)</td>
 			</tr>
 			<tr>
 				<td>2.2 Are you the owner of the dataset? Who is the owner?</td>
-				<td>Yes (UNEP)</td>
-				<td>Yes. Dartmouth Flood Observatory.</td>
-				<td>Yes. NOAA NCEI</td>
+				<td>Yes, (UNEP)</td>
+				<td>Yes, Dartmouth Flood Observatory.</td>
+				<td>Yes, NOAA NCEI</td>
 				<td>Yes, Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
-				<td>Yes. NOAA NCEI - NCDC</td>
-				<td>Yes. OECD</td>
-				<td>Yes (NSIDC)</td>
-				<td>Yes NOAA NCEI</td>
-				<td>Yes. OECD</td>
-				<td>Yes. Global Footprint Network</td>
-				<td>Yes (WRI)</td>
-				<td>Yes (Climate Funds Update)</td>
-				<td>Yes (Directorate-General for Communication of the European Commission)</td>
-				<td>Yes (Directorate-General for Communication of the European Commission)</td>
-				<td>Yes (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes, NOAA NCEI - NCDC</td>
+				<td>Yes, OECD</td>
+				<td>Yes, (NSIDC)</td>
+				<td>Yes, NOAA NCEI</td>
+				<td>Yes, OECD</td>
+				<td>Yes, Global Footprint Network</td>
+				<td>Yes, (WRI)</td>
+				<td>Yes, (Climate Funds Update)</td>
+				<td>Yes, (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes, (Directorate-General for Communication of the European Commission)</td>
+				<td>Yes, (Directorate-General for Communication of the European Commission)</td>
 			</tr>
 			<tr>
 				<td>2.3 Are you using third party data with the proper authorization and license? Are the dataset free from third party licenses or patents?</td>
@@ -1213,7 +1213,7 @@ vedi p.71 ""Beginner"""</td>
 				<td>Yes API, no licence</td>
 				<td>No API</td>
 				<td>No API</td>
-				<td>Yes API, No licence stated but inferred Yes platform licence which is based on NASA FOIA</td>
+				<td>Yes API, No licence stated but inferred platform licence which is based on NASA FOIA</td>
 				<td>Yes API, No licence stated but inferred FOIA</td>
 				<td>Yes API, No open source licence stated but inferred that of the platform  http://www.oecd.org/termsandconditions/</td>
 				<td>Yes API, no licence</td>
@@ -1416,7 +1416,8 @@ https://it.wikipedia.org/wiki/INSPIRE"</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>5.1 Could the dataset be released for free ?</td>td>Yes</td>
+				<td>5.1 Could the dataset be released for free ?</td>
+				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -1458,8 +1459,8 @@ https://it.wikipedia.org/wiki/INSPIRE"</td>
 				<td> Yes for dataset and links but not stated  for the API https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/data-rights-related-issues</td>
 				<td>No, just for links</td>
 				<td>Yes for the dataset and API</td>
-				<td>"No, just for links
-NOAA.gov does not control or guarantee the accuracy, relevance, timeliness or completeness of information contained in a linked site."</td>
+				<td>No, just for links
+NOAA.gov does not control or guarantee the accuracy, relevance, timeliness or completeness of information contained in a linked site.</td>
 				<td>Not stated in EPA 
 NOAA just for links</td>
 				<td>Yes API, yes data</td>
