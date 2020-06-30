@@ -363,7 +363,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<th>Special Eurobarometer 490: Climate change</th>
 			</tr>
 			<tr>
-				<td><b>Other</b></td>
+				<td><b>Problems</b></td>
 				<td>We wrote an email to the contributor of the dataset in order to ask if there exist a legend to codify the headers of the dataset, but we never received an answer.</td>
 				<td></td>
 				<td></td>
