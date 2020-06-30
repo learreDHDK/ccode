@@ -41,18 +41,18 @@
 				<th>Owner</th>
 				<th>Owner URL</th>
 				<th>Re-user</th>
-				<th>Publisher or re-user URL</th>
-				<th>Data Type</th>
+				<th>Re-user URL</th>
+				<th>Data type</th>
 				<th>Chosen format</th>
 				<th>Metadata</th>
-				<th>Licence</th>
+				<th>License</th>
 				<th>Domain</th>
 				<th>Spatial coverage</th>
 				<th>Time range</th>
 				<th>Upload date</th>
 				<th>Last update</th>
-				<th>Update Frequency</th>
-				<th>Nature (description)</th>
+				<th>Update frequency</th>
+				<th>Description</th>
 			</tr>
 			<tr>
 				<td>Droughts</td>
@@ -63,7 +63,7 @@
 				<td>https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 				<td>Quantitative</td>
 				<td>CSV</td>
-				<td>Yes, ISO 19115:2003/19139</td>
+				<td>Yes: ISO 19115:2003/19139</td>
 				<td>Available for free for non commercial purpose, as explained at https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng</td>
 				<td>Environment</td>
 				<td>Global</td>
@@ -121,7 +121,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
-				<td>Yes https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
+				<td>Yes: https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
 				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Polic</td>
 				<td>Environment</td>
 				<td>Global</td>
@@ -140,7 +140,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td>Land-based station, Marine / Ocean</td>
 				<td>CSV, XML, JSON</td>
-				<td>Yes, https://www.ncdc.noaa.gov/cag/global/data-info / https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool </td>
+				<td>Yes: https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
 				<td>FOIA (5 USC 552)</td>
 				<td>Environment</td>
 				<td>Global</td>
@@ -159,14 +159,14 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td>Quantitative</td>
 				<td>Text file (CSV), Excel, SDMX(XML)</td>
-				<td>Yes, https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
-				<td>http://www.oecd.org/termsandconditions/  Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD by using the citation associated with the relevant Data, or, if no specific citation is available, You must cite the source information using the following format: OECD (year), (dataset name),(data source) DOI or URL (accessed on (date)). When sharing or licensing work created using the Data, You agree to include the same acknowledgment requirement in any sub-licenses that You grant, along with the requirement that any further sub-licensees do the same.</td>
+				<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
+				<td>http://www.oecd.org/termsandconditions/  Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD (...)</td>
 				<td>Environment</td>
 				<td>Global</td>
 				<td>2018-2019</td>
 				<td>Not stated</td>
 				<td>March 2019</td>
-				<td>Not stated?</td>
+				<td>Not stated</td>
 				<td>This dataset is data on the state of threatened species build on country replies to the Annual Quality Assurance (AQA) of OECD environmental reference series.</td>
 			</tr>
 			<tr>
@@ -197,9 +197,8 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 				<td>Quantitative</td>
 				<td>CSV</td>
-				<td>Yes 
-EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-documentation)       NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
-				<td>Not stated / Yes FOIA?</td>
+				<td>Yes: EPA: https://www.epa.gov/climate-indicators/downloads-indicators-technical-documentation, NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
+				<td>Not stated, FOIA in NOAA</td>
 				<td>Environment</td>
 				<td>USA and Global</td>
 				<td>1901-2015</td>
@@ -293,7 +292,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td>Qualitative and quantitative</td>
 				<td>XLS</td>
-				<td>Yes + https://europarl.europa.eu/at-your-service/files/be-heard/eurobarometer/2009/climate-change/report/it-report-climate-change-200907.pdf</td>
+				<td>Yes: https://europarl.europa.eu/at-your-service/files/be-heard/eurobarometer/2009/climate-change/report/it-report-climate-change-200907.pdf</td>
 				<td>https://data.europa.eu/euodp/it/copyright</td>
 				<td>Government and public sector</td>
 				<td>Slovacchia, Slovenia, Svezia, Paesi Bassi, Polonia, Portogallo, Romania, Belgio, Austria, Cipro, Bulgaria, Germania, Cechia, Spagna, Danimarca, Finlandia, Estonia, Regno Unito, Francia, Ungheria, Grecia, Italia, Irlanda, Lussemburgo, Lituania, Malta, Lettonia</td>
@@ -312,7 +311,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td>Qualitative and quantitative</td>
 				<td>XLS</td>
-				<td>Yes</td>
+				<td>Yes: https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm/ResultDoc/download/DocumentKy/57629</td>
 				<td>https://data.europa.eu/euodp/it/copyright</td>
 				<td>Government and public sector</td>
 				<td>Romania, Slovacchia, Slovenia, Svezia, Malta, Paesi Bassi, Polonia, Portogallo, Belgio, Austria, Cipro, Bulgaria, Germania, Cechia, Spagna, Danimarca, Finlandia, Estonia, Regno Unito, Francia, Croazia, Grecia, Irlanda, Ungheria, Lituania, Italia, Lettonia, Lussemburgo</td>
@@ -320,7 +319,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>2019-09-11</td>
 				<td></td>
 				<td></td>
-				<td></td>
+				<td>This dataset is data on the public opinon of European citizens on the issue of climate change.</td>
 			</tr>
 			<tr>
 				<td>Opinions on climate change EU 2019</td>
@@ -331,7 +330,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td>Qualitative and quantitative</td>
 				<td>XLS</td>
-				<td>Yes</td>
+				<td>Yes: https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm/ResultDoc/download/DocumentKy/87642</td>
 				<td>https://data.europa.eu/euodp/it/copyright</td>
 				<td>Government and public sector</td>
 				<td>Romania, Slovacchia, Slovenia, Svezia, Malta, Paesi Bassi, Polonia, Portogallo, Belgio, Austria, Cipro, Bulgaria, Germania, Cechia, Spagna, Danimarca, Finlandia, Estonia, Regno Unito, Francia, Croazia, Grecia, Irlanda, Ungheria, Lituania, Italia, Lettonia, Lussemburgo</td>
