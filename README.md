@@ -1951,5 +1951,5 @@ Special Eurobarometer 490: Climate change.</td>
 <li>There is a marked distinction between first-world and third-world countries, which is evident by the magnitude of their emissions and by the amount of deposited funds;</li>
 <li>The perception and the reaction of European citizens to climate change saw a negative trend from 2009 and 2013, while in 2019 the awareness is more spread, probable result of the highlighting of the problem in the past years.</li>
 </ul></p>
-<p>Some of these outcomes proved our hypothesis; some others were unexpected, as for example the high amount of each natural event, China’s official “low” account of emissions and the citizens’ perception's negative change in 2013. Overall, we thought that data could make emerge a knowledge that is still to much ignored and we were proved in this sense right.</p>
+<p>Some of these outcomes proved our hypothesis; some others were unexpected, as for example the high amount of each natural event, China’s official “low” account of emissions and the citizens’ perception's negative change in 2013. Overall, we thought that data could make emerge a knowledge that is still too much ignored and we were proved in this sense right.</p>
 
