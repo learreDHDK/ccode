@@ -1934,7 +1934,7 @@ Special Eurobarometer 490: Climate change.</td>
 	<li><b>Droughts events 1980-2001</b></li> 
 	<li><b>Global Active Archive of Large Flood Events</b>: when we started the extraction process on the original dataset, we found out that some cells present the character /xa0, which is a non-breaking space in Latin1 (ISO 8859-1). We had to replace it before proceeding. Moreover, dates cells aren’t human-readable, so we used the library <code>datetime</code> to translate them.</li> 
 	<li><b>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</b>: the dataset was so big that it wasn't possible to work on it. In fact, since the location of the hurricane was reported in coordinates, we had to reverse geocode them to find the country, by using a third party geolocator, Open Street Map, but, we weren't able for its usage limits to work on the whole dataset. Thus, we selected data every five years and create a parallel CSV on which to work.</li> 
-	<li><b>GFEDv4 (Global Fire Emissions Database, Version 4)</b></li>
+	<li><b>GFEDv4 (Global Fire Emissions Database, Version 4)</b>: not being able to download the global dataset at once since the API platform did not advise this for reasons of bulkiness, we downloaded the dataset in series of  three and combined them to create the CSV file reason for having three different URIs for the dataset.</li>
 	<li><b>Climate at a Glance - Time Series Graphs of Temperature Anomalies</b></li> 
 	<li><b>Climate Change Indicators: U.S. and Global Precipitation</b></li> 
 	<li><b>Sea Ice and Snow Cover Extent</b></li>
