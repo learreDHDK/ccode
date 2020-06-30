@@ -1781,22 +1781,22 @@ No further info about any kind of prejudice or discrimination provided by the pl
 	</tr>
 	<tr>
 		<td><b>Format</b></td>
-		<td>dbf, shp, shx (UNEP)
+		<td><b>dbf</b>, shp, shx (UNEP)
 
 CSV (HDX)</td>
 		<td><b>XLSX</b>, XML, MapInfo TAB, shapefiles</td>
 		<td>netCDF, <b>CSV</b>, shapefiles</td>
-		<td>CSV (Comma-separated values),  HDF (Hierarchical Data Format)</td>
-		<td>XMS (Microsoft eXtended Memory Specification),  CSV (Comma-separated values),  JSON (JavaScript Object Notation ), XML (Extensible Markup Language)</td>
-		<td>XLS, CSV, SDMX(XML)</td>
-		<td>CSV, XML, JSON</td>
-		<td>XLS</td>
+		<td><b>CSV</b>,  HDF</td>
+		<td>XMS, CSV, <b>JSON</b>, XML</td>
+		<td>XLS, CSV, <b>SDMX(XML)</b></td>
+		<td>CSV, <b>XML</b>, JSON</td>
+		<td><b>XLS</b></td>
 		<td>XLS, CSV, PX, <b>SDMX (XML)</b></td>
 		<td><b>CSV</b></td>
-		<td>XLSX</td>
-		<td>XLSX</td>
-		<td>XLSX</td>
-		<td>XLS</td>
+		<td><b>XLSX</b></td>
+		<td><b>XLSX</b></td>
+		<td><b>XLSX</b></td>
+		<td><b>XLS</b></td>
 		<td><b>XLS</b></td>
 	</tr>
 	<tr>
@@ -1816,9 +1816,9 @@ https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 		<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
 		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
 		<td></td>
-		<td>EPA: https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation     NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
+		<td>EPA: https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation, NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
 		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
-		<td>No ? paper</td>
+		<td></td>
 		<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
 		<td>https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
@@ -1827,40 +1827,26 @@ https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 	</tr>
 	<tr>
 		<td><b>URI</b></td>
-		<td>UNEP
-link scaricabile alla cartella zip
-
-HDX
-https://data.humdata.org/dataset/f5e8b21e-bb71-40e3-8129-5378ebc42e33/resource/222389aa-9089-428d-8d60-1f6895df6618/download/dr-events.csv</td>
-		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx ?</td>
-		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv ?</td>
+		<td>https://data.humdata.org/dataset/f5e8b21e-bb71-40e3-8129-5378ebc42e33/resource/52263859-fdfa-4622-bfb0-34ba82cc6729/download/dr-events-20150505221917-shapefile.zip (download)</td>
+		<td>http://floodobservatory.colorado.edu/Version3/FloodArchive.xlsx (download)</td>
+		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.since1980.list.v04r00.csv (download)</td>
 		<td>http://www.globalfiredata.org/downloads/chart_5e8dc22f20efd.txt  / http://www.globalfiredata.org/downloads/chart_5e8dbb6d0359e.txt  /  http://www.globalfiredata.org/downloads/chart_5e8dbd0940b57.txt</td>
 		<td>https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/2/1880-2020/data.json   </td>
 		<td>https://stats.oecd.org/restsdmx/sdmx.ashx/GetData/WILD_LIFE/TOT_KNOWN+TOT_KNOWN_IND+CRITICAL+CRITICAL_IND+ENDANGERED+ENDANGERED_IND+VULNERABLE+VULNERABLE_IND+THREATENED+THREATENED_IND+THREAT_PERCENT+IND_PERCENT.MAMMAL+BIRD+REPTILE+AMPHIBIAN+FISH_TOT+MARINE_F+FRESHW_F+VASCULAR_PLANT+MOSS+LICHEN+INVERTEB.AUS+AUT+BEL+CAN+CHL+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+ISL+IRL+ISR+ITA+JPN+KOR+LVA+LTU+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+NMEC+BRA+COL+CRI+RUS/all?</td>
 		<td>https://www.ncdc.noaa.gov/snow-and-ice/extent/sea-ice/N/2.xml</td>
 		<td>https://www.epa.gov/sites/production/files/2016-08/precipitation_fig-2.csv</td>
-		<td>?</td>
-		<td>Not available ?</td>
-		<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data#
-(mail requested)</td>
-		<td>https://climatefundsupdate.org/wp-content/uploads/2019/04/CFU-Website-Master-27-Feb-2019.xlsx</td>
-		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313
-
-DOWNLOAD
-http://data.europa.eu/88u/dataset/S942_71_1_EBS313</td>
-		<td>http://data.europa.eu/88u/dataset/S1084_80_2_409  
-
-DOWNLOAD
-https://ec.europa.eu/commfrontoffice/downloadODP/?6F0F875774E39C6DC9BFA1FFAB49AE81</td>
-		<td>http://data.europa.eu/88u/dataset/S2212_91_3_490_ENG</td>
+		<td>No</td>
+		<td>No, sent by email</td>
+		<td>No, mail requested</td>
+		<td>https://climatefundsupdate.org/wp-content/uploads/2019/04/CFU-Website-Master-27-Feb-2019.xlsx (download)</td>
+		<td>http://data.europa.eu/88u/dataset/S942_71_1_EBS313 (permalink)
+</td>
+		<td>http://data.europa.eu/88u/dataset/S1084_80_2_409 (permalink)</td>
+		<td>http://data.europa.eu/88u/dataset/S2212_91_3_490_ENG (permalink)</td>
 	</tr>
 	<tr>
 		<td><b>Provenance</b></td>
-		<td>UNEP
-https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng
-
-HDX
-https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
+		<td>https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng</td>
 		<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
 		<td>https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r00/access/csv/</td>
 		<td>http://www.globalfiredata.org/analysis.html</td>
@@ -1869,7 +1855,8 @@ https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 		<td>NOAA
 https://www.climate.gov/maps-data/dataset/snow-or-ice-extent-graphing-tool
 
-il dataset è disponibile solo sul NOAA; non riusciamo a trovarlo su UNSIDC</td>
+(Even though the owner of the dataset is UNSIDC, we cannot find the original dataset on its website. The dataset is only available on NOAA website.)
+</td>
 		<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 		<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
 		<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
@@ -1877,7 +1864,7 @@ il dataset è disponibile solo sul NOAA; non riusciamo a trovarlo su UNSIDC</td>
 		<td>https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
-		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG ? or landing page?</td>
+		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
 	</tr>
 </table>
 <h2>Mashup and output datasets</h2>
