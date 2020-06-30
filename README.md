@@ -345,7 +345,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 <p>We started the analysis of the original datasets by inspecting their quality and accuracy. As a reference, we used the <a href="https://www.europeandataportal.eu/sites/default/files/european_data_portal_-_open_data_goldbook.pdf">Open Data Goldbook for Data Managers and Data Holders</a>, provided by European Data Portal, which is meant to be a practical guidebook for organizations wanting to publish Open Data. The questions posed to examine the quality of the dataset mainly concern completeness, cleanness, accuracy, timeliness and consistency. In the following table we report the output of the analysis.</p>
 <table style="border: 1px solid black">
 			<tr style="border: 1px solid black">
-				<th>DATA QUALITY</th>
+				<th></th>
 				<th>Droughts events 1980-2001</th>
 				<th>Global Active Archive of Large Flood Events</th>
 				<th>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</th>
@@ -363,7 +363,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<th>Special Eurobarometer 490: Climate change</th>
 			</tr>
 			<tr>
-				<td><b>Problems</b></td>
+				<td><b>Issues</b></td>
 				<td>We wrote an email to the contributor of the dataset in order to ask if there exist a legend to codify the headers of the dataset, but we never received an answer.</td>
 				<td></td>
 				<td></td>
