@@ -40,7 +40,6 @@
 				<th>Name</th>
 				<th>Owner</th>
 				<th>Owner URL</th>
-				<th>Publisher</th>
 				<th>Re-user</th>
 				<th>Publisher or re-user URL</th>
 				<th>Data Type</th>
@@ -60,7 +59,6 @@
 				<td>Droughts events 1980-2001</td>
 				<td>United Nations Environment Programme UNEP</td>
 				<td>https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng</td>
-				<td></td>
 				<td>Humanitarian Data Exchange HDX</td>
 				<td>https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 				<td>Quantitative</td>
@@ -80,7 +78,6 @@
 				<td>Global Active Archive of Large Flood Events</td>
 				<td>Dartmouth Flood Observatory, University of Colorado</td>
 				<td>http://floodobservatory.colorado.edu/Archives/index.html</td>
-				<td></td>
 				<td>Humanitarian Data Exchange HDX</td>
 				<td>https://data.humdata.org/dataset/global-active-archive-of-large-flood-events</td>
 				<td>Direct Observational Data/Anecdotal Data</td>
