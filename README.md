@@ -235,7 +235,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
-				<td>Yes</td>
+				<td>No</td>
 				<td>Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0)</td>
 				<td>Environment</td>
 				<td>Global</td>
@@ -273,7 +273,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td>Quantitative</td>
 				<td>XLSX</td>
-				<td>Yes: https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
+				<td>No</td>
 				<td>Not stated</td>
 				<td>Economy, Environment </td>
 				<td>Global</td>
@@ -1801,26 +1801,19 @@ CSV (HDX)</td>
 	</tr>
 	<tr>
 		<td><b>Metadata</b></td>
-		<td>UNEP
-Metadata format: ISO19115
-https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng
-
-Download
-http://preview.grid.unep.ch/geonetwork/srv/en/csw?SERVICE=CSW&VERSION=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&outputFormat=application/xml&REQUEST=GetRecordById&ID=8a56e45c-e86d-4eb1-ae2e-6d46ebec81d3
-
-HDX
-https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
+		<td>Metadata format: ISO19115:2003/19139
+https://preview.grid.unep.ch/index.php?preview=data&events=droughts&evcat=1&lang=eng</td>
 		<td>No</td>
 		<td>ISO 19115-2/C01552: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552;view=iso</td>
 		<td>https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
 		<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
 		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
-		<td></td>
+		<td>https://www.climate.gov/maps-data/dataset/snow-or-ice-extent-graphing-tool</td>
 		<td>EPA: https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation, NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
-		<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
-		<td></td>
+		<td>https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=AIR_GHG&Lang=en</td>
+		<td>No</td>
 		<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
-		<td>https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
+		<td>No</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
 		<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
 		<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
@@ -1947,8 +1940,8 @@ Special Eurobarometer 490: Climate change.</td>
 <p>Only the visualization of the map was created using another library, <a href=”https://datamaps.github.io/”>DataMaps</a>, which allows us to create a choropleth map, to explore the evolution of the events over time.</p>
 
 <h2>Metadata and RDF assertion</h2>
-<p>In order to make our data reusable and interoperable, we provided them with their metadata, following the <a href=”DCAT_AP_2.0.0.pdf”>DCAT_AP (v 2.0.0)</a> documentation.</p>
-<p>The metadata was added both at the beginning of the xml documents (our final datasets) and incorporated into some tables on the <a href=”https://learredhdk.github.io/ccode/”>website</a> of the project. 
+<p>In order to make our data reusable and interoperable, we provided them with their metadata, following the <a href="DCAT_AP_2.0.0.pdf">DCAT_AP (v 2.0.0)</a> documentation.</p>
+<p>The metadata was added both at the beginning of the xml documents (our final datasets) and incorporated into some tables on the <a href="https://learredhdk.github.io/ccode/">website</a> of the project. 
 </p>
 <p>We provided metadata for the whole catalogue (including the three datasets) and for each dataset individually. Moreover the RDF assertion for the metadata following the Turtle serialization has been released. This is accessible from the website as well.
 </p>
