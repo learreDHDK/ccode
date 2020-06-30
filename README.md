@@ -62,7 +62,7 @@
 				<td>Humanitarian Data Exchange HDX</td>
 				<td>https://data.humdata.org/dataset/global-droughts-events-1980-2001</td>
 				<td>Quantitative</td>
-				<td>CSV</td>
+				<td>dbf, shp, shx (UNEP), CSV (HDX)</td>
 				<td>Yes: ISO 19115:2003/19139</td>
 				<td>Available for free for non commercial purpose, as explained at https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng</td>
 				<td>Environment</td>
@@ -81,7 +81,7 @@
 				<td>Humanitarian Data Exchange HDX</td>
 				<td>https://data.humdata.org/dataset/global-active-archive-of-large-flood-events</td>
 				<td>Direct Observational Data/Anecdotal Data</td>
-				<td>XLSX</td>
+				<td>XLSX, XML, MapInfo TAB, shapefiles</td>
 				<td>Just HDX</td>
 				<td>Creative Commons Attribution 4.0 International license (CC BY 4.0)</td>
 				<td>Environment</td>
@@ -100,7 +100,7 @@
 				<td></td>
 				<td></td>
 				<td>Quantitative</td>
-				<td>CSV</td>
+				<td>netCDF, CSV, shapefiles</td>
 				<td>Yes
 ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>World Data Center for Meteorology policy and World Meteorological Organization's Resolution 40 policy: https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
@@ -120,7 +120,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td></td>
 				<td>Quantitative</td>
-				<td>CSV</td>
+				<td>CSV, HDF</td>
 				<td>Yes: https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
 				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Polic</td>
 				<td>Environment</td>
@@ -139,7 +139,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td></td>
 				<td>Land-based station, Marine / Ocean</td>
-				<td>CSV, XML, JSON</td>
+				<td>XMS, CSV, XML, JSON</td>
 				<td>Yes: https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
 				<td>FOIA (5 USC 552)</td>
 				<td>Environment</td>
@@ -158,7 +158,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td></td>
 				<td>Quantitative</td>
-				<td>Text file (CSV), Excel, SDMX(XML)</td>
+				<td>XLS, CSV, SDMX(XML)</td>
 				<td>Yes: https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
 				<td>http://www.oecd.org/termsandconditions/  Except where additional restrictions apply as stated above, You can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD (...)</td>
 				<td>Environment</td>
@@ -196,7 +196,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>EPA - US Environmental Protection Agency</td>
 				<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 				<td>Quantitative</td>
-				<td>CSV</td>
+				<td>XLS</td>
 				<td>Yes: EPA: https://www.epa.gov/climate-indicators/downloads-indicators-technical-documentation, NOAA: ISO 19115-2 Metadata https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00835#</td>
 				<td>Not stated, FOIA in NOAA</td>
 				<td>Environment</td>
@@ -215,7 +215,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td></td>
 				<td>Quantitative</td>
-				<td>CSV</td>
+				<td>XLS, CSV, PX, SDMX (XML)</td>
 				<td>Yes</td>
 				<td>http://www.oecd.org/termsandconditions/</td>
 				<td>Environment</td>
@@ -272,7 +272,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td></td>
 				<td>Quantitative</td>
-				<td>CSV</td>
+				<td>XLSX</td>
 				<td>Yes: https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
 				<td>Not stated</td>
 				<td>Economy, Environment </td>
@@ -291,7 +291,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td></td>
 				<td></td>
 				<td>Qualitative and quantitative</td>
-				<td>XLS</td>
+				<td>XLSX</td>
 				<td>Yes: https://europarl.europa.eu/at-your-service/files/be-heard/eurobarometer/2009/climate-change/report/it-report-climate-change-200907.pdf</td>
 				<td>https://data.europa.eu/euodp/it/copyright</td>
 				<td>Government and public sector</td>
