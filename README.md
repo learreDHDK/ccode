@@ -1960,7 +1960,8 @@ Special Eurobarometer 490: Climate change.</td>
 	<li><b>Climate at a Glance - Time Series Graphs of Temperature Anomalies</b></li> 
 	<li><b>Climate Change Indicators: U.S. and Global Precipitation</b></li> 
 	<li><b>Sea Ice and Snow Cover Extent</b></li>
-	<li><b>CAIT Paris Contributions Data</b></li> 
+	<li><b>CAIT Paris Contributions Data</b>: In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information. Another change was made in the cells of the columns containing the "Summary". We decided to clean the information in these cells because in addition to the proper text they contained also html tags and entities.
+</li> 
 	<li><b>Cumulative data on the contributors of climate finance</b></li>
 	<li><b>Special Eurobarometer 313: Europeans’ attitudes towards climate change</b></li> 
 	<li><b>Special Eurobarometer 409: Climate change</b></li> 
@@ -1981,6 +1982,11 @@ Special Eurobarometer 490: Climate change.</td>
 <p>Only the visualization of the map was created using another library, <a href=”https://datamaps.github.io/”>DataMaps</a>, which allows us to create a choropleth map, to explore the evolution of the events over time.</p>
 
 <h2>Metadata and RDF assertion</h2>
+<p>In order to make our data reusable and interoperable, we provided them with their metadata, following the <a href=”DCAT_AP_2.0.0.pdf”>DCAT_AP (v 2.0.0)</a> documentation.</p>
+<p>The metadata was added both at the beginning of the xml documents (our final datasets) and incorporated into some tables on the <a href=”https://learredhdk.github.io/ccode/”>website</a> of the project. 
+</p>
+<p>We provided metadata for the whole catalogue (including the three datasets) and for each dataset individually. Moreover the RDF assertion for the metadata following the Turtle serialization has been released. This is accessible from the website as well.
+</p>
 
 <h2>Conclusion</h2>
 <p>Brainstorming ideas for the project, we all found ourselves concerned about climate change and hopeful that data could be an answer in representing it. Therefore, our initial question was: how evident is the problem of climate change?</p>
