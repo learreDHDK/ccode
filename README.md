@@ -7,7 +7,7 @@
 </p>
 
 <p>
-	In line with our purpose, we selected 15 datasets and we performed on them several analysis under different points of view, then we extracted the data which we were interested in and finally we created three new datasets based on the above-mentioned areas.
+	In line with our purpose, we selected 15 datasets and we performed on them several analysis under different points of view, we then extracted the data which we were interested in and finally we created three new datasets based on the above-mentioned areas.
 </p>
 
 <p>
@@ -16,7 +16,7 @@
 
 <h2>Original datasets</h2>
 <p>
-	In order to cope with our goals we chose 15 datasets related to our scenario. These were selected for their various proveniences, typologies, formats, metadata and licenses. Whenever in doubt, we considered the frequent citations of academic sources as proof of the reliability of the dataset. We selected the ones that at least at a first glance seemed free from cognitive biases, fair, legal valid, consistent and accurate.
+	In order to cope with our goals, we chose 15 datasets related to our scenario. These were selected for their various proveniences, typologies, formats, metadata and licenses. Whenever in doubt, we considered the frequent citations of academic sources as proof of the reliability of the dataset. We selected the ones that at least at a first glance seemed free from cognitive biases, fair, legal valid, consistent and accurate.
 </p>
 <p>
 	With the goal to depict climate change over time, we selected eight datasets, concerning the main factors to measure climate change (temperature and precipitation anomalies and sea ice extent) together with significant events caused by it (droughts, floods, hurricanes, wildfires and the threatening of species). The majority (6/8) comes from American-based institutions (e.g. NOAA), while the others are provided by supranational organizations, as OECD and UNEP. Five out of eight report data collected on a country-based scale. Sea Ice Extent, Precipitation and Temperature anomalies are available only globally. Overall the datasets span from 1980 to 2019. Nonetheless, Wildfires started and Droughts ended in 2003; Threatened Species refers to 2019 only. Precipitation and Temperature started from the end of the XIX century. 
@@ -125,11 +125,11 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Data hosted by the ORNL DAAC is openly shared, without restriction, in accordance with NASA's Earth Science program Data and Information Polic</td>
 				<td>Environment</td>
 				<td>Global</td>
-				<td>1995-06-01 to 2016-12-31 / 2003-2019</td>
+				<td>2003-present</td>
 				<td>September 2015</td>
 				<td>2017-09-29</td>
-				<td>Periodically</td>
-				<td>This dataset is data on the global estimates of annual fires of different types.</td>
+				<td>Not stated - inferred monthly</td>
+				<td>This dataset is data on the global estimates of annual fires counts of different countries based on burned area information from different fire types.</td>
 			</tr>
 			<tr>
 				<td>Temperature</td>
@@ -147,7 +147,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>1880-present</td>
 				<td>February 2020 (it changes every month)</td>
 				<td>Not stated</td>
-				<td>Monthly (not stated)</td>
+				<td>Not stated - inferred monthly</td>
 				<td>This dataset is the result of Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century showing if conditions are warmer or cooler than the past.</td>
 			</tr>
 			<tr>
@@ -166,7 +166,7 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>2018-2019</td>
 				<td>Not stated</td>
 				<td>March 2019</td>
-				<td>Not stated</td>
+				<td>Not stated - inferred monthly</td>
 				<td>This dataset is data on the state of threatened species build on country replies to the Annual Quality Assurance (AQA) of OECD environmental reference series.</td>
 			</tr>
 			<tr>
@@ -425,17 +425,17 @@ metadata, the header should be described"</td>
 				<td>Yes, but the key (legenda) for reading the columns is not provided</td>
 				<td>Yes, but the header entries described on the website (http://www.dartmouth.edu/~floods/Archives/ArchiveNotes.html) don't correspond to the actual entries of the dataset.</td>
 				<td>Yes, it is explained in a specific PDF document.</td>
-				<td>Yes in the dataset</td>
-				<td>Yes in the dataset</td>
-				<td>Yes, from dataset and https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
+				<td>Yes, but the header is not described in the metadata.</td>
+				<td>Yes, but the header is not described in the metadata.</td>
+				<td>Yes, from dataset and the header is described on the data characteristics section of the platform https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
 				<td>Yes</td>
-				<td>Yes from the dataset and from https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
+				<td>Yes, but the header is not described in the metadata.</td>
 				<td>Yes, but the header has not been described anywhere.</td>
 				<td>Yes, the header row is present and further explained in the PDF document about the work.</td>
 				<td>Yes (description in natural language)</td>
 				<td>Yes (easily understandable header row) </td>
 				<td>Yes (in dataset)</td>
-				<td>Yes, the questions contained in the dataset are explained in metadata pdf</td>
+				<td>Yes, the questions contained in the dataset and the header are described and explained in the metadata pdf of the survey.</td>
 				<td>Yes, the questions contained in the dataset are explained in a PDF document about the survey.</td>
 			</tr>
 			<tr>
@@ -448,7 +448,7 @@ version number in order for the audience to keep track of changes"</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
-				<td>Global Historical Climatology Network–Monthly (GHCN-M) Version 2</td>
+				<td>Version 2</td>
 				<td>No</td>
 				<td>No, there is no version number, but the title contains the year of the account.</td>
 				<td>No</td>
@@ -482,11 +482,11 @@ and for what purpose has it been published?"</td>
 				<td>Validated ("Active")</td>
 				<td>Version numbers are updated when processing changes cause changes to storms from previous years (for example, by adjustments to the merge routines)
 Inferred: Validated</td>
-				<td>This data is updated periodically and has no reasons for this. Could not access the previous versions because they are superseded by new versions so they say the old versions are accessible at the ORNL. Inferred: Validated</td>
+				<td>This data version is updated monthly and has no stated reasons for this. Could not access the previous versions because they are superseded by new versions and are only accessible at the ORNL. Inferred: Validated because internaly the dataset is updated monthly</td>
 				<td>Inferred validated bescause the data is updated yearly from a view of the dataset but not stated.</td>
-				<td>Not stated and not inferable since data contains no information on years but just stated in the website that the data is on the latest year available</td>
+				<td>Not stated and not inferable since data contains no information on years but just stated on the website that the data is on the latest year available</td>
 				<td>Validated (updated every year since 1979)</td>
-				<td>Inferred Validated since the data has a version and may change in the future</td>
+				<td>No,but inferred final since the time range of the dataset ends in 2015.</td>
 				<td>Not stated and not inferable, since data contains no information on the years concerned and it is just stated on the website that it is referred to the latest year available.</td>
 				<td>A new dataset is published every year. Inferred: Final</td>
 				<td>Final (data from 2015 and 2016)</td>
@@ -540,7 +540,7 @@ Inferred: Validated</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
-				<td>Yes, maybe the column of powercode</td>
+				<td>No</td>
 				<td>Yes (e.g. -9999 probably missing data)</td>
 				<td>No</td>
 				<td>No</td>
@@ -664,8 +664,8 @@ for its potential purpose?"</td>
 			<tr>
 				<td>"Are the choices concerning
 interval described?"</td>
-				<td>No </td>
-				<td>No </td>
+				<td>No</td>
+				<td>No</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
@@ -730,11 +730,11 @@ contains a notion of its timeliness. This topic is closely related to the mainte
 Timeliness in data.</td>
 				<td>The dataset is updated, but the frequency of the procedure is not stated. Data contains a notion of its timeliness.</td>
 				<td>There is timeliness in data. It is clear that the dataset is updated, but the frequency is unclear: in "Status" section, it is said to be annual; in "Data access" section, twice weekly. Also the update frequency of the single sources is reported on the website.</td>
-				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is said to be updated periodically.</td>
+				<td>Yes, there is timeliness in the data because the version of the dataset available is inferred to be updated every month and thus when new infomation is available, it is enterred.</td>
 				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is inferred that it is updated yearly.</td>
 				<td>Not updated but only stated that the data is from the latest year available</td>
 				<td>Yes (inferred: every year)</td>
-				<td>Not stated but inferred may be updated since it has a version. But it also stated in the website that the last update of the version of the data containing precipitation informtion was on 2011-01-01 and this version id considere as the latest available one.</td>
+				<td>No timiliness since the data hasn't been updated ever since with information of new years therefore can said to be historiacal.</td>
 				<td>Update frequency isn't stated, but there is timeliness in data.</td>
 				<td>Annually updated and timeliness is present in data.</td>
 				<td>Not updated because contains info about an agreement which took place between 2015 and 2016</td>
@@ -779,11 +779,11 @@ you use the standards and be consistent in publishing datasets of equal quality.
 				<td>Consistency is stated among the fundamental principles of the project in two occasions on the website: 
 https://www.ncdc.noaa.gov/ibtracs/index.php?name=status and
 https://www.ncdc.noaa.gov/ibtracs/index.php?name=principle</td>
-				<td>No, each version from the writtings is different and contains new information</td>
+				<td>No, each version from the writtings in the metadata is different and contains new information but this dataset version is consistent internally since it is updated each month and the same fields are present and understood.</td>
 				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
-				<td>Not stated, but it is inferred since the data is obdated often and the fields remain the same.</td>
+				<td>Not stated, but it is inferred since the data is updated often and the fields remain the same.</td>
 				<td>Not stated but inferable. Probably every year the same sheet is updated.</td>
-				<td>Not stated but inferable. Probably the same sheet was used for the previous version but can't have access to. Need  to call the archive to get this information.</td>
+				<td>Though the dataset hasn't been updated for a long period now, but if need be the consistency of the data will be maintained.</td>
 				<td>Not stated nor inferable.</td>
 				<td>Yes: the methodology for the account of data is described in the explanatory PDF, also for what concerns the previous versions.</td>
 				<td>Yes (only one version, data not updated)</td>
@@ -1114,14 +1114,13 @@ Are you sure that are not “mixed data”?"</td>
 https://preview.grid.unep.ch/index.php?preview=about&cat=3&lang=eng"</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>Yes: https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
-				<td>Third party data are used. No licences provided.</td>
+				<td>No third party data</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>No third party data</td>
 				<td>"NOAA use NSIDC data.
 No licence provided."</td>
-				<td>"Third party data are used. No licences provided.
-https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-monthly-version-2 
-"</td>
+				<td>No third party data
+</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>"Yes
@@ -1214,9 +1213,9 @@ vedi p.71 ""Beginner"""</td>
 				<td>Yes API, no licence</td>
 				<td>No API</td>
 				<td>No API</td>
-				<td>Yes API, no licence</td>
-				<td>Yes API, no licence</td>
-				<td>Yes API, no open source licence</td>
+				<td>Yes API, No licence stated but inferred Yes platform licence which is based on NASA FOIA</td>
+				<td>Yes API, No licence stated but inferred FOIA</td>
+				<td>Yes API, No open source licence stated but inferred that of the platform  http://www.oecd.org/termsandconditions/</td>
 				<td>Yes API, no licence</td>
 				<td>No API</td>
 				<td>Yes API, no open source licence</td>
@@ -1237,8 +1236,8 @@ se si risponde alla prima, la seconda va da sè"</td>
 				<td>No license for the data platform</td>
 				<td>No license for the data platform</td>
 				<td>No license for the data platform</td>
-				<td>Data platform license compliant to IPR policy but no licence for the API platform thus inferred data platform license, yes</td>
-				<td>Data platform license compliant to IPR policy but no licence for the API platform thus inferred data platform license, yes</td>
+				<td>Yes Data platform license compliant to IPR policy, Yes license for open data platform but no licence for the API platform thus inferred it has the open data platform's license, yes.</td>
+				<td>Data platform license compliant to IPR policy but no licence for the API platform thus inferred data platform license, Yes for the platform and not for the API.</td>
 				<td>Data platform/API license compliant to IPR policy , yes</td>
 				<td>No, no</td>
 				<td>Data platform license compliant to IPR policy and has no API, yes</td>
@@ -1456,13 +1455,13 @@ https://it.wikipedia.org/wiki/INSPIRE"</td>
 				<td>Yes</td>
 				<td>No</td>
 				<td>No, just for links</td>
-				<td>No</td>
+				<td> Yes for dataset and links but not stated  for the API https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/data-rights-related-issues</td>
 				<td>No, just for links</td>
 				<td>Yes for the dataset and API</td>
 				<td>"No, just for links
 NOAA.gov does not control or guarantee the accuracy, relevance, timeliness or completeness of information contained in a linked site."</td>
-				<td>"Not stated in EPA 
-NOAA just for links"</td>
+				<td>Not stated in EPA 
+NOAA just for links</td>
 				<td>Yes API, yes data</td>
 				<td>No</td>
 				<td>"Yes if (https://www.wri.org/about/open-data-commitment)
@@ -1470,7 +1469,7 @@ NOAA just for links"</td>
 No (?)"</td>
 				<td>No</td>
 				<td>No</td>
-				<td>Yes for the open data platform</td>
+				<td>Yes</td>
 				<td>Yes</td>
 			</tr>
 			<tr>
@@ -1551,7 +1550,7 @@ No (?)"</td>
 The United Nations periodically adds, changes, improves or updates the Materials on this Site without notice"</td>
 				<td>No</td>
 				<td>Yes, forum</td>
-				<td>Yes, Email</td>
+				<td>No, just an email for data access.</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
@@ -1787,7 +1786,7 @@ CSV (HDX)</td>
 		<td><b>XLSX</b>, XML, MapInfo TAB, shapefiles</td>
 		<td>netCDF, <b>CSV</b>, shapefiles</td>
 		<td><b>CSV</b>,  HDF</td>
-		<td>XMS, CSV, <b>JSON</b>, XML</td>
+		<td>XMS, CSV, <b>JSON</b></td>
 		<td>XLS, CSV, <b>SDMX(XML)</b></td>
 		<td>CSV, <b>XML</b>, JSON</td>
 		<td><b>XLS</b></td>
