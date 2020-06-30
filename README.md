@@ -1934,9 +1934,9 @@ Special Eurobarometer 490: Climate change.</td>
 
 <h2>Metadata and RDF assertion</h2>
 <p>In order to make our data reusable and interoperable, we provided them with their metadata, following the <a href="DCAT_AP_2.0.0.pdf">DCAT_AP (v 2.0.0)</a> documentation.</p>
-<p>The metadata was added both at the beginning of the xml documents (our final datasets) and incorporated into some tables on the <a href="https://learredhdk.github.io/ccode/">website</a> of the project. 
+<p>The metadata were added both at the beginning of the XML documents (our final datasets) and incorporated into some tables on the <a href="https://learredhdk.github.io/ccode/">website</a> of the project. 
 </p>
-<p>We provided metadata for the whole catalogue (including the three datasets) and for each dataset individually. Moreover the RDF assertion for the metadata following the Turtle serialization has been released. This is accessible from the website as well.
+<p>We provided metadata for the whole catalogue (including the three datasets) and for each dataset individually. Moreover the RDF assertion for the metadata, following the Turtle serialization, has been released. This is accessible from the website as well.
 </p>
 
 <h2>Conclusion</h2>
