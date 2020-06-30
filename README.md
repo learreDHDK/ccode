@@ -97,9 +97,8 @@
 				<td>International Best Track Archive for Climate Stewardship (IBTrACS) Project, Version 4</td>
 				<td>NOAA National Centers for Environmental Information</td>
 				<td>https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access</td>
-				<td>NOAA National Centers for Environmental Information</td>
 				<td></td>
-				<td>https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access</td>
+				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes
@@ -118,9 +117,8 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>GFEDv4 (Global Fire Emissions Database, Version 4)</td>
 				<td>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
 				<td>http://www.globalfiredata.org/analysis.html</td>
-				<td>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC).</td>
 				<td></td>
-				<td>http://www.globalfiredata.org/analysis.html</td>
+				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes https://daac.ornl.gov/VEGETATION/guides/fire_emissions_v4.html</td>
@@ -138,9 +136,8 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Climate at a Glance - Time Series Graphs of Temperature Anomalies</td>
 				<td>NOAA National Centers for Environmental Information</td>
 				<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool </td>
-				<td>NOAA National Centers for Environmental Information</td>
-				<td>https://www.ncdc.noaa.gov/cag/global/time-series</td>
-				<td>https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool</td>
+				<td></td>
+				<td></td>
 				<td>Land-based station, Marine / Ocean</td>
 				<td>CSV, XML, JSON</td>
 				<td>Yes, https://www.ncdc.noaa.gov/cag/global/data-info / https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool </td>
@@ -158,9 +155,8 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Threatened species</td>
 				<td>OECD (Organisation for Economic Co-operation and Development)</td>
 				<td>https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
-				<td>OECD (Organisation for Economic Co-operation and Development)</td>
 				<td></td>
-				<td>https://stats.oecd.org/Index.aspx?DataSetCode=WILD_LIFE</td>
+				<td></td>
 				<td>Quantitative</td>
 				<td>Text file (CSV), Excel, SDMX(XML)</td>
 				<td>Yes, https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=WILD_LIFE&Lang=en</td>
@@ -177,7 +173,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Sea ice</td>
 				<td>Sea Ice and Snow Cover Extent</td>
 				<td>NSIDC National Snow and Ice Data Center (https://nsidc.org/)</td>
-				<td></td>
 				<td></td>
 				<td>NOAA National Centers for Environmental Information</td>
 				<td>https://www.ncdc.noaa.gov/snow-and-ice/extent/</td>
@@ -198,7 +193,6 @@ ISO 19115-2: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01552</td>
 				<td>Climate Change Indicators: U.S. and Global Precipitation</td>
 				<td>NOAA National Centers for Environmental Information</td>
 				<td>https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-monthly-version-2?fbclid=IwAR20WeoOz2fCxr0hPl_KgqkAIJKu2CY0eNTlPYu5CtH3osaDUSbFlQR26kM</td>
-				<td></td>
 				<td>EPA - US Environmental Protection Agency</td>
 				<td>https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-precipitation</td>
 				<td>Quantitative</td>
@@ -219,9 +213,8 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Greenhouse Gas Emissions</td>
 				<td>OECD</td>
 				<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
-				<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
 				<td></td>
-				<td>https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG#</td>
+				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes</td>
@@ -239,9 +232,8 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>National Footprint and Biocapacity Accounts 2019 Public Data Package</td>
 				<td>Global Footprint Network</td>
 				<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
-				<td>Global Footprint Network</td>
 				<td></td>
-				<td>https://www.footprintnetwork.org/licenses/public-data-package-free/</td>
+				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes</td>
@@ -259,9 +251,8 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>CAIT Paris Contributions Data</td>
 				<td>WRI - World Resource Institute</td>
 				<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
-				<td>WRI - World Resource Institute</td>
 				<td></td>
-				<td>https://www.wri.org/resources/data-sets/cait-paris-contributions-data</td>
+				<td></td>
 				<td>Descriptive</td>
 				<td>XLSX</td>
 				<td>Yes</td>
@@ -279,9 +270,8 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Cumulative data on the contributors of climate finance</td>
 				<td>Climate Funds Update</td>
 				<td>https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8</td>
-				<td>Climate Funds Update</td>
 				<td></td>
-				<td>https://climatefundsupdate.org/data-dashboard/#1541245664327-538690dc-b9a8</td>
+				<td></td>
 				<td>Quantitative</td>
 				<td>CSV</td>
 				<td>Yes: https://climatefundsupdate.org/about-us/notes-and-methodology/</td>
@@ -299,9 +289,8 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>Special Eurobarometer 313: Europeans’ attitudes towards climate change</td>
 				<td>Directorate-General for Communication of the European Commission</td>
 				<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
-				<td>Directorate-General for Communication of the European Commission</td>
 				<td></td>
-				<td>https://data.europa.eu/euodp/it/data/dataset/S942_71_1_EBS313</td>
+				<td></td>
 				<td>Qualitative and quantitative</td>
 				<td>XLS</td>
 				<td>Yes + https://europarl.europa.eu/at-your-service/files/be-heard/eurobarometer/2009/climate-change/report/it-report-climate-change-200907.pdf</td>
@@ -315,13 +304,12 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td>This dataset is data on the public opinon of European citizens on the issue of climate change.</td>
 			</tr>
 			<tr>
-				<td>Opinions on climate change EU 2019</td>
+				<td>Opinions on climate change EU 2013</td>
 				<td>Special Eurobarometer 409: Climate change</td>
 				<td>Directorate-General for Communication of the European Commission</td>
 				<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
-				<td>Directorate-General for Communication of the European Commission</td>
 				<td></td>
-				<td>https://data.europa.eu/euodp/en/data/dataset/S2212_91_3_490_ENG</td>
+				<td></td>
 				<td>Qualitative and quantitative</td>
 				<td>XLS</td>
 				<td>Yes</td>
@@ -335,13 +323,12 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 			</tr>
 			<tr>
-				<td>Opinions on climate change EU 2013</td>
+				<td>Opinions on climate change EU 2019</td>
 				<td>Special Eurobarometer 409: Climate change</td>
 				<td>Directorate-General for Communication of the European Commission</td>
 				<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
-				<td>Directorate-General for Communication of the European Commission</td>
 				<td></td>
-				<td>https://data.europa.eu/euodp/it/data/dataset/S1084_80_2_409</td>
+				<td></td>
 				<td>Qualitative and quantitative</td>
 				<td>XLS</td>
 				<td>Yes</td>
