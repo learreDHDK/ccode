@@ -389,7 +389,7 @@ EPA (https://www.epa.gov/climate-indicators/downloads-indicators-technical-docum
 				<td></td>
 				<td></td>
 				<td></td>
-				<td>even if you set some conditions for your query e.g. include LULUFC it gives you also the data before where it is excluded</td>
+				<td>Even if you set some conditions for your query, e.g. retrieving data including LULUFC, the output contains also data where it is excluded.</td>
 				<td></td>
 				<td>In order to process our dataset we need to modify the text, directly on the sheet, of one single cell (which contains some date information). We did this because the format of the date was not conformant to be processed, since it contained both xldate and string information.
 
