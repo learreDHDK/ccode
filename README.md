@@ -636,10 +636,10 @@ for its potential purpose?"</td>
 				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
-				<td>v</td>
 				<td>Yes</td>
 				<td>Yes</td>
-				<td>v</td>
+				<td>Yes</td>
+				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
 			</tr>
