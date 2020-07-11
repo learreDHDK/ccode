@@ -679,7 +679,7 @@ No, but it's easily understendable (i.e. every year since 1979)</td>
 
 The dataset was created after the above mentioned agreement.</td>
 				<td>Yes
-CFU data is cumulative since 2003. This is the first year in which one of the dedicated climate funds hat we monitor approved finance for a project. The start date for each fund individually is available on the relevant fund page through ‘The Funds’ (https://climatefundsupdate.org/the-funds/)</td>
+CFU data is cumulative since 2003. This is the first year in which one of the dedicated climate funds that we monitor approved finance for a project. The start date for each fund individually is available on the relevant fund page through ‘The Funds’ (https://climatefundsupdate.org/the-funds/)</td>
 				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
 				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
 				<td>No, just the context of the survey is explained in the introduction of the explanatory PDF.</td>
