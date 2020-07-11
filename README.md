@@ -980,7 +980,7 @@ UNEP: No"</td>
 				<td>No</td>
 				<td>Yes: https://www.noaa.gov/protecting-your-privacy</td>
 				<td>Yes http://www.oecd.org/privacy/</td>
-				<td>Yes (vedi https://nsidc.org/about/privacy)</td>
+				<td>Yes (https://nsidc.org/about/privacy)</td>
 				<td>Yes https://www.epa.gov/privacy/privacy-and-security-notice#rights</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -991,10 +991,10 @@ UNEP: No"</td>
 				<td>Yes: https://data.europa.eu/euodp/en/privacystatement</td>
 			</tr>
 			<tr>
-				<td>"1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? 
+				<td>1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? 
 https://advisera.com/eugdpracademy/knowledgebase/eu-gdpr-controller-vs-processor-what-are-the-differences/ 
 
-https://www.altalex.com/documents/news/2018/04/12/articolo-4-gdpr-definizioni"</td>
+https://www.altalex.com/documents/news/2018/04/12/articolo-4-gdpr-definizioni</td>
 				<td>No</td>
 				<td>OCHA, the system administrator of the HDX platform (inferred: it is the Controller, Google Analytics and Mixpanel are the Processors). </td>
 				<td>No, inferred: NOAA is the Controller</td>
@@ -1013,7 +1013,7 @@ European Union Open Data Portal (EU ODP) is the Processor"</td>
 				<td>"Unit C.4, ""EU Open Data and CORDIS"" of the Publications Office is the Controller
 
 European Union Open Data Portal (EU ODP) is the Processor"</td>
-				<td>"Unit C.4, ""EU Open Data and CORDIS"" of the Publications Office is the Controller
+				<td>"Unit C.4, "EU Open Data and CORDIS" of the Publications Office is the Controller
 
 European Union Open Data Portal (EU ODP) is the Processor"</td>
 			</tr>
@@ -1036,8 +1036,8 @@ European Union Open Data Portal (EU ODP) is the Processor"</td>
 				<td>Not stated if they are physically stored or just online.</td>
 			</tr>
 			<tr>
-				<td>"1.11 Do you have non-personal data?
-Are you sure that are not “mixed data”?"</td>
+				<td>1.11 Do you have non-personal data?
+Are you sure that are not “mixed data”?</td>
 				<td>Yes. Yes.</td>
 				<td>Yes. Yes.</td>
 				<td>Yes. Yes.</td>
@@ -1123,8 +1123,8 @@ No licence provided."</td>
 </td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>Third party data are used. No licences provided.</td>
-				<td>"Yes
-The third party data used are those of the countries which provided their data."</td>
+				<td>Yes
+The third party data used are those of the countries which provided their data.</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>No</td>
 				<td>No</td>
@@ -1138,7 +1138,7 @@ Geneva (Switzerland)
 None or very limited activities are performed to monitor the
 reuse of open data in the country
 https://www.europeandataportal.eu/sites/default/files/open_data_maturity_report_2019.pdf
-vedi p.71 ""Beginner"""</td>
+see p.71 "Beginner"</td>
 				<td>No</td>
 				<td>No</td>
 				<td>No</td>
@@ -1290,7 +1290,7 @@ Yes (Overhead refers to expenditures from the Fund that are not directed to proj
 			</tr>
 			<tr>
 				<td>4.2 Does the dataset respect the limitations for the publication stated by your national legislation or by the EU directives ? https://project-open-data.cio.gov/policy-memo/ for USA</td>
-				<td>Yes (penso di sì perchè ci sono poche limitazioni -> vedi risposta alla domanda 2.4)</td>
+				<td>Yes</td>
 				<td>No open license on Dartmouth Observatory website</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -1362,8 +1362,7 @@ Yes (Overhead refers to expenditures from the Fund that are not directed to proj
 			</tr>
 			<tr>
 				<td>4.6 Does the dataset respect the INSPIRE law limitations for the spatial data? https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32007L0002</td>
-				<td>"No
-https://it.wikipedia.org/wiki/INSPIRE"</td>
+				<td>No</td>
 				<td>Not EU dataset</td>
 				<td>Not EU dataset</td>
 				<td>Not EU dataset</td>
@@ -1465,9 +1464,7 @@ NOAA.gov does not control or guarantee the accuracy, relevance, timeliness or co
 NOAA just for links</td>
 				<td>Yes API, yes data</td>
 				<td>No</td>
-				<td>"Yes if (https://www.wri.org/about/open-data-commitment)
-
-No (?)"</td>
+				<td>Yes (https://www.wri.org/about/open-data-commitment)</td>
 				<td>No</td>
 				<td>No</td>
 				<td>Yes</td>
