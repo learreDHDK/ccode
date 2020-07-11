@@ -837,8 +837,8 @@ Probably every year the same sheet is updated.</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><b>"1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?
-https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32016R0679&from=IT"</b></td>
+				<td>1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?
+https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32016R0679&from=IT</td>
 				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -856,8 +856,8 @@ https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32016R0679&from=IT
 				<td>Yes</td>
 			</tr>
 			<tr>
-				<td>"1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorize the PA to release them? Or any
-other legal basis? Identify the legal basis."</td>
+				<td>1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorize the PA to release them? Or any
+other legal basis? Identify the legal basis.</td>
 				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -931,12 +931,12 @@ If so is there a law that authorize the PA to release them ?"</td>
 				<td>Yes</td>
 			</tr>
 			<tr>
-				<td>"1.6 Is a tool used for calculating the range of the risk of de-
+				<td>1.6 Is a tool used for calculating the range of the risk of de-
 anonymization?
 
 Is the dataset anonymized? With which technique?
 Is it compliant with the three mandatory parameters: singling out,
-linking out, inference out?"</td>
+linking out, inference out?</td>
 				<td></td>
 				<td>Not stated</td>
 				<td></td>
@@ -1073,7 +1073,7 @@ Are you sure that are not “mixed data”?</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>2.1 Do you have created and generated the dataset ?</td>
+				<td>2.1 Do you have created and generated the dataset?</td>
 				<td>Yes, (UNEP)</td>
 				<td>Yes, Dartmouth Flood Observatory.</td>
 				<td>Yes, NOAA NCEI</td>
@@ -1110,15 +1110,15 @@ Are you sure that are not “mixed data”?</td>
 			</tr>
 			<tr>
 				<td>2.3 Are you using third party data with the proper authorization and license? Are the dataset free from third party licenses or patents?</td>
-				<td>"Third party data are used. No licences provided.
-https://preview.grid.unep.ch/index.php?preview=about&cat=3&lang=eng"</td>
+				<td>Third party data are used. No licences provided.
+https://preview.grid.unep.ch/index.php?preview=about&cat=3&lang=eng</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>Yes: https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
 				<td>No third party data</td>
 				<td>Third party data are used. No licences provided.</td>
 				<td>No third party data</td>
-				<td>"NOAA use NSIDC data.
-No licence provided."</td>
+				<td>NOAA use NSIDC data.
+No licence provided.</td>
 				<td>No third party data
 </td>
 				<td>Third party data are used. No licences provided.</td>
@@ -1173,7 +1173,7 @@ see p.71 "Beginner"</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><b>3.1 Is the dataset released with an open data license ? In case of the use of CC0 have they all the right necessary for this particular kind of license (e.g., jurisdiction)?</b></td>
+				<td>3.1 Is the dataset released with an open data license ? In case of the use of CC0 have they all the right necessary for this particular kind of license (e.g., jurisdiction)?</td>
 				<td>Available for free for non commercial purpose (https://preview.grid.unep.ch/index.php?preview=about&cat=2&lang=eng&fbclid=IwAR2swMOTGMxCFZKVptR1wGa7yY2HNz0mfYZMur_aGG3TZAfdg4IEz_qcjDs#datause)</td>
 				<td>Creative Commons Attribution 4.0 International license - CC BY 4.0 (HDX)</td>
 				<td>World Data Center for Meteorology policy and World Meteorological Organization's Resolution 40 policy https://www.ncdc.noaa.gov/ibtracs/index.php?name=terms</td>
@@ -1209,7 +1209,7 @@ see p.71 "Beginner"</td>
 				<td>No </td>
 			</tr>
 			<tr>
-				<td><b>3.3 Is the API (in case there is) released with an open source license ?</b></td>
+				<td>3.3 Is the API (in case there is) released with an open source license ?</td>
 				<td>Yes API, no licence</td>
 				<td>No API</td>
 				<td>No API</td>
@@ -1227,12 +1227,7 @@ see p.71 "Beginner"</td>
 				<td>No API</td>
 			</tr>
 			<tr>
-				<td>"3.4 Is the open data/API platform license regime compliant with your IPR policy? Do they have all the licences related to the open data platform/API software?
-
-se non c'è l'api la domanda è riferita alla open data platform.
-se non c'è licenza non si pone il problema
-se c'è vedere se quello che dicono è in linea con il resto
-se si risponde alla prima, la seconda va da sè"</td>
+				<td>3.4 Is the open data/API platform license regime compliant with your IPR policy? Do they have all the licences related to the open data platform/API software?</td>
 				<td>No license for the data platform</td>
 				<td>No license for the data platform</td>
 				<td>No license for the data platform</td>
@@ -1279,11 +1274,11 @@ se si risponde alla prima, la seconda va da sè"</td>
 				<td>Yes, no</td>
 				<td>Yes, yes: UNFCCC</td>
 				<td>Yes, yes: UN</td>
-				<td>"Yes 
+				<td>Yes 
 (https://www.wri.org/about/values)
-(https://www.wri.org/about/mission-goals)"</td>
-				<td>"Yes
-Yes (Overhead refers to expenditures from the Fund that are not directed to projects (such as administration fees))."</td>
+(https://www.wri.org/about/mission-goals)</td>
+				<td>Yes
+Yes (Overhead refers to expenditures from the Fund that are not directed to projects (such as administration fees)).</td>
 				<td>Yes, no</td>
 				<td>Yes, no</td>
 				<td>Yes, no</td>
@@ -1397,25 +1392,7 @@ Yes (Overhead refers to expenditures from the Fund that are not directed to proj
 				<td></td>
 			</tr>
 			<tr>
-				<td>5. Economical Conditions</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>5.1 Could the dataset be released for free ?</td>
+				<td>5.1 Could the dataset be released for free?</td>
 				<td>Yes</td>
 				<td>Yes</td>
 				<td>Yes</td>
@@ -1433,7 +1410,7 @@ Yes (Overhead refers to expenditures from the Fund that are not directed to proj
 				<td>Yes</td>
 			</tr>
 			<tr>
-				<td>5.2 Are there some agreements with some other partners in order to release the dataset with a reasonable price ?</td>
+				<td>5.2 Are there some agreements with some other partners in order to release the dataset with a reasonable price?</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -1544,8 +1521,8 @@ NOAA just for links</td>
 			</tr>
 			<tr>
 				<td>6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?</td>
-				<td>"No
-The United Nations periodically adds, changes, improves or updates the Materials on this Site without notice"</td>
+				<td>No
+The United Nations periodically adds, changes, improves or updates the Materials on this Site without notice</td>
 				<td>No</td>
 				<td>Yes, forum</td>
 				<td>No, just an email for data access.</td>
