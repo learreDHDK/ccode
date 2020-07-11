@@ -43,7 +43,7 @@
 				<th>Re-user</th>
 				<th>Re-user URL</th>
 				<th>Data type</th>
-				<th>Chosen format</th>
+				<th>Available formats</th>
 				<th>Metadata</th>
 				<th>License</th>
 				<th>Domain</th>
