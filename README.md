@@ -732,7 +732,7 @@ Timeliness in data.</td>
 				<td>There is timeliness in data. It is clear that the dataset is updated, but the frequency is unclear: in "Status" section, it is said to be annual; in "Data access" section, twice weekly. Also the update frequency of the single sources is reported on the website.</td>
 				<td>Yes, there is timeliness in the data because the version of the dataset available is inferred to be updated every month and thus when new infomation is available, it is enterred.</td>
 				<td>Yes, there is timeliness in the data. The data has no update machanism but since it has versions, it is inferred that it is updated yearly.</td>
-				<td>It is stated the website that the data is from the latest year available and it is inferred that it updated every month since the values present constantly change</td>
+				<td>It is stated on the website that the data is from the latest year available and it is inferred that it updated every month since the values present constantly change</td>
 				<td>Yes (inferred: every year)</td>
 				<td>No timiliness since the data hasn't been updated ever since with information of new years therefore it can be said to be historiacal.</td>
 				<td>Update frequency isn't stated, but there is timeliness in data.</td>
