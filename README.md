@@ -1638,7 +1638,7 @@ The platform provided a series of legal information about the license and the wa
 </p>
 <p><b>Process</b>:  the process of collection and analysis of the data to create the dataset is done by updating and revising certain information from the comments of national Delegates. The basis of this act is not well stated on the website. So, it could be inferred that  there may be some cognitive bias in the decision making.
 </p>
-<p><b>Output</b>: the released dataset is done through an API free to all but it is stated on the website that the interpretation should take in consideration the possibility of non exactness of the various values. Also they talk of the possibility of biased results due to overestimation of some of the incompletely evaluated groups of species likely to be threatened in certain countries.
+<p><b>Output</b>: the released dataset is done through an API platform free to all but it is stated on the website that the interpretation should take in consideration the possibility of non exactness of the various values. Also they talk of the possibility of biased results due to overestimation of some of the incompletely evaluated groups of species likely to be threatened in certain countries.
 </p>
 <p><b>Conclusion</b>: the level of ethical correctness of this data set is not completely good because in the end we have a dataset of which some values may be wrong due to certain actions during its creation.
 </p>
