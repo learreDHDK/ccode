@@ -1022,7 +1022,7 @@ European Union Open Data Portal (EU ODP) is the Processor"</td>
 				<td>Not stated if they are physically stored or just online.</td>
 				<td>Not stated if they are physically stored or just online.</td>
 				<td>Not stated if they are physically stored or just online.</td>
-				<td>Not stated if they are physically stored or just online.?Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
+				<td>Not stated if they are physically stored or just online.But previous versions are at the Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</td>
 				<td>Not stated if they are physically stored or just online.</td>
 				<td>Not stated if they are physically stored or just online.</td>
 				<td>Not stated if they are physically stored or just online.</td>
